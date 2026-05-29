@@ -6,254 +6,114 @@
 <title>RASS — Topic hierarchy evaluation</title>
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
 :root {
-  --bg: #f5f5f5;
-  --surface: #ffffff;
-  --border: #e0e0e0;
-  --border-light: #ebebeb;
-  --text: #111111;
-  --text-secondary: #555555;
-  --text-muted: #888888;
-  --text-hint: #aaaaaa;
-  --accent: #1a56db;
-  --accent-light: #e8f0fe;
-  --tag-bg: #f0f0f0;
-  --tag-text: #333333;
-  --tag-border: #d0d0d0;
-  --badge-prelim-bg: #f3f4f6;
-  --badge-prelim-text: #6b7280;
-  --badge-l2-bg: #eff6ff;
-  --badge-l2-text: #1d4ed8;
-  --badge-l2-border: #bfdbfe;
-  --red: #dc2626;
-  --red-light: #fef2f2;
-  --green: #16a34a;
-  --green-light: #f0fdf4;
-  --purple-bg: #eef2ff;
-  --purple-text: #4338ca;
-  --teal-bg: #f0fdfa;
-  --teal-text: #0f766e;
-  --amber-bg: #fffbeb;
-  --amber-text: #92400e;
-  --radius: 8px;
-  --radius-sm: 5px;
+  --bg: #f5f5f5; --surface: #ffffff; --border: #e0e0e0; --border-light: #ebebeb;
+  --text: #111111; --text-secondary: #555555; --text-muted: #888888; --text-hint: #aaaaaa;
+  --accent: #1a56db; --accent-light: #e8f0fe;
+  --tag-bg: #f0f0f0; --tag-text: #333333; --tag-border: #d0d0d0;
+  --badge-prelim-bg: #f3f4f6; --badge-prelim-text: #6b7280;
+  --badge-l2-bg: #eff6ff; --badge-l2-text: #1d4ed8; --badge-l2-border: #bfdbfe;
+  --red: #dc2626; --red-light: #fef2f2;
+  --green: #16a34a; --green-light: #f0fdf4;
+  --purple-bg: #eef2ff; --purple-text: #4338ca;
+  --teal-bg: #f0fdfa; --teal-text: #0f766e;
+  --amber-bg: #fffbeb; --amber-text: #92400e;
+  --radius: 8px; --radius-sm: 5px;
 }
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  font-size: 14px;
-  line-height: 1.5;
-}
-
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; }
 .app { max-width: 900px; margin: 0 auto; padding: 32px 20px 80px; }
-
 .app-header { margin-bottom: 28px; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .app-header h1 { font-size: 18px; font-weight: 600; letter-spacing: -0.2px; }
 .app-header .subtitle { font-size: 13px; color: var(--text-muted); }
-
 .progress-wrap { margin-bottom: 24px; }
 .progress-track { height: 3px; background: var(--border); border-radius: 2px; }
 .progress-fill { height: 100%; background: var(--accent); border-radius: 2px; transition: width 0.35s ease; }
 .progress-label { font-size: 12px; color: var(--text-muted); margin-top: 6px; }
-
 .step { display: none; }
 .step.active { display: block; }
-
 .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
 @media (max-width: 500px) { .intro-grid { grid-template-columns: 1fr; } }
 .field-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; font-weight: 500; display: block; }
-input[type=text], select {
-  width: 100%; padding: 7px 10px; font-size: 14px;
-  border: 1px solid var(--border); border-radius: var(--radius-sm);
-  background: var(--surface); color: var(--text);
-}
+input[type=text], select { width: 100%; padding: 7px 10px; font-size: 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--text); }
 input[type=text]:focus, select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
-
-.info-box {
-  background: var(--accent-light); border: 1px solid #c7d7f9;
-  border-radius: var(--radius-sm); padding: 12px 14px;
-  font-size: 13px; color: #1e3a8a; margin-bottom: 16px; line-height: 1.55;
-}
+.info-box { background: var(--accent-light); border: 1px solid #c7d7f9; border-radius: var(--radius-sm); padding: 12px 14px; font-size: 13px; color: #1e3a8a; margin-bottom: 16px; line-height: 1.55; }
 .info-box strong { font-weight: 600; }
-.info-box.warn { background: var(--red-light); border-color: #fecaca; color: var(--red); }
-
 .dim-guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 8px; margin-top: 12px; }
 .dim-pill { border-radius: var(--radius-sm); padding: 10px 12px; font-size: 12px; line-height: 1.4; }
 .dim-pill strong { display: block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
 .dim-coverage   { background: var(--purple-bg); color: var(--purple-text); }
 .dim-granularity{ background: var(--teal-bg);   color: var(--teal-text);   }
 .dim-interpret  { background: var(--amber-bg);  color: var(--amber-text);  }
-
-.section-header {
-  font-size: 12px; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 10px;
-}
-
-.topic-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); margin-bottom: 6px; overflow: hidden;
-}
+.section-header { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 10px; }
+.topic-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 6px; overflow: hidden; }
 .topic-root { padding: 12px 16px; }
 .topic-root-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 5px; }
 .topic-name { font-size: 15px; font-weight: 700; color: var(--text); }
-.badge {
-  font-size: 11px; padding: 2px 8px; border-radius: 4px;
-  font-weight: 500; white-space: nowrap;
-}
+.badge { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; white-space: nowrap; }
 .badge-count  { background: var(--tag-bg); color: var(--text-secondary); border: 1px solid var(--tag-border); }
 .badge-prelim { background: var(--badge-prelim-bg); color: var(--badge-prelim-text); border: 1px solid #e5e7eb; }
 .badge-l2     { background: var(--badge-l2-bg); color: var(--badge-l2-text); border: 1px solid var(--badge-l2-border); font-weight: 600; }
-.badge-conf   { background: var(--green-light); color: var(--green); border: 1px solid #bbf7d0; font-size: 11px; }
+.badge-conf   { background: var(--green-light); color: var(--green); border: 1px solid #bbf7d0; }
 .topic-desc { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.45; }
 .keyword-row { display: flex; flex-wrap: wrap; gap: 5px; }
 .kw-tag { font-size: 11px; padding: 2px 8px; background: var(--tag-bg); color: var(--tag-text); border: 1px solid var(--tag-border); border-radius: 4px; }
-
 .children-list { border-top: 1px solid var(--border-light); }
 .topic-child { padding: 11px 16px 11px 28px; border-bottom: 1px solid var(--border-light); }
 .topic-child:last-child { border-bottom: none; }
 .topic-child-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 4px; }
 .topic-child .topic-name { font-size: 14px; font-weight: 600; }
-
-.rating-panel {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 18px 20px; margin-top: 12px;
-}
+.rating-panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-top: 12px; }
 .dim-row { margin-bottom: 20px; }
 .dim-row:last-of-type { margin-bottom: 0; }
 .dim-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; }
-.dim-label {
-  font-size: 11px; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.07em; padding: 3px 8px; border-radius: 4px;
-  white-space: nowrap; margin-top: 1px;
-}
+.dim-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; padding: 3px 8px; border-radius: 4px; white-space: nowrap; margin-top: 1px; }
 .label-coverage   { background: var(--purple-bg); color: var(--purple-text); }
 .label-granularity{ background: var(--teal-bg);   color: var(--teal-text);   }
 .label-interpret  { background: var(--amber-bg);  color: var(--amber-text);  }
 .dim-q { font-size: 13px; font-weight: 500; color: var(--text); }
 .dim-hint { font-size: 12px; color: var(--text-muted); margin-top: 2px; line-height: 1.4; }
-
 .likert-wrap { margin: 10px 0 4px; }
 .likert { display: flex; border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; }
 .likert input[type=radio] { display: none; }
-.likert label {
-  flex: 1; text-align: center; padding: 8px 4px; font-size: 13px;
-  cursor: pointer; border-right: 1px solid var(--border);
-  color: var(--text-secondary); background: var(--surface);
-  transition: background 0.1s, color 0.1s; user-select: none;
-}
+.likert label { flex: 1; text-align: center; padding: 8px 4px; font-size: 13px; cursor: pointer; border-right: 1px solid var(--border); color: var(--text-secondary); background: var(--surface); transition: background 0.1s; user-select: none; }
 .likert label:last-of-type { border-right: none; }
 .likert label:hover { background: var(--bg); }
 .likert input:checked + label { background: var(--accent); color: #fff; font-weight: 600; }
 .likert-ends { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-hint); padding: 0 2px; }
-
-.notes-area {
-  width: 100%; min-height: 70px; padding: 9px 11px; font-size: 13px;
-  font-family: inherit; background: var(--bg); border: 1px solid var(--border);
-  border-radius: var(--radius-sm); color: var(--text); resize: vertical; margin-top: 8px;
-}
+.notes-area { width: 100%; min-height: 70px; padding: 9px 11px; font-size: 13px; font-family: inherit; background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); resize: vertical; margin-top: 8px; }
 .notes-area:focus { outline: none; border-color: var(--accent); }
 .notes-label { font-size: 12px; font-weight: 500; color: var(--text-secondary); margin-top: 16px; border-top: 1px solid var(--border-light); padding-top: 14px; }
-
 .hierarchy-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
 .meta-pill { font-size: 12px; padding: 3px 10px; border-radius: 4px; border: 1px solid var(--border); background: var(--surface); color: var(--text-secondary); font-weight: 500; }
-
 .btn-row { display: flex; gap: 8px; margin-top: 16px; align-items: center; flex-wrap: wrap; }
-button {
-  font-family: inherit; font-size: 13px; font-weight: 500;
-  padding: 8px 18px; border-radius: var(--radius-sm); cursor: pointer;
-  border: 1px solid var(--border); background: var(--surface); color: var(--text);
-  transition: background 0.12s, transform 0.1s;
-}
+button { font-family: inherit; font-size: 13px; font-weight: 500; padding: 8px 18px; border-radius: var(--radius-sm); cursor: pointer; border: 1px solid var(--border); background: var(--surface); color: var(--text); transition: background 0.12s, transform 0.1s; }
 button:hover { background: var(--bg); }
 button:active { transform: scale(0.98); }
 button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 button.primary:hover { background: #1648c7; }
 button:disabled { opacity: 0.4; cursor: not-allowed; }
-.err-msg { font-size: 12px; color: var(--red); margin-left: auto; }
-
+.err-msg { font-size: 12px; color: var(--red); margin-left: 4px; }
 .done-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px 24px; text-align: center; }
 .done-wrap h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
 .done-wrap p { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; }
-pre {
-  background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm);
-  padding: 12px; font-size: 11px; font-family: 'Courier New', monospace;
-  color: var(--text-secondary); text-align: left; white-space: pre-wrap;
-  word-break: break-all; max-height: 280px; overflow-y: auto; margin-bottom: 12px;
-}
-.loader { text-align: center; padding: 60px 0; color: var(--text-muted); font-size: 14px; }
-.spinner { display: inline-block; width: 18px; height: 18px; border: 2px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.7s linear infinite; margin-right: 8px; vertical-align: middle; }
-@keyframes spin { to { transform: rotate(360deg); } }
+pre { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px; font-size: 11px; font-family: 'Courier New', monospace; color: var(--text-secondary); text-align: left; white-space: pre-wrap; word-break: break-all; max-height: 280px; overflow-y: auto; margin-bottom: 12px; }
 </style>
 </head>
 <body>
-<div class="app" id="app">
-  <div class="loader"><span class="spinner"></span>Loading…</div>
-</div>
+<div class="app">
 
-<script>
-/* ─── state ─── */
-let CONDITIONS   = [];   // loaded hierarchy data, in order
-let currentStep  = 0;
-let ratings      = {};
-let raterInfo    = {};
+  <div class="app-header">
+    <h1>Topic hierarchy evaluation</h1>
+    <span class="subtitle">RASS — Human quality assessment</span>
+  </div>
 
-/* ─── boot: show intro immediately, load hierarchies after rater confirms ─── */
-function init() {
-     renderShell();
-     renderIntroStep();
-     showStep(0);
-   }
-   if (document.readyState === 'loading') {
-     document.addEventListener('DOMContentLoaded', init);
-   } else {
-     init();
-   }
+  <div class="progress-wrap">
+    <div class="progress-track"><div class="progress-fill" id="prog" style="width:0%"></div></div>
+    <div class="progress-label" id="prog-label">Introduction</div>
+  </div>
 
-/* ─── shell: header + progress + step containers ─── */
-function renderShell() {
-  document.getElementById('app').innerHTML = `
-    <div class="app-header">
-      <h1>Topic hierarchy evaluation</h1>
-      <span class="subtitle">RASS — Human quality assessment</span>
-    </div>
-    <div class="progress-wrap">
-      <div class="progress-track"><div class="progress-fill" id="prog" style="width:0%"></div></div>
-      <div class="progress-label" id="prog-label">Introduction</div>
-    </div>
-    <div id="steps"></div>`;
-}
-
-function addStep(id, html) {
-  const wrap = document.getElementById('steps');
-  const div  = document.createElement('div');
-  div.className = 'step';
-  div.id = id;
-  div.innerHTML = html;
-  wrap.appendChild(div);
-}
-
-function showStep(id) {
-  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
-  document.getElementById('step-' + id)?.classList.add('active');
-  currentStep = id;
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-function updateProgress(current, total) {
-  const pct = total === 0 ? 0 : Math.round((current / (total + 1)) * 100);
-  document.getElementById('prog').style.width = pct + '%';
-  document.getElementById('prog-label').textContent =
-    current === 0       ? 'Introduction' :
-    current > total     ? 'Complete'     :
-    `Hierarchy ${current} of ${total}`;
-}
-
-/* ─── step 0: intro + rater info ─── */
-function renderIntroStep() {
-  addStep(0, `
+  <!-- Step 0: static HTML, no JS needed to render -->
+  <div class="step active" id="step-0">
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px">
       <div class="section-header" style="margin-bottom:12px">Rater information</div>
       <div class="intro-grid">
@@ -272,7 +132,7 @@ function renderIntroStep() {
         </div>
       </div>
       <div class="info-box">
-        <strong>Instructions.</strong> Enter your rater ID exactly as provided by the study coordinator. Your personalised set of topic hierarchies will be loaded automatically. Rate each hierarchy on three dimensions (1–7 scale). Session takes roughly 15–20 minutes.
+        <strong>Instructions.</strong> Enter your rater ID exactly as provided by the study coordinator. Your personalised set of topic hierarchies will load automatically. Rate each hierarchy on three dimensions (1–7 scale). Session takes roughly 15–20 minutes.
       </div>
       <div class="section-header" style="margin-bottom:8px">What you are rating</div>
       <div class="dim-guide">
@@ -282,276 +142,211 @@ function renderIntroStep() {
       </div>
     </div>
     <div class="btn-row">
-      <button class="primary" id="start-btn" onclick="startSession()">Load my hierarchies →</button>
+      <button class="primary" id="start-btn" onclick="startSession()">Load my hierarchies &rarr;</button>
       <span class="err-msg" id="intro-err"></span>
-    </div>`);
-}
+    </div>
+  </div>
 
-/* ─── session start: validate → fetch → render rating steps ─── */
+  <!-- Rating steps + done screen injected here by JS after login -->
+  <div id="dynamic-steps"></div>
+
+</div>
+
+<script>
+let CONDITIONS = [];
+let ratings    = {};
+let raterInfo  = {};
+
 async function startSession() {
-  const idEl  = document.getElementById('rater-id');
-  const domEl = document.getElementById('domain-fam');
-  const err   = document.getElementById('intro-err');
-  const btn   = document.getElementById('start-btn');
+  const id  = document.getElementById('rater-id').value.trim();
+  const dom = document.getElementById('domain-fam').value;
+  const err = document.getElementById('intro-err');
+  const btn = document.getElementById('start-btn');
 
-  const id  = idEl.value.trim();
-  const dom = domEl.value;
-
-  if (!id || !dom) {
-    err.textContent = 'Please fill in both fields.';
-    return;
-  }
+  if (!id || !dom) { err.textContent = 'Please fill in both fields.'; return; }
 
   err.textContent = '';
   btn.disabled = true;
-  btn.textContent = 'Loading…';
-
+  btn.textContent = 'Loading\u2026';
   raterInfo = { rater_id: id, domain: dom, session_start: new Date().toISOString() };
 
-  /* fetch master index */
   let masterIndex;
   try {
     const r = await fetch('hierarchies/index.json');
-    if (!r.ok) throw new Error(`index.json returned ${r.status}`);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
     masterIndex = await r.json();
   } catch(e) {
-    err.textContent = 'Could not load hierarchies/index.json — check the repository setup.';
-    btn.disabled = false; btn.textContent = 'Load my hierarchies →';
-    return;
+    err.textContent = 'Could not load hierarchies/index.json — check repo setup. (' + e.message + ')';
+    btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
   }
 
   const slugs = masterIndex[id];
   if (!slugs || !slugs.length) {
-    err.textContent = `Rater ID "${id}" not found in index.json. Check your ID with the study coordinator.`;
-    btn.disabled = false; btn.textContent = 'Load my hierarchies →';
-    return;
+    err.textContent = 'Rater ID "' + id + '" not found in index.json.';
+    btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
   }
 
-  /* fetch each hierarchy */
   CONDITIONS = [];
-  const failed = [];
   for (const slug of slugs) {
     try {
-      const r = await fetch(`hierarchies/${id}/${slug}/hierarchy.json`);
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const r = await fetch('hierarchies/' + id + '/' + slug + '/hierarchy.json');
+      if (!r.ok) throw new Error('HTTP ' + r.status);
       const data = await r.json();
       CONDITIONS.push({ slug, ...data });
     } catch(e) {
-      failed.push(slug);
-      console.warn(`Failed to load hierarchies/${id}/${slug}/hierarchy.json`, e);
+      console.warn('Failed: hierarchies/' + id + '/' + slug + '/hierarchy.json', e);
     }
   }
 
   if (!CONDITIONS.length) {
-    err.textContent = 'No hierarchies could be loaded. Contact the study coordinator.';
-    btn.disabled = false; btn.textContent = 'Load my hierarchies →';
-    return;
+    err.textContent = 'No hierarchies could be loaded. Check paths with study coordinator.';
+    btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
   }
 
-  if (failed.length) {
-    console.warn('Some hierarchies failed to load:', failed);
-  }
+  const container = document.getElementById('dynamic-steps');
+  container.innerHTML = '';
+  CONDITIONS.forEach((cond, i) => {
+    const div = document.createElement('div');
+    div.className = 'step';
+    div.id = 'step-' + (i + 1);
+    div.innerHTML = buildRatingStep(cond, i + 1);
+    container.appendChild(div);
+  });
+  const done = document.createElement('div');
+  done.className = 'step';
+  done.id = 'step-done';
+  done.innerHTML = '<div class="done-wrap"><div style="font-size:28px;margin-bottom:10px">&#10003;</div><h2>Session complete</h2><p>Thank you. Copy or download the JSON and send it to the study coordinator.</p><pre id="result-json"></pre><div class="btn-row" style="justify-content:center"><button onclick="copyJSON()">Copy JSON</button><button class="primary" onclick="downloadJSON()">Download .json</button></div></div>';
+  container.appendChild(done);
 
-  /* build rating steps now that we have data */
-  CONDITIONS.forEach((cond, i) => addStep(i + 1, renderRatingStep(cond, i + 1)));
-  addStep('done', renderDone());
-
-  updateProgress(1, CONDITIONS.length);
-  showStep(1);
+  goToStep(1);
 }
 
-/* ─── single rating step ─── */
-function renderRatingStep(cond, stepN) {
-  const topics     = cond.topics;
-  const roots      = Object.values(topics).filter(t => t.level === 1).sort((a,b) => a.order - b.order);
-  const totalTopics = Object.keys(topics).length;
+function buildRatingStep(cond, stepN) {
+  const topics = cond.topics;
+  const roots  = Object.values(topics).filter(t => t.level === 1).sort((a,b) => a.order - b.order);
+  const total  = Object.keys(topics).length;
 
-  const topicHTML = roots.map(root => {
-    const children = (root.childrenIds || []).map(cid => topics[cid]).filter(Boolean).sort((a,b) => a.order - b.order);
-    const childHTML = children.length ? `
-      <div class="children-list">
-        ${children.map(ch => `
-          <div class="topic-child">
-            <div class="topic-child-header">
-              <span class="badge badge-l2">L2</span>
-              <span class="topic-name">${esc(ch.name)}</span>
-              ${ch.tags?.includes('preliminary') ? '<span class="badge badge-prelim">Preliminary</span>' : ''}
-              <span class="badge badge-conf">${Math.round(ch.confidence * 100)}%</span>
-            </div>
-            <div class="topic-desc">${esc(ch.description)}</div>
-            <div class="keyword-row">${(ch.keywords||[]).map(k=>`<span class="kw-tag">${esc(k)}</span>`).join('')}</div>
-          </div>`).join('')}
-      </div>` : '';
+  const topicsHTML = roots.map(root => {
+    const children = (root.childrenIds || []).map(id => topics[id]).filter(Boolean).sort((a,b) => a.order - b.order);
+    const childHTML = children.map(ch =>
+      '<div class="topic-child">' +
+        '<div class="topic-child-header">' +
+          '<span class="badge badge-l2">L2</span>' +
+          '<span class="topic-name">' + x(ch.name) + '</span>' +
+          (ch.tags&&ch.tags.includes('preliminary') ? '<span class="badge badge-prelim">Preliminary</span>' : '') +
+          '<span class="badge badge-conf">' + Math.round(ch.confidence*100) + '%</span>' +
+        '</div>' +
+        '<div class="topic-desc">' + x(ch.description) + '</div>' +
+        '<div class="keyword-row">' + (ch.keywords||[]).map(k=>'<span class="kw-tag">'+x(k)+'</span>').join('') + '</div>' +
+      '</div>'
+    ).join('');
 
-    return `
-      <div class="topic-card">
-        <div class="topic-root">
-          <div class="topic-root-header">
-            <span class="topic-name">${esc(root.name)}</span>
-            ${children.length ? `<span class="badge badge-count">${children.length} subtopic${children.length>1?'s':''}</span>` : ''}
-            ${root.tags?.includes('preliminary') ? '<span class="badge badge-prelim">Preliminary</span>' : ''}
-            <span class="badge badge-conf">${Math.round(root.confidence * 100)}%</span>
-          </div>
-          <div class="topic-desc">${esc(root.description)}</div>
-          <div class="keyword-row">${(root.keywords||[]).map(k=>`<span class="kw-tag">${esc(k)}</span>`).join('')}</div>
-        </div>
-        ${childHTML}
-      </div>`;
+    return '<div class="topic-card">' +
+      '<div class="topic-root">' +
+        '<div class="topic-root-header">' +
+          '<span class="topic-name">' + x(root.name) + '</span>' +
+          (children.length ? '<span class="badge badge-count">' + children.length + ' subtopic' + (children.length>1?'s':'') + '</span>' : '') +
+          (root.tags&&root.tags.includes('preliminary') ? '<span class="badge badge-prelim">Preliminary</span>' : '') +
+          '<span class="badge badge-conf">' + Math.round(root.confidence*100) + '%</span>' +
+        '</div>' +
+        '<div class="topic-desc">' + x(root.description) + '</div>' +
+        '<div class="keyword-row">' + (root.keywords||[]).map(k=>'<span class="kw-tag">'+x(k)+'</span>').join('') + '</div>' +
+      '</div>' +
+      (children.length ? '<div class="children-list">' + childHTML + '</div>' : '') +
+    '</div>';
   }).join('');
 
-  const r = (name) => `${name}-${stepN}`;
-
-  return `
-    <div class="hierarchy-meta">
-      <span class="meta-pill">Hierarchy ${stepN} of ${CONDITIONS.length}</span>
-      <span class="meta-pill">N = ${totalTopics} topics</span>
-      <span class="meta-pill">${roots.length} root${roots.length>1?'s':''}</span>
-      <span class="meta-pill" style="color:var(--text-muted)">${esc(cond.meta?.topic || cond.slug)}</span>
-    </div>
-
-    <div class="section-header">Topic hierarchy</div>
-    ${topicHTML}
-
-    <div class="rating-panel">
-      <div class="section-header" style="margin-bottom:16px">Your ratings</div>
-
-      <div class="dim-row">
-        <div class="dim-header">
-          <span class="dim-label label-coverage">Coverage</span>
-          <div>
-            <div class="dim-q">How well does this set of topics cover all major themes in the corpus?</div>
-            <div class="dim-hint">1 = important areas missing or over-merged &nbsp;·&nbsp; 7 = comprehensive, nothing obvious absent</div>
-          </div>
-        </div>
-        <div class="likert-wrap">
-          <div class="likert">${likert(r('cov'))}</div>
-          <div class="likert-ends"><span>Not at all</span><span>Fully covered</span></div>
-        </div>
-      </div>
-
-      <div class="dim-row">
-        <div class="dim-header">
-          <span class="dim-label label-granularity">Granularity</span>
-          <div>
-            <div class="dim-q">Is the level of detail appropriate for this corpus?</div>
-            <div class="dim-hint">1 = far too coarse or too fine-grained &nbsp;·&nbsp; 7 = exactly the right resolution</div>
-          </div>
-        </div>
-        <div class="likert-wrap">
-          <div class="likert">${likert(r('gran'))}</div>
-          <div class="likert-ends"><span>Inappropriate</span><span>Just right</span></div>
-        </div>
-      </div>
-
-      <div class="dim-row">
-        <div class="dim-header">
-          <span class="dim-label label-interpret">Interpretability</span>
-          <div>
-            <div class="dim-q">How clear and meaningful are the topic labels and descriptions?</div>
-            <div class="dim-hint">1 = labels opaque or misleading &nbsp;·&nbsp; 7 = every topic immediately understandable</div>
-          </div>
-        </div>
-        <div class="likert-wrap">
-          <div class="likert">${likert(r('int'))}</div>
-          <div class="likert-ends"><span>Not interpretable</span><span>Fully clear</span></div>
-        </div>
-      </div>
-
-      <div class="notes-label">Notes (optional)</div>
-      <textarea class="notes-area" id="notes-${stepN}" placeholder="Note any issues — e.g. a topic that felt misplaced, a gap, or what made this hierarchy easier or harder to navigate…"></textarea>
-    </div>
-
-    <div class="btn-row">
-      <button onclick="goToStep(${stepN - 1})">← Back</button>
-      <button class="primary" onclick="saveAndAdvance(${stepN})">${stepN === CONDITIONS.length ? 'Finish' : 'Next hierarchy →'}</button>
-      <span class="err-msg" id="err-${stepN}"></span>
-    </div>`;
+  const n = stepN;
+  return (
+    '<div class="hierarchy-meta">' +
+      '<span class="meta-pill">Hierarchy ' + n + ' of ' + CONDITIONS.length + '</span>' +
+      '<span class="meta-pill">N = ' + total + ' topics</span>' +
+      '<span class="meta-pill">' + roots.length + ' root' + (roots.length>1?'s':'') + '</span>' +
+      '<span class="meta-pill" style="color:var(--text-muted)">' + x(cond.meta&&cond.meta.topic ? cond.meta.topic : cond.slug) + '</span>' +
+    '</div>' +
+    '<div class="section-header">Topic hierarchy</div>' +
+    topicsHTML +
+    '<div class="rating-panel">' +
+      '<div class="section-header" style="margin-bottom:16px">Your ratings</div>' +
+      buildDim('Coverage',   'label-coverage',    'cov-'+n,  'How well does this set of topics cover all major themes in the corpus?', '1 = important areas missing or over-merged &nbsp;&middot;&nbsp; 7 = comprehensive, nothing obvious absent', 'Not at all', 'Fully covered') +
+      buildDim('Granularity','label-granularity',  'gran-'+n, 'Is the level of detail appropriate for this corpus?', '1 = far too coarse or too fine-grained &nbsp;&middot;&nbsp; 7 = exactly the right resolution', 'Inappropriate', 'Just right') +
+      buildDim('Interpretability','label-interpret','int-'+n,  'How clear and meaningful are the topic labels and descriptions?', '1 = labels opaque or misleading &nbsp;&middot;&nbsp; 7 = every topic immediately understandable', 'Not interpretable', 'Fully clear') +
+      '<div class="notes-label">Notes (optional)</div>' +
+      '<textarea class="notes-area" id="notes-' + n + '" placeholder="Note any issues\u2014 a topic that felt misplaced, a gap, or what made this hierarchy easier or harder to navigate\u2026"></textarea>' +
+    '</div>' +
+    '<div class="btn-row">' +
+      '<button onclick="goToStep(' + (n-1) + ')">&#8592; Back</button>' +
+      '<button class="primary" onclick="saveAndAdvance(' + n + ')">' + (n===CONDITIONS.length ? 'Finish' : 'Next hierarchy &rarr;') + '</button>' +
+      '<span class="err-msg" id="err-' + n + '"></span>' +
+    '</div>'
+  );
 }
 
-/* ─── done step ─── */
-function renderDone() {
-  return `
-    <div class="done-wrap">
-      <div style="font-size:28px;margin-bottom:10px">✓</div>
-      <h2>Session complete</h2>
-      <p>Thank you. Copy or download the JSON below and send it to the study coordinator.</p>
-      <pre id="result-json"></pre>
-      <div class="btn-row" style="justify-content:center">
-        <button onclick="copyJSON()">Copy JSON</button>
-        <button class="primary" onclick="downloadJSON()">Download .json</button>
-      </div>
-    </div>`;
+function buildDim(label, cls, name, question, hint, lo, hi) {
+  const radios = [1,2,3,4,5,6,7].map(v =>
+    '<input type="radio" name="' + name + '" id="' + name + '-' + v + '" value="' + v + '">' +
+    '<label for="' + name + '-' + v + '">' + v + '</label>'
+  ).join('');
+  return '<div class="dim-row">' +
+    '<div class="dim-header"><span class="dim-label ' + cls + '">' + label + '</span>' +
+    '<div><div class="dim-q">' + question + '</div><div class="dim-hint">' + hint + '</div></div></div>' +
+    '<div class="likert-wrap"><div class="likert">' + radios + '</div>' +
+    '<div class="likert-ends"><span>' + lo + '</span><span>' + hi + '</span></div></div>' +
+  '</div>';
 }
 
-/* ─── navigation ─── */
 function goToStep(n) {
-  if (n < 0) n = 0;
-  updateProgress(n, CONDITIONS.length);
-  showStep(n === 0 ? 0 : n > CONDITIONS.length ? 'done' : n);
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  const id = n <= 0 ? '0' : n > CONDITIONS.length ? 'done' : String(n);
+  const el = document.getElementById('step-' + id);
+  if (el) el.classList.add('active');
+  const pct = n <= 0 ? 0 : n > CONDITIONS.length ? 100 : Math.round(n / (CONDITIONS.length + 1) * 100);
+  document.getElementById('prog').style.width = pct + '%';
+  document.getElementById('prog-label').textContent =
+    n <= 0 ? 'Introduction' : n > CONDITIONS.length ? 'Complete' : 'Hierarchy ' + n + ' of ' + CONDITIONS.length;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function saveAndAdvance(stepN) {
-  const cov  = document.querySelector(`input[name="cov-${stepN}"]:checked`);
-  const gran = document.querySelector(`input[name="gran-${stepN}"]:checked`);
-  const int_ = document.querySelector(`input[name="int-${stepN}"]:checked`);
-  const err  = document.getElementById(`err-${stepN}`);
-  if (!cov || !gran || !int_) {
-    err.textContent = 'Please rate all three dimensions before continuing.';
-    return;
-  }
+function saveAndAdvance(n) {
+  const cov  = document.querySelector('input[name="cov-'  + n + '"]:checked');
+  const gran = document.querySelector('input[name="gran-' + n + '"]:checked');
+  const int_ = document.querySelector('input[name="int-'  + n + '"]:checked');
+  const err  = document.getElementById('err-' + n);
+  if (!cov || !gran || !int_) { err.textContent = 'Please rate all three dimensions before continuing.'; return; }
   err.textContent = '';
-  const cond = CONDITIONS[stepN - 1];
+  const cond = CONDITIONS[n - 1];
   ratings[cond.slug] = {
-    slug:             cond.slug,
-    topic:            cond.meta?.topic || cond.slug,
-    n_topics:         Object.keys(cond.topics).length,
+    slug: cond.slug,
+    topic: (cond.meta && cond.meta.topic) || cond.slug,
+    n_topics: Object.keys(cond.topics).length,
     coverage:         parseInt(cov.value),
     granularity:      parseInt(gran.value),
     interpretability: parseInt(int_.value),
-    notes:            (document.getElementById(`notes-${stepN}`)?.value || '').trim(),
-    timestamp:        new Date().toISOString()
+    notes: (document.getElementById('notes-' + n).value || '').trim(),
+    timestamp: new Date().toISOString()
   };
-  if (stepN === CONDITIONS.length) {
-    finishSession();
+  if (n === CONDITIONS.length) {
+    const out = Object.assign({}, raterInfo, { session_end: new Date().toISOString(), ratings: Object.values(ratings) });
+    document.getElementById('result-json').textContent = JSON.stringify(out, null, 2);
+    goToStep(CONDITIONS.length + 1);
   } else {
-    goToStep(stepN + 1);
+    goToStep(n + 1);
   }
 }
 
-function finishSession() {
-  const output = { ...raterInfo, session_end: new Date().toISOString(), ratings: Object.values(ratings) };
-  document.getElementById('result-json').textContent = JSON.stringify(output, null, 2);
-  updateProgress(CONDITIONS.length + 1, CONDITIONS.length);
-  showStep('done');
-}
-
-/* ─── export ─── */
 function copyJSON() {
   navigator.clipboard.writeText(document.getElementById('result-json').textContent)
-    .then(() => {
-      const b = document.querySelector('.done-wrap .btn-row button');
-      b.textContent = 'Copied ✓';
-      setTimeout(() => b.textContent = 'Copy JSON', 2000);
-    });
+    .then(() => { const b = document.querySelector('.done-wrap button'); b.textContent = 'Copied \u2713'; setTimeout(() => b.textContent = 'Copy JSON', 2000); });
 }
 function downloadJSON() {
-  const data = document.getElementById('result-json').textContent;
-  const blob = new Blob([data], { type: 'application/json' });
+  const blob = new Blob([document.getElementById('result-json').textContent], { type: 'application/json' });
   const url  = URL.createObjectURL(blob);
   const a    = document.createElement('a');
-  a.href = url; a.download = `rass_ratings_${raterInfo.rater_id || 'rater'}.json`; a.click();
+  a.href = url; a.download = 'rass_ratings_' + (raterInfo.rater_id || 'rater') + '.json'; a.click();
   URL.revokeObjectURL(url);
 }
-
-/* ─── helpers ─── */
-function likert(name) {
-  return [1,2,3,4,5,6,7].map(v =>
-    `<input type="radio" name="${name}" id="${name}-${v}" value="${v}"><label for="${name}-${v}">${v}</label>`
-  ).join('');
-}
-function esc(s) {
-  if (!s) return '';
-  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+function x(s) {
+  return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : '';
 }
 </script>
 </body>
