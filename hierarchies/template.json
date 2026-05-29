@@ -1,0 +1,33 @@
+{
+  "_comment": "Copy this file to hierarchies/<topic-slug>/hierarchy.json and populate fields.",
+  "meta": {
+    "topic": "Human-readable topic title",
+    "rater_id": "rater_XX",
+    "n_topics": 0,
+    "n_root": 0,
+    "generated_at": "ISO8601 timestamp",
+    "corpus_size": 0
+  },
+  "topics": {
+    "t1": {
+      "id": "t1", "level": 1, "order": 1,
+      "name": "Root topic name",
+      "description": "Full description sentence.",
+      "keywords": ["keyword1", "keyword2"],
+      "confidence": 0.0,
+      "parentId": null,
+      "childrenIds": ["t1.1", "t1.2"],
+      "tags": ["preliminary"]
+    },
+    "t1.1": {
+      "id": "t1.1", "level": 2, "order": 1,
+      "name": "Child topic name",
+      "description": "Full description sentence.",
+      "keywords": ["keyword1", "keyword2"],
+      "confidence": 0.0,
+      "parentId": "t1",
+      "childrenIds": [],
+      "tags": ["preliminary"]
+    }
+  }
+}
