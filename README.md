@@ -11,27 +11,15 @@ Raters evaluate **coverage**, **granularity**, and **interpretability** on a 1�
 rass-eval/
 ├── index.html                              ← single-page rating tool
 ├── hierarchies/
-│   ├── index.json                          ← master map: rater_id → [slug, slug, ...]
-│   ├── template.json                       ← copy this to create a new hierarchy
-│   └── rater_01/
-│       └── microplastics/
-│           └── hierarchy.json
+│   ├── karen-test.json                     ← user-specific hierarchies at different values of N
 ```
 
 ---
 
 ## Adding a new rater
 
-1. Add the rater and their topic slugs to `hierarchies/index.json`:
-   ```json
-   {
-     "rater_01": ["microplastics"],
-     "rater_02": ["climate-change", "biodiversity"]
-   }
-   ```
-2. Create a folder for each slug: `hierarchies/{rater_id}/{slug}/`
-3. Copy `template.json` into the folder as `hierarchy.json` and populate with RASS output.
-4. Push to GitHub — the rater can access their session immediately.
+1. Generate the hierarchies and save as a json with the rater id as filename
+2. Push to GitHub — the rater can access their session immediately.
 
 The tool loads hierarchies **only for the rater ID entered at login**. No rater sees another rater's topics.
 
@@ -80,10 +68,10 @@ Flat dict keyed by topic ID. Tree encoded via `parentId` / `childrenIds`.
 
 ## GitHub Pages deployment
 
-1. Create repo `rass-eval` under `jrcf7`
+1. Create repo `topic_interpretability` under `jrcf7`
 2. Push all contents
 3. **Settings → Pages → Source: Deploy from branch → main → / (root)**
-4. Live at `https://jrcf7.github.io/rass-eval/`
+4. Live at `https://jrcf7.github.io/topic_interpretability/`
 
 Share this single URL with all raters. Each rater logs in with their own ID and sees only their hierarchies.
 
