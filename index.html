@@ -180,6 +180,12 @@ async function startSession() {
     .filter(slug => data.hierarchies[slug])
     .map(slug => ({ slug, ...data.hierarchies[slug] }));
 
+  CONDITIONS = order
+  .filter(slug => data.hierarchies[slug])
+  .map(slug => ({ slug, ...data.hierarchies[slug] }));
+console.log('CONDITIONS:', CONDITIONS.length, CONDITIONS.map(c => c.slug));
+
+  
   if (!CONDITIONS.length) {
     err.textContent = 'No hierarchies found in this file. Contact the study coordinator.';
     btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
