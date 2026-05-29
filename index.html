@@ -51,9 +51,7 @@ input[type=text]:focus, select:focus { outline: none; border-color: var(--accent
 .topic-name { font-size: 15px; font-weight: 700; color: var(--text); }
 .badge { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; white-space: nowrap; }
 .badge-count  { background: var(--tag-bg); color: var(--text-secondary); border: 1px solid var(--tag-border); }
-.badge-prelim { background: var(--badge-prelim-bg); color: var(--badge-prelim-text); border: 1px solid #e5e7eb; }
 .badge-l2     { background: var(--badge-l2-bg); color: var(--badge-l2-text); border: 1px solid var(--badge-l2-border); font-weight: 600; }
-.badge-conf   { background: var(--green-light); color: var(--green); border: 1px solid #bbf7d0; }
 .topic-desc { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.45; }
 .keyword-row { display: flex; flex-wrap: wrap; gap: 5px; }
 .kw-tag { font-size: 11px; padding: 2px 8px; background: var(--tag-bg); color: var(--tag-text); border: 1px solid var(--tag-border); border-radius: 4px; }
@@ -112,14 +110,13 @@ pre { background: var(--bg); border: 1px solid var(--border); border-radius: var
     <div class="progress-label" id="prog-label">Introduction</div>
   </div>
 
-  <!-- Step 0: static HTML, no JS needed to render -->
   <div class="step active" id="step-0">
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px">
       <div class="section-header" style="margin-bottom:12px">Rater information</div>
       <div class="intro-grid">
         <div>
           <label class="field-label" for="rater-id">Rater ID</label>
-          <input type="text" id="rater-id" placeholder="e.g. rater_01" autocomplete="off">
+          <input type="text" id="rater-id" placeholder="e.g. karen-test" autocomplete="off">
         </div>
         <div>
           <label class="field-label" for="domain-fam">Domain familiarity</label>
@@ -147,11 +144,9 @@ pre { background: var(--bg); border: 1px solid var(--border); border-radius: var
     </div>
   </div>
 
-  <!-- Rating steps + done screen injected here by JS after login -->
   <div id="dynamic-steps"></div>
 
 </div>
-
 <script>
 let CONDITIONS = [];
 let ratings    = {};
@@ -170,39 +165,23 @@ async function startSession() {
   btn.textContent = 'Loading\u2026';
   raterInfo = { rater_id: id, domain: dom, session_start: new Date().toISOString() };
 
-  let masterIndex;
+  let data;
   try {
-    const r = await fetch('hierarchies/index.json');
+    const r = await fetch('hierarchies/' + id + '.json');
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    masterIndex = await r.json();
+    data = await r.json();
   } catch(e) {
-    err.textContent = 'Could not load hierarchies/index.json — check repo setup. (' + e.message + ')';
+    err.textContent = 'Could not load hierarchies for "' + id + '". Check your rater ID. (' + e.message + ')';
     btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
   }
 
-  const slugs = masterIndex[id];
-  if (!slugs || !slugs.length) {
-    err.textContent = 'Rater ID "' + id + '" not found in index.json.';
-    btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
-  }
-
-  CONDITIONS = [];
-const results = await Promise.allSettled(
-  slugs.map(slug =>
-    fetch('hierarchies/' + id + '/' + slug + '.json')
-      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-      .then(data => ({ slug, ...data }))
-  )
-);
-results.forEach((res, i) => {
-  if (res.status === 'fulfilled') CONDITIONS.push(res.value);
-  else console.warn('Failed: ' + slugs[i], res.reason);
-});
-  
-CONDITIONS.sort((a, b) => slugs.indexOf(a.slug) - slugs.indexOf(b.slug));
+  const order = data.order || Object.keys(data.hierarchies);
+  CONDITIONS = order
+    .filter(slug => data.hierarchies[slug])
+    .map(slug => ({ slug, ...data.hierarchies[slug] }));
 
   if (!CONDITIONS.length) {
-    err.textContent = 'No hierarchies could be loaded. Check paths with study coordinator.';
+    err.textContent = 'No hierarchies found in this file. Contact the study coordinator.';
     btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
   }
 
@@ -236,11 +215,9 @@ function buildRatingStep(cond, stepN) {
         '<div class="topic-child-header">' +
           '<span class="badge badge-l2">L2</span>' +
           '<span class="topic-name">' + x(ch.name) + '</span>' +
-          (ch.tags&&ch.tags.includes('preliminary') ? '<span class="badge badge-prelim">Preliminary</span>' : '') +
-          '<span class="badge badge-conf">' + Math.round(ch.confidence*100) + '%</span>' +
         '</div>' +
         '<div class="topic-desc">' + x(ch.description) + '</div>' +
-        '<div class="keyword-row">' + (ch.keywords||[]).map(k=>'<span class="kw-tag">'+x(k)+'</span>').join('') + '</div>' +
+        '<div class="keyword-row">' + (ch.keywords||[]).map(k => '<span class="kw-tag">' + x(k) + '</span>').join('') + '</div>' +
       '</div>'
     ).join('');
 
@@ -248,12 +225,10 @@ function buildRatingStep(cond, stepN) {
       '<div class="topic-root">' +
         '<div class="topic-root-header">' +
           '<span class="topic-name">' + x(root.name) + '</span>' +
-          (children.length ? '<span class="badge badge-count">' + children.length + ' subtopic' + (children.length>1?'s':'') + '</span>' : '') +
-          (root.tags&&root.tags.includes('preliminary') ? '<span class="badge badge-prelim">Preliminary</span>' : '') +
-          '<span class="badge badge-conf">' + Math.round(root.confidence*100) + '%</span>' +
+          (children.length ? '<span class="badge badge-count">' + children.length + ' subtopic' + (children.length > 1 ? 's' : '') + '</span>' : '') +
         '</div>' +
         '<div class="topic-desc">' + x(root.description) + '</div>' +
-        '<div class="keyword-row">' + (root.keywords||[]).map(k=>'<span class="kw-tag">'+x(k)+'</span>').join('') + '</div>' +
+        '<div class="keyword-row">' + (root.keywords||[]).map(k => '<span class="kw-tag">' + x(k) + '</span>').join('') + '</div>' +
       '</div>' +
       (children.length ? '<div class="children-list">' + childHTML + '</div>' : '') +
     '</div>';
@@ -264,22 +239,22 @@ function buildRatingStep(cond, stepN) {
     '<div class="hierarchy-meta">' +
       '<span class="meta-pill">Hierarchy ' + n + ' of ' + CONDITIONS.length + '</span>' +
       '<span class="meta-pill">N = ' + total + ' topics</span>' +
-      '<span class="meta-pill">' + roots.length + ' root' + (roots.length>1?'s':'') + '</span>' +
-      '<span class="meta-pill" style="color:var(--text-muted)">' + x(cond.meta&&cond.meta.topic ? cond.meta.topic : cond.slug) + '</span>' +
+      '<span class="meta-pill">' + roots.length + ' root' + (roots.length > 1 ? 's' : '') + '</span>' +
+      '<span class="meta-pill" style="color:var(--text-muted)">' + x((cond.meta && cond.meta.topic) || cond.slug) + '</span>' +
     '</div>' +
     '<div class="section-header">Topic hierarchy</div>' +
     topicsHTML +
     '<div class="rating-panel">' +
       '<div class="section-header" style="margin-bottom:16px">Your ratings</div>' +
-      buildDim('Coverage',   'label-coverage',    'cov-'+n,  'How well does this set of topics cover all major themes in the corpus?', '1 = important areas missing or over-merged &nbsp;&middot;&nbsp; 7 = comprehensive, nothing obvious absent', 'Not at all', 'Fully covered') +
-      buildDim('Granularity','label-granularity',  'gran-'+n, 'Is the level of detail appropriate for this corpus?', '1 = far too coarse or too fine-grained &nbsp;&middot;&nbsp; 7 = exactly the right resolution', 'Inappropriate', 'Just right') +
-      buildDim('Interpretability','label-interpret','int-'+n,  'How clear and meaningful are the topic labels and descriptions?', '1 = labels opaque or misleading &nbsp;&middot;&nbsp; 7 = every topic immediately understandable', 'Not interpretable', 'Fully clear') +
+      buildDim('Coverage',        'label-coverage',    'cov-'  + n, 'How well does this set of topics cover all major themes in the corpus?',      '1 = important areas missing or over-merged &nbsp;&middot;&nbsp; 7 = comprehensive, nothing obvious absent', 'Not at all',       'Fully covered') +
+      buildDim('Granularity',     'label-granularity', 'gran-' + n, 'Is the level of detail appropriate for this corpus?',                          '1 = far too coarse or too fine-grained &nbsp;&middot;&nbsp; 7 = exactly the right resolution',              'Inappropriate',    'Just right') +
+      buildDim('Interpretability','label-interpret',   'int-'  + n, 'How clear and meaningful are the topic labels and descriptions?',              '1 = labels opaque or misleading &nbsp;&middot;&nbsp; 7 = every topic immediately understandable',             'Not interpretable','Fully clear') +
       '<div class="notes-label">Notes (optional)</div>' +
-      '<textarea class="notes-area" id="notes-' + n + '" placeholder="Note any issues\u2014 a topic that felt misplaced, a gap, or what made this hierarchy easier or harder to navigate\u2026"></textarea>' +
+      '<textarea class="notes-area" id="notes-' + n + '" placeholder="Note any issues \u2014 a topic that felt misplaced, a gap, or what made this hierarchy easier or harder to navigate\u2026"></textarea>' +
     '</div>' +
     '<div class="btn-row">' +
-      '<button onclick="goToStep(' + (n-1) + ')">&#8592; Back</button>' +
-      '<button class="primary" onclick="saveAndAdvance(' + n + ')">' + (n===CONDITIONS.length ? 'Finish' : 'Next hierarchy &rarr;') + '</button>' +
+      '<button onclick="goToStep(' + (n - 1) + ')">&#8592; Back</button>' +
+      '<button class="primary" onclick="saveAndAdvance(' + n + ')">' + (n === CONDITIONS.length ? 'Finish' : 'Next hierarchy &rarr;') + '</button>' +
       '<span class="err-msg" id="err-' + n + '"></span>' +
     '</div>'
   );
@@ -319,14 +294,14 @@ function saveAndAdvance(n) {
   err.textContent = '';
   const cond = CONDITIONS[n - 1];
   ratings[cond.slug] = {
-    slug: cond.slug,
-    topic: (cond.meta && cond.meta.topic) || cond.slug,
-    n_topics: Object.keys(cond.topics).length,
+    slug:             cond.slug,
+    topic:            (cond.meta && cond.meta.topic) || cond.slug,
+    n_topics:         Object.keys(cond.topics).length,
     coverage:         parseInt(cov.value),
     granularity:      parseInt(gran.value),
     interpretability: parseInt(int_.value),
-    notes: (document.getElementById('notes-' + n).value || '').trim(),
-    timestamp: new Date().toISOString()
+    notes:            (document.getElementById('notes-' + n).value || '').trim(),
+    timestamp:        new Date().toISOString()
   };
   if (n === CONDITIONS.length) {
     const out = Object.assign({}, raterInfo, { session_end: new Date().toISOString(), ratings: Object.values(ratings) });
@@ -344,9 +319,9 @@ function copyJSON() {
 function downloadJSON() {
   const blob = new Blob([document.getElementById('result-json').textContent], { type: 'application/json' });
   const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
-  a.href = url; a.download = 'rass_ratings_' + (raterInfo.rater_id || 'rater') + '.json'; a.click();
-  URL.revokeObjectURL(url);
+  const a    = document.createElement('a'); a.href = url;
+  a.download = 'rass_ratings_' + (raterInfo.rater_id || 'rater') + '.json';
+  a.click(); URL.revokeObjectURL(url);
 }
 function x(s) {
   return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : '';
