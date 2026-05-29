@@ -193,8 +193,8 @@ console.log('CONDITIONS:', CONDITIONS.length, CONDITIONS.map(c => c.slug));
 
   const container = document.getElementById('dynamic-steps');
   container.innerHTML = '';
-  CONDITIONS.forEach((cond, i) => {
-    const div = document.createElement('div');
+ CONDITIONS.filter(cond => cond.topics).forEach((cond, i) => {
+  const div = document.createElement('div');
     div.className = 'step';
     div.id = 'step-' + (i + 1);
     div.innerHTML = buildRatingStep(cond, i + 1);
