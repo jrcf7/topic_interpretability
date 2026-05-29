@@ -1,0 +1,5500 @@
+{
+  "query": "effect of concreteness on semantic processing in the healthy brain",
+  "rater_id": "karen-test",
+  "hierarchies": {
+    "n5": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Theoretical Models",
+        "description": "Explanatory frameworks for concreteness effects including dual coding theory, context availability, perceptual symbol systems, and embodied cognition approaches.",
+        "keywords": [
+          "dual coding theory",
+          "context availability hypothesis",
+          "perceptual symbol systems",
+          "embodied cognition",
+          "semantic models"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446537",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Behavioral Evidence",
+        "description": "Cognitive and behavioral studies demonstrating concreteness effects through reaction times, accuracy rates, memory performance, and comprehension tasks in healthy participants.",
+        "keywords": [
+          "reaction time",
+          "word recognition",
+          "memory recall",
+          "semantic judgments",
+          "behavioral performance"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446587",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "evidence",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Semantic Feature Processing",
+        "description": "How concrete words activate sensory, motor, and perceptual features compared to abstract words, including feature norms and semantic attribute extraction.",
+        "keywords": [
+          "sensory features",
+          "motor features",
+          "semantic features",
+          "perceptual attributes",
+          "feature activation"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446600",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "semantic-processing",
+          "mechanism",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Concreteness Effects in Semantics",
+        "description": "The fundamental phenomenon whereby concrete words (referencing tangible objects) are processed differently than abstract words in the brain. This encompasses theoretical frameworks explaining why concreteness influences semantic representation and retrieval.",
+        "keywords": [
+          "concreteness effect",
+          "concrete vs. abstract words",
+          "semantic representation",
+          "word processing",
+          "lexical properties"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446608",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "core-concept",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Brain Regions Involved",
+        "description": "Anatomical structures critical for semantic processing including anterior temporal lobes, angular gyrus, prefrontal cortex, and sensorimotor cortex, particularly in relation to concreteness distinctions.",
+        "keywords": [
+          "anterior temporal lobe",
+          "angular gyrus",
+          "prefrontal cortex",
+          "sensorimotor cortex",
+          "semantic hub"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446617",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "anatomy",
+          "localization",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Neuroimaging Findings",
+        "description": "Functional and structural neuroimaging evidence (fMRI, PET, DTI) showing differential brain activation patterns for concrete versus abstract word processing in healthy individuals.",
+        "keywords": [
+          "fMRI",
+          "functional neuroimaging",
+          "PET imaging",
+          "BOLD signal",
+          "activation patterns"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446626",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "evidence",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Functional Connectivity",
+        "description": "Network interactions and functional coupling between brain regions during concrete versus abstract word processing, including hub-and-spoke models and distributed networks.",
+        "keywords": [
+          "functional connectivity",
+          "network analysis",
+          "distributed networks",
+          "hub-and-spoke",
+          "brain networks"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446633",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "systems-neuroscience",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Neural Mechanisms of Semantic Processing",
+        "description": "Brain systems and neural processes underlying semantic comprehension and representation, including cortical networks, neurotransmitter systems, and neural connectivity patterns.",
+        "keywords": [
+          "semantic processing",
+          "neural networks",
+          "cortical regions",
+          "brain activation",
+          "neuroimaging"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446644",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "neuroscience",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Event-Related Potentials",
+        "description": "ERP components (N400, P600, LPC) and their modulation by concreteness during word reading and semantic tasks, reflecting semantic integration and congruity.",
+        "keywords": [
+          "N400",
+          "event-related potentials",
+          "ERP components",
+          "semantic congruity",
+          "EEG"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446658",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "evidence",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Neural Oscillations",
+        "description": "Frequency-specific neural oscillations (alpha, theta, gamma bands) and their variation during processing of concrete versus abstract words, indicating synchronization and semantic processing depth.",
+        "keywords": [
+          "neural oscillations",
+          "frequency bands",
+          "alpha",
+          "theta",
+          "gamma oscillations"
+        ],
+        "confidence": 0.81,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446667",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "frequency-analysis",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Electrophysiological and Temporal Dynamics",
+        "description": "Real-time neural activity patterns and temporal characteristics of semantic processing using electrophysiological methods to track when and how concreteness affects neural responses.",
+        "keywords": [
+          "EEG",
+          "event-related potentials",
+          "MEG",
+          "temporal dynamics",
+          "neural oscillations"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446674",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "temporal-analysis",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Sentence and Discourse Context",
+        "description": "Effects of surrounding linguistic context on how concreteness influences word comprehension within sentences and multi-sentence passages, including predictability and integration demands.",
+        "keywords": [
+          "sentence context",
+          "discourse processing",
+          "semantic integration",
+          "predictability",
+          "comprehension"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446682",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "linguistic-factors",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Lexical and Psycholinguistic Variables",
+        "description": "Interaction between concreteness and other word properties including frequency, imageability, age of acquisition, and semantic relatedness in modulating processing.",
+        "keywords": [
+          "word frequency",
+          "imageability",
+          "age of acquisition",
+          "semantic relatedness",
+          "lexical variables"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.446690",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "lexical-properties",
+          "preliminary"
+        ]
+      },
+      "t4.3": {
+        "id": "t4.3",
+        "name": "Task and Experimental Demands",
+        "description": "How different experimental paradigms (passive reading, semantic judgments, implicit/explicit tasks) and cognitive load affect the manifestation of concreteness effects.",
+        "keywords": [
+          "task demands",
+          "cognitive load",
+          "semantic judgment tasks",
+          "experimental paradigm",
+          "implicit vs. explicit"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.449107",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "experimental-design",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Contextual and Linguistic Modulation",
+        "description": "How context, linguistic factors, and experimental conditions modulate the concreteness effect on semantic processing, including sentence context, word frequency, and task demands.",
+        "keywords": [
+          "context effects",
+          "sentence comprehension",
+          "word frequency",
+          "semantic priming",
+          "task effects"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.449120",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2",
+          "t4.3"
+        ],
+        "order": 3,
+        "tags": [
+          "moderating-factors",
+          "experimental-design",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Cognitive Abilities and Capacity",
+        "description": "Effects of working memory, processing speed, vocabulary knowledge, and general cognitive ability on the magnitude and manifestation of concreteness effects in semantic processing.",
+        "keywords": [
+          "working memory",
+          "processing speed",
+          "vocabulary knowledge",
+          "cognitive ability",
+          "fluid intelligence"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.449130",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "cognition",
+          "individual-differences",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Language Background and Expertise",
+        "description": "Variation in concreteness effects based on native language status, multilingualism, reading expertise, and familiarity with domain-specific vocabularies.",
+        "keywords": [
+          "language background",
+          "multilingualism",
+          "native speakers",
+          "reading expertise",
+          "domain knowledge"
+        ],
+        "confidence": 0.77,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.449137",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "language-factors",
+          "individual-differences",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Individual Differences and Factors Modulating Effects",
+        "description": "Variability in concreteness effects across healthy individuals based on demographics, cognitive abilities, language experience, and neurobiological factors.",
+        "keywords": [
+          "individual differences",
+          "cognitive abilities",
+          "language experience",
+          "demographics",
+          "working memory"
+        ],
+        "confidence": 0.79,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:58:46.449143",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "individual-differences",
+          "moderating-factors",
+          "preliminary"
+        ]
+      }
+    },
+    "n8": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Models of Semantic Representation",
+        "description": "Theoretical frameworks explaining how semantic information is organized and stored in cognitive systems, including distributed and localist models.",
+        "keywords": [
+          "semantic space",
+          "distributed semantics",
+          "feature-based models",
+          "conceptual networks",
+          "semantic vectors"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121847",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Lexical Access and Retrieval",
+        "description": "Mechanisms underlying word recognition, semantic activation, and retrieval processes during language comprehension.",
+        "keywords": [
+          "word recognition",
+          "semantic activation",
+          "lexical access",
+          "priming effects",
+          "retrieval mechanisms"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121895",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "mechanism",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Semantic Processing Fundamentals",
+        "description": "Core theoretical and empirical foundations of semantic processing in the brain, including models of meaning representation and comprehension mechanisms.",
+        "keywords": [
+          "semantic processing",
+          "meaning representation",
+          "semantic comprehension",
+          "lexical semantics",
+          "conceptual knowledge"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121911",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "theoretical-framework",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Concreteness Definition and Measurement",
+        "description": "How concreteness is operationalized, measured, and quantified in research, including rating scales and computational metrics.",
+        "keywords": [
+          "concreteness rating",
+          "perceptual strength",
+          "imagery",
+          "context availability",
+          "concreteness norms"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121922",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Theoretical Accounts of Concreteness Effects",
+        "description": "Explanatory frameworks for why concreteness influences semantic processing, including sensorimotor theories and dual-coding approaches.",
+        "keywords": [
+          "dual coding theory",
+          "sensorimotor theories",
+          "grounded cognition",
+          "embodied semantics",
+          "perceptual simulation"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121931",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Concreteness as a Semantic Dimension",
+        "description": "The role and characterization of concreteness as a fundamental property of semantic information, distinguishing concrete from abstract concepts.",
+        "keywords": [
+          "concreteness",
+          "abstractness",
+          "concrete concepts",
+          "abstract concepts",
+          "semantic dimension"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121938",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "core-variable",
+          "theoretical-framework",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Temporal and Inferior Temporal Regions",
+        "description": "Role of temporal lobe structures, particularly anterior temporal lobes and inferior temporal cortex, in semantic representation and concreteness effects.",
+        "keywords": [
+          "anterior temporal lobe",
+          "inferior temporal cortex",
+          "temporal poles",
+          "ventral temporal stream",
+          "semantic hub"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121948",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "brain-region",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Sensorimotor and Modality-Specific Regions",
+        "description": "Involvement of primary sensory and motor cortices in processing concrete words and perceptually-grounded semantic information.",
+        "keywords": [
+          "sensorimotor cortex",
+          "motor areas",
+          "visual cortex",
+          "sensory cortex",
+          "modality-specific activation"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121956",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "brain-region",
+          "embodied-cognition",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Prefrontal and Executive Regions",
+        "description": "Contributions of prefrontal cortex and other executive regions to abstract semantic processing and semantic control.",
+        "keywords": [
+          "prefrontal cortex",
+          "executive control",
+          "semantic control",
+          "left inferior frontal gyrus",
+          "ventrolateral PFC"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121965",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "brain-region",
+          "cognitive-control",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Neural Mechanisms and Brain Regions",
+        "description": "Neurobiological substrates of semantic processing, including identification of brain regions and neural networks involved in processing concrete versus abstract information.",
+        "keywords": [
+          "semantic brain regions",
+          "neural substrates",
+          "fMRI",
+          "neuroimaging",
+          "brain activation"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121973",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "neuroscience",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "fMRI and Activation Patterns",
+        "description": "Functional MRI findings documenting differential brain activation for concrete versus abstract words during semantic tasks.",
+        "keywords": [
+          "fMRI activation",
+          "blood oxygen",
+          "BOLD signal",
+          "activation maps",
+          "contrast analysis"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121981",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "neuroimaging-method",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Functional Connectivity and Networks",
+        "description": "Studies examining functional connectivity patterns and semantic networks during processing of concrete and abstract concepts.",
+        "keywords": [
+          "functional connectivity",
+          "semantic networks",
+          "network analysis",
+          "coherence",
+          "graph theory"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121989",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "network-analysis",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Empirical Evidence from Neuroimaging Studies",
+        "description": "Experimental findings from functional neuroimaging investigations of concreteness effects on semantic processing in healthy populations.",
+        "keywords": [
+          "fMRI studies",
+          "neuroimaging evidence",
+          "concreteness effects",
+          "brain imaging",
+          "functional activation"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.121995",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "empirical",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Response Times and Accuracy",
+        "description": "Behavioral metrics including reaction times and error rates in semantic tasks performed on concrete versus abstract words.",
+        "keywords": [
+          "reaction time",
+          "latency",
+          "accuracy",
+          "error rates",
+          "semantic judgment"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122005",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "behavior",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Memory and Recall Effects",
+        "description": "Effects of concreteness on semantic memory, retention, and recall performance in healthy individuals.",
+        "keywords": [
+          "memory effects",
+          "recall",
+          "retention",
+          "concreteness effect",
+          "remembering"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122013",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "memory",
+          "behavior",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Behavioral and Cognitive Outcomes",
+        "description": "Observable behavioral performance and cognitive measures associated with processing concrete versus abstract semantic information.",
+        "keywords": [
+          "behavioral performance",
+          "reaction time",
+          "accuracy",
+          "cognitive processing",
+          "semantic priming"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122020",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "behavior",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Task Type and Semantic Demands",
+        "description": "How different semantic tasks (e.g., lexical decision, semantic judgment, similarity rating) modulate concreteness effects.",
+        "keywords": [
+          "task demands",
+          "semantic judgment",
+          "lexical decision",
+          "similarity rating",
+          "task difficulty"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122030",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t6.2": {
+        "id": "t6.2",
+        "name": "Individual Differences and Demographics",
+        "description": "Variation in concreteness effects across individual characteristics including age, education, language experience, and cognitive abilities.",
+        "keywords": [
+          "individual differences",
+          "age effects",
+          "cognitive ability",
+          "experience",
+          "demographics"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122039",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "variation",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Modulating Factors and Individual Differences",
+        "description": "Variables that influence concreteness effects on semantic processing, including task demands, stimulus properties, and individual characteristics.",
+        "keywords": [
+          "task effects",
+          "individual differences",
+          "moderating factors",
+          "context",
+          "processing demands"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122046",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1",
+          "t6.2"
+        ],
+        "order": 5,
+        "tags": [
+          "variation",
+          "complexity",
+          "preliminary"
+        ]
+      },
+      "t7.1": {
+        "id": "t7.1",
+        "name": "Word Properties and Frequency",
+        "description": "Effects of word frequency, familiarity, and other lexical properties as moderators of concreteness effects in semantic processing.",
+        "keywords": [
+          "word frequency",
+          "familiarity",
+          "lexical properties",
+          "valence",
+          "arousal"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122055",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "linguistic-factors",
+          "preliminary"
+        ]
+      },
+      "t7.2": {
+        "id": "t7.2",
+        "name": "Semantic Context and Priming",
+        "description": "How semantic context and prime relationships influence the processing of concrete and abstract target words.",
+        "keywords": [
+          "semantic priming",
+          "context",
+          "prime-target relationships",
+          "associative strength",
+          "contextual effects"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122063",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "linguistic-factors",
+          "preliminary"
+        ]
+      },
+      "t7": {
+        "id": "t7",
+        "name": "Linguistic and Contextual Factors",
+        "description": "Language-specific properties and contextual influences that interact with concreteness in shaping semantic processing.",
+        "keywords": [
+          "linguistic properties",
+          "context effects",
+          "language effects",
+          "word properties",
+          "semantic context"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:09.122070",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t7.1",
+          "t7.2"
+        ],
+        "order": 6,
+        "tags": [
+          "linguistic-factors",
+          "preliminary"
+        ]
+      }
+    },
+    "n10": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Semantic Memory Systems",
+        "description": "Organization and retrieval mechanisms of semantic knowledge in long-term memory, including categorical organization and semantic feature representation.",
+        "keywords": [
+          "semantic memory",
+          "semantic networks",
+          "feature-based representations",
+          "conceptual categories"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546500",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Lexical-Semantic Integration",
+        "description": "Processes by which word forms are connected to their semantic representations and integrated into broader meaning networks.",
+        "keywords": [
+          "word meaning",
+          "lexical access",
+          "semantic integration",
+          "form-meaning mapping"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546547",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Semantic Processing Fundamentals",
+        "description": "Core concepts and theoretical frameworks underlying how the brain processes meaning, including semantic networks, distributed representations, and lexical-semantic organization.",
+        "keywords": [
+          "semantic processing",
+          "meaning representation",
+          "lexical semantics",
+          "semantic memory",
+          "conceptual knowledge"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546562",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Concrete vs Abstract Distinction",
+        "description": "Theoretical and empirical differentiation between concrete stimuli (tangible, perceivable) and abstract concepts (intangible, symbolic), including borderline cases.",
+        "keywords": [
+          "concrete words",
+          "abstract words",
+          "concreteness ratings",
+          "semantic distinction"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546579",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Concreteness Measurement",
+        "description": "Methods for quantifying and assessing the degree of concreteness of words and concepts, including psychometric scales and rating procedures.",
+        "keywords": [
+          "concreteness ratings",
+          "imageability",
+          "psychometric measures",
+          "norming studies"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546591",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Concreteness Conceptualization",
+        "description": "Definitions, operationalizations, and theoretical frameworks of concreteness, including distinctions between concrete and abstract concepts and measurement approaches.",
+        "keywords": [
+          "concreteness",
+          "abstract concepts",
+          "concrete words",
+          "imageability",
+          "perceptual grounding"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546599",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "theory",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Functional Brain Regions",
+        "description": "Identification and characterization of brain regions showing differential activation for concrete versus abstract semantic processing, including temporal, parietal, and prefrontal areas.",
+        "keywords": [
+          "semantic regions",
+          "temporal lobe",
+          "inferior frontal gyrus",
+          "angular gyrus",
+          "region of interest"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546610",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Activation Patterns Concreteness",
+        "description": "Quantitative analysis of neural activation magnitude, spatial extent, and temporal dynamics in response to varying levels of concreteness.",
+        "keywords": [
+          "activation magnitude",
+          "hemodynamic response",
+          "statistical parametric mapping",
+          "effect size"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546622",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "empirical",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Neuroimaging Evidence",
+        "description": "Neuroimaging studies investigating brain responses to concrete versus abstract semantic stimuli using fMRI, PET, and other neuroimaging modalities.",
+        "keywords": [
+          "fMRI",
+          "neuroimaging",
+          "brain activation",
+          "semantic processing",
+          "neural correlates"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546630",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Modality-Specific Cortex Engagement",
+        "description": "Evidence that concrete semantic processing engages modality-specific sensory and motor areas corresponding to the perceived or manipulated properties of concepts.",
+        "keywords": [
+          "visual cortex",
+          "motor cortex",
+          "somatosensory cortex",
+          "modality-specific activation"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546640",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "empirical",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Perceptual Symbol Systems",
+        "description": "Theoretical framework proposing that concrete concepts are represented as perceptual simulations rather than amodal symbols.",
+        "keywords": [
+          "perceptual symbols",
+          "simulation",
+          "amodal semantics",
+          "conceptual representation"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546649",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Sensorimotor and Embodied Processing",
+        "description": "Theories and evidence for the involvement of sensory and motor cortices in semantic processing of concrete concepts, grounded in embodied cognition frameworks.",
+        "keywords": [
+          "embodied cognition",
+          "sensorimotor simulation",
+          "modality-specific",
+          "grounded semantics",
+          "motor cortex"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546656",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "theory",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Concreteness Effect Size",
+        "description": "Quantification and meta-analytic synthesis of behavioral advantages for concrete over abstract words across diverse semantic tasks.",
+        "keywords": [
+          "concreteness advantage",
+          "effect size",
+          "meta-analysis",
+          "task comparison"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546666",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Task-Dependent Modulation",
+        "description": "Examination of how concreteness effects vary across different cognitive tasks such as lexical decision, semantic judgment, memory recall, and comprehension.",
+        "keywords": [
+          "task type",
+          "semantic judgment",
+          "memory task",
+          "comprehension",
+          "experimental design"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546673",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Behavioral Performance Effects",
+        "description": "Empirical studies examining how concreteness influences behavioral measures in semantic tasks, including reaction times, accuracy, and comprehension measures.",
+        "keywords": [
+          "reaction time",
+          "concreteness effect",
+          "semantic task performance",
+          "behavioral data",
+          "lexical decision"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546681",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "ERP Components",
+        "description": "Analysis of event-related potential components, particularly N400 and other semantic-related components, showing differential responses to concrete versus abstract words.",
+        "keywords": [
+          "N400",
+          "P300",
+          "semantic component",
+          "latency",
+          "amplitude"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546689",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Electrophysiological Methods",
+        "description": "Event-related potential (ERP) and oscillatory neural activity studies revealing the temporal and spectral dynamics of concreteness effects in semantic processing.",
+        "keywords": [
+          "ERP",
+          "event-related potentials",
+          "N400",
+          "oscillations",
+          "electrophysiology"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546699",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1"
+        ],
+        "order": 5,
+        "tags": [
+          "methodology",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t7.1": {
+        "id": "t7.1",
+        "name": "Multimodal Representations",
+        "description": "Computational models that integrate linguistic and perceptual information to simulate the grounded nature of concrete semantic representations.",
+        "keywords": [
+          "multimodal",
+          "fusion",
+          "integrative models",
+          "cross-modal",
+          "representation learning"
+        ],
+        "confidence": 0.75,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546713",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t7": {
+        "id": "t7",
+        "name": "Computational Models",
+        "description": "Computational and mathematical models simulating semantic processing of concrete and abstract concepts, including neural network approaches and formal semantic models.",
+        "keywords": [
+          "computational model",
+          "neural network",
+          "semantic space",
+          "distributional semantics",
+          "simulation"
+        ],
+        "confidence": 0.78,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546723",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t7.1"
+        ],
+        "order": 6,
+        "tags": [
+          "methodology",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t8.1": {
+        "id": "t8.1",
+        "name": "Age-Related Changes",
+        "description": "Developmental and lifespan studies examining whether concreteness effects on semantic processing change from childhood through aging.",
+        "keywords": [
+          "aging",
+          "development",
+          "lifespan",
+          "older adults",
+          "cognitive aging"
+        ],
+        "confidence": 0.77,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546736",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t8",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t8": {
+        "id": "t8",
+        "name": "Individual Differences and Population Variation",
+        "description": "Investigation of how concreteness effects vary across individuals and populations based on age, language background, education, and other demographic factors.",
+        "keywords": [
+          "individual differences",
+          "aging",
+          "bilingualism",
+          "education",
+          "population effects"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:33.546749",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t8.1"
+        ],
+        "order": 7,
+        "tags": [
+          "empirical",
+          "preliminary"
+        ]
+      }
+    },
+    "n12": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Behavioral Evidence of Concreteness",
+        "description": "Experimental studies measuring reaction times, accuracy, and recall performance differences between concrete and abstract word processing.",
+        "keywords": [
+          "reaction time",
+          "lexical decision task",
+          "word recognition",
+          "recall performance",
+          "behavioral measures"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954567",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "empirical-evidence",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Theoretical Models of Concreteness",
+        "description": "Conceptual frameworks explaining why concrete words show processing advantages, including dual coding theory and experiential simulation.",
+        "keywords": [
+          "dual coding theory",
+          "embodied cognition",
+          "semantic richness hypothesis",
+          "theoretical framework",
+          "processing models"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954608",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "cognitive-models",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Concreteness Effects in Language",
+        "description": "Foundational research on how concrete versus abstract words are processed differently in cognitive and neural systems.",
+        "keywords": [
+          "concreteness effect",
+          "concrete words",
+          "abstract words",
+          "word concreteness",
+          "lexical concreteness"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954618",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "core-concept",
+          "cognitive-foundation",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Neuroimaging Findings on Concreteness",
+        "description": "Functional MRI, PET, and other neuroimaging studies showing brain activation patterns during concrete versus abstract word processing.",
+        "keywords": [
+          "fMRI",
+          "neuroimaging",
+          "brain activation",
+          "PET imaging",
+          "BOLD signal"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954629",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "empirical-evidence",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Semantic Hub and Cortical Networks",
+        "description": "Research on anterior temporal lobe and other semantic hubs, their role in integrating multimodal semantic information.",
+        "keywords": [
+          "anterior temporal lobe",
+          "semantic hub",
+          "semantic network",
+          "cortical organization",
+          "temporal cortex"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954638",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "neural-systems",
+          "brain-anatomy",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Sensorimotor and Modality-Specific Processing",
+        "description": "Studies on grounded cognition showing engagement of sensory, motor, and perceptual brain regions during semantic processing.",
+        "keywords": [
+          "sensorimotor cortex",
+          "modality-specific",
+          "perceptual simulation",
+          "embodied semantics",
+          "grounded cognition"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954646",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "embodied-cognition",
+          "brain-systems",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Neural Mechanisms of Semantic Processing",
+        "description": "Neurobiological systems underlying semantic understanding and meaning representation in the brain.",
+        "keywords": [
+          "semantic processing",
+          "semantic networks",
+          "semantic representation",
+          "neural systems",
+          "brain regions"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954654",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "neuroscience",
+          "core-concept",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Visual and Perceptual Features",
+        "description": "Role of visual imagery and perceptual properties in representing and processing concrete word meanings.",
+        "keywords": [
+          "visual imagery",
+          "perceptual properties",
+          "visual features",
+          "shape",
+          "color information"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954664",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "feature-type",
+          "concrete-words",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Action and Motor Features",
+        "description": "Engagement of motor and kinesthetic representations during semantic processing of action-related and concrete words.",
+        "keywords": [
+          "action semantics",
+          "motor simulation",
+          "kinesthetic",
+          "motor cortex",
+          "action verbs"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954674",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "feature-type",
+          "embodied-cognition",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Affective and Emotional Features",
+        "description": "How emotional and evaluative properties contribute to semantic representations in concrete versus abstract word comprehension.",
+        "keywords": [
+          "emotional features",
+          "affective processing",
+          "valence",
+          "emotional content",
+          "evaluative meaning"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954682",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "feature-type",
+          "affect",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Semantic Feature Integration",
+        "description": "How different types of semantic features (visual, motor, affective, linguistic) are combined during comprehension of concrete versus abstract words.",
+        "keywords": [
+          "semantic features",
+          "multimodal integration",
+          "feature binding",
+          "feature types",
+          "semantic attributes"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954690",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "cognitive-process",
+          "semantics",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Neuroimaging and Electrophysiology",
+        "description": "Technical approaches including fMRI, EEG, MEG, and intracranial recordings to measure brain activity during semantic processing.",
+        "keywords": [
+          "EEG",
+          "MEG",
+          "fMRI",
+          "electrophysiology",
+          "event-related potentials"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954699",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "neuroimaging",
+          "technical-method",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Cognitive Behavioral Tasks",
+        "description": "Experimental paradigms assessing behavioral performance including lexical decision, semantic judgment, and priming tasks.",
+        "keywords": [
+          "lexical decision",
+          "semantic priming",
+          "judgment tasks",
+          "behavioral paradigm",
+          "response time"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954707",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "behavioral-method",
+          "cognitive-task",
+          "preliminary"
+        ]
+      },
+      "t4.3": {
+        "id": "t4.3",
+        "name": "Computational and Modeling Approaches",
+        "description": "Mathematical and computational models of semantic processing, neural simulations, and distributional semantic analyses.",
+        "keywords": [
+          "computational modeling",
+          "neural network",
+          "word embeddings",
+          "semantic space",
+          "distributional semantics"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954715",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "computational-method",
+          "modeling",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Experimental Methodologies",
+        "description": "Research techniques and experimental designs used to investigate concreteness effects and semantic processing.",
+        "keywords": [
+          "experimental design",
+          "methodology",
+          "research methods",
+          "paradigms",
+          "measurement techniques"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954721",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2",
+          "t4.3"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Individual Differences and Demographics",
+        "description": "Variation in concreteness effects based on age, education, language background, and individual cognitive abilities.",
+        "keywords": [
+          "individual differences",
+          "age effects",
+          "education",
+          "cognitive ability",
+          "language background"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954730",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "individual-factors",
+          "demographics",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Task Context and Attention",
+        "description": "How task demands, attentional state, and experimental context modulate the concreteness effect.",
+        "keywords": [
+          "task demands",
+          "attention",
+          "context effects",
+          "task-specific processing",
+          "intentionality"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954739",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "context",
+          "attention",
+          "preliminary"
+        ]
+      },
+      "t5.3": {
+        "id": "t5.3",
+        "name": "Language and Linguistic Context",
+        "description": "Effects of language typology, syntactic context, semantic relationships, and cross-linguistic variation on concreteness processing.",
+        "keywords": [
+          "linguistic context",
+          "syntax",
+          "language typology",
+          "semantic relations",
+          "discourse context"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954747",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "linguistic",
+          "context",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Factors Modulating Concreteness Effects",
+        "description": "Variables and conditions that influence the magnitude or manifestation of concreteness effects in semantic processing.",
+        "keywords": [
+          "modulating factors",
+          "boundary conditions",
+          "contextual effects",
+          "individual differences",
+          "processing context"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T09:59:55.954755",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2",
+          "t5.3"
+        ],
+        "order": 4,
+        "tags": [
+          "variables",
+          "moderators",
+          "preliminary"
+        ]
+      }
+    },
+    "n15": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Semantic Representation Models",
+        "description": "Theoretical models explaining how semantic information is encoded and organized in cognitive systems, including distributed and symbolic approaches.",
+        "keywords": [
+          "semantic representation",
+          "conceptual space",
+          "distributed semantics",
+          "symbolic semantics"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677917",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Semantic Features and Attributes",
+        "description": "Characteristics of semantic content including feature-based representations and attribute structures that differentiate concepts.",
+        "keywords": [
+          "semantic features",
+          "conceptual attributes",
+          "feature extraction",
+          "dimensional representations"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677950",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Lexical Access and Retrieval",
+        "description": "Mechanisms by which the brain retrieves semantic information from memory during word comprehension and production tasks.",
+        "keywords": [
+          "lexical access",
+          "semantic retrieval",
+          "word recognition",
+          "priming effects"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677959",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "process",
+          "mechanism",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Semantic Processing Fundamentals",
+        "description": "Core concepts of semantic processing, including definition, computational models, and theoretical frameworks for understanding how the brain processes meaning.",
+        "keywords": [
+          "semantic processing",
+          "meaning representation",
+          "semantic networks",
+          "computational models"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677966",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "theoretical-foundation",
+          "core-concept",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Concreteness Definition and Operationalization",
+        "description": "How concreteness is conceptually defined and operationally measured in research, including rating scales and computational metrics.",
+        "keywords": [
+          "concreteness ratings",
+          "operationalization",
+          "measurement scales",
+          "word characteristics"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677975",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "measurement",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Imagery and Perceptual Grounding",
+        "description": "The role of mental imagery and sensory-perceptual properties in concrete versus abstract concept processing.",
+        "keywords": [
+          "imagery",
+          "perceptual grounding",
+          "sensorimotor cortex",
+          "embodied cognition"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677983",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "embodiment",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Confounded Variables in Concreteness",
+        "description": "Discussion of variables correlated with concreteness (frequency, familiarity, context availability) that may confound effects.",
+        "keywords": [
+          "confounding variables",
+          "word frequency",
+          "familiarity",
+          "context availability",
+          "statistical control"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677990",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "challenge",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Concreteness as a Semantic Dimension",
+        "description": "Examination of concreteness as a fundamental semantic property, its definition, measurement, and relationship to other word dimensions.",
+        "keywords": [
+          "concreteness",
+          "abstract-concrete dimension",
+          "word concreteness",
+          "imagery"
+        ],
+        "confidence": 0.96,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.677996",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "core-concept",
+          "measurement",
+          "key-variable",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "fMRI Studies of Concreteness",
+        "description": "Functional magnetic resonance imaging investigations of brain regions differentially activated by concrete versus abstract semantic content.",
+        "keywords": [
+          "fMRI",
+          "functional imaging",
+          "semantic cognition",
+          "BOLD signal"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678004",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "empirical-evidence",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Electrophysiology and Event-Related Potentials",
+        "description": "EEG and MEG studies measuring temporal dynamics of semantic processing through event-related potentials and oscillatory activity.",
+        "keywords": [
+          "EEG",
+          "MEG",
+          "ERPs",
+          "N400",
+          "event-related potentials"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678012",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "temporal-dynamics",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Regional Brain Involvement",
+        "description": "Identification of specific brain regions (temporal, prefrontal, sensorimotor cortices) showing differential engagement for concrete versus abstract processing.",
+        "keywords": [
+          "temporal lobe",
+          "prefrontal cortex",
+          "sensorimotor cortex",
+          "angular gyrus",
+          "brain regions"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678019",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "empirical-evidence",
+          "anatomy",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Neuroimaging and Brain Activation Patterns",
+        "description": "Studies examining how concrete and abstract words activate different brain regions using neuroimaging techniques like fMRI, PET, and EEG.",
+        "keywords": [
+          "neuroimaging",
+          "fMRI",
+          "brain activation",
+          "semantic processing regions"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678024",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "empirical-evidence",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Concreteness Advantage in Tasks",
+        "description": "Demonstration of improved performance for concrete words across various cognitive tasks including memory, comprehension, and decision tasks.",
+        "keywords": [
+          "concreteness advantage",
+          "memory performance",
+          "recall",
+          "recognition",
+          "processing speed"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678032",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "empirical-evidence",
+          "finding",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Semantic Priming and Facilitation",
+        "description": "Priming effects demonstrating facilitated processing of semantically related concrete versus abstract words and targets.",
+        "keywords": [
+          "semantic priming",
+          "facilitation",
+          "relatedness",
+          "priming effects",
+          "SOA effects"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678039",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "empirical-evidence",
+          "process",
+          "preliminary"
+        ]
+      },
+      "t4.3": {
+        "id": "t4.3",
+        "name": "Task-Dependent Processing Effects",
+        "description": "Examination of how concreteness effects vary depending on task requirements such as semantic judgment, lexical decision, or reading.",
+        "keywords": [
+          "task effects",
+          "semantic judgment",
+          "lexical decision",
+          "reading comprehension",
+          "task demands"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678046",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "variation",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Behavioral and Cognitive Performance Effects",
+        "description": "Studies measuring behavioral outcomes and cognitive task performance differences when processing concrete versus abstract words.",
+        "keywords": [
+          "behavioral effects",
+          "cognitive performance",
+          "reaction time",
+          "accuracy"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678052",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2",
+          "t4.3"
+        ],
+        "order": 3,
+        "tags": [
+          "empirical-evidence",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Dual Coding Theory",
+        "description": "Theoretical framework proposing that concrete words benefit from both verbal and imaginal coding systems for processing and storage.",
+        "keywords": [
+          "dual coding",
+          "verbal code",
+          "imaginal code",
+          "Paivio"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678061",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Embodied Simulation and Sensorimotor Grounding",
+        "description": "Theory that concrete concepts activate sensorimotor cortices through embodied simulation, providing richer neural representation.",
+        "keywords": [
+          "embodied simulation",
+          "sensorimotor grounding",
+          "embodied cognition",
+          "sensory activation"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678068",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "embodiment",
+          "preliminary"
+        ]
+      },
+      "t5.3": {
+        "id": "t5.3",
+        "name": "Context Availability and Feature Integration",
+        "description": "Framework explaining concreteness effects through differential availability of contextual and semantic features for concept integration.",
+        "keywords": [
+          "context availability",
+          "feature integration",
+          "semantic richness",
+          "feature distinctiveness"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678075",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Theoretical Mechanisms Explaining Concreteness Effects",
+        "description": "Proposed mechanisms and theories explaining why and how concreteness influences semantic processing, including dual coding and embodied cognition.",
+        "keywords": [
+          "mechanism",
+          "theoretical explanation",
+          "dual coding theory",
+          "embodied cognition"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678081",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2",
+          "t5.3"
+        ],
+        "order": 4,
+        "tags": [
+          "theory",
+          "explanation",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Sentence and Discourse Comprehension",
+        "description": "Studies examining how word concreteness influences comprehension processes at the sentence and discourse levels.",
+        "keywords": [
+          "sentence comprehension",
+          "discourse processing",
+          "reading",
+          "text comprehension"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678089",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t6.2": {
+        "id": "t6.2",
+        "name": "Word-Class and Grammatical Interactions",
+        "description": "Examination of how concreteness effects interact with grammatical categories (nouns, verbs, adjectives) and syntactic structures.",
+        "keywords": [
+          "word class",
+          "grammatical category",
+          "nouns",
+          "verbs",
+          "syntactic processing"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678096",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "linguistic-context",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Language and Linguistic Processing",
+        "description": "Effects of concreteness on broader linguistic phenomena including syntax, sentence comprehension, and discourse processing.",
+        "keywords": [
+          "linguistic processing",
+          "syntax",
+          "sentence comprehension",
+          "discourse"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678103",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1",
+          "t6.2"
+        ],
+        "order": 5,
+        "tags": [
+          "application",
+          "linguistic-context",
+          "preliminary"
+        ]
+      },
+      "t7.1": {
+        "id": "t7.1",
+        "name": "Age-Related Changes in Concreteness Processing",
+        "description": "Lifespan developmental studies examining how concreteness effects change from childhood through aging in healthy populations.",
+        "keywords": [
+          "aging",
+          "lifespan development",
+          "older adults",
+          "children",
+          "age effects"
+        ],
+        "confidence": 0.79,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678110",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "variation",
+          "development",
+          "preliminary"
+        ]
+      },
+      "t7.2": {
+        "id": "t7.2",
+        "name": "Individual Differences and Cognitive Abilities",
+        "description": "Investigation of relationships between concreteness effects and individual differences in cognitive abilities, verbal skills, or imagery capacity.",
+        "keywords": [
+          "individual differences",
+          "cognitive abilities",
+          "verbal ability",
+          "imagery ability",
+          "working memory"
+        ],
+        "confidence": 0.76,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678116",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "variation",
+          "preliminary"
+        ]
+      },
+      "t7": {
+        "id": "t7",
+        "name": "Special Populations and Individual Differences",
+        "description": "Examination of how concreteness effects may vary across different populations and individual characteristics in healthy samples.",
+        "keywords": [
+          "individual differences",
+          "population variation",
+          "healthy adults",
+          "age effects"
+        ],
+        "confidence": 0.78,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:22.678121",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t7.1",
+          "t7.2"
+        ],
+        "order": 6,
+        "tags": [
+          "variation",
+          "clinical-relevance",
+          "preliminary"
+        ]
+      }
+    },
+    "n18": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Semantic Memory Models",
+        "description": "Different computational and cognitive models of how semantic information is organized and retrieved in memory, including distributed and localist approaches.",
+        "keywords": [
+          "semantic memory",
+          "distributed semantics",
+          "localist models",
+          "LSA",
+          "word2vec"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774600",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "models",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Conceptual Knowledge Representation",
+        "description": "Theories explaining how concepts are mentally represented, including embodied, modal, and amodal theories of conceptual organization.",
+        "keywords": [
+          "conceptual representation",
+          "embodied cognition",
+          "modal symbols",
+          "amodal representation",
+          "feature-based models"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774651",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "representation",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Concreteness Effects in Language",
+        "description": "Theoretical explanations for why concrete words (referring to tangible objects) are processed differently than abstract words, including dual-coding theory and contextual availability.",
+        "keywords": [
+          "concreteness effect",
+          "concrete words",
+          "abstract words",
+          "dual-coding theory",
+          "imageability"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774663",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "theory",
+          "concreteness",
+          "central",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Theoretical Foundations of Semantic Processing",
+        "description": "Core theoretical frameworks and conceptual models that explain how the brain processes semantic information, including theories of meaning representation and semantic networks.",
+        "keywords": [
+          "semantic processing",
+          "meaning representation",
+          "conceptual knowledge",
+          "semantic networks",
+          "propositional theory"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774671",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Brain Regions in Semantic Processing",
+        "description": "Identification and characterization of specific brain regions that activate during semantic tasks, including inferior temporal cortex, anterior temporal lobes, and semantic hub regions.",
+        "keywords": [
+          "anterior temporal lobes",
+          "inferior temporal cortex",
+          "semantic hub",
+          "MTG",
+          "inferior frontal gyrus"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774682",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "neural",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Neuroimaging Methodologies",
+        "description": "Technical approaches and imaging methods used to investigate semantic processing, including fMRI, PET, MEG, and EEG.",
+        "keywords": [
+          "fMRI",
+          "PET imaging",
+          "MEG",
+          "EEG",
+          "neuroimaging techniques"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774692",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Concreteness-Related Neural Activation",
+        "description": "Neural differences in brain activation patterns when processing concrete versus abstract words, including differential engagement of sensory and modal cortices.",
+        "keywords": [
+          "concrete word processing",
+          "abstract word processing",
+          "sensory cortex activation",
+          "neural differences",
+          "modality-specific regions"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774701",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "neural",
+          "concreteness",
+          "central",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Neuroimaging and Brain Correlates",
+        "description": "Neurobiological findings on brain regions and networks involved in semantic processing, measured through various neuroimaging techniques.",
+        "keywords": [
+          "fMRI",
+          "neuroimaging",
+          "brain activation",
+          "semantic network",
+          "neural correlates"
+        ],
+        "confidence": 0.96,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774709",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "neural",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Semantic Decision Tasks",
+        "description": "Common behavioral paradigms used to measure semantic processing, including semantic relatedness judgment, categorization, and priming tasks.",
+        "keywords": [
+          "semantic relatedness",
+          "categorization task",
+          "semantic priming",
+          "judgment task",
+          "lexical decision"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774719",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "behavioral",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Reaction Time and Accuracy Analysis",
+        "description": "Quantitative analysis of processing speed and error rates as indicators of semantic processing efficiency, particularly comparing concrete and abstract words.",
+        "keywords": [
+          "reaction time",
+          "response latency",
+          "accuracy",
+          "error rate",
+          "processing efficiency"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774729",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "quantitative",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Concreteness Effects on Performance",
+        "description": "Empirical findings on how concreteness influences behavioral outcomes in semantic tasks, including reaction time advantages and enhanced accuracy for concrete items.",
+        "keywords": [
+          "concreteness advantage",
+          "reaction time benefit",
+          "accuracy improvement",
+          "concrete facilitation",
+          "processing speed"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774738",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "concreteness",
+          "central",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Behavioral and Cognitive Measures",
+        "description": "Behavioral tasks and cognitive measures used to quantify semantic processing performance and effects of concreteness on processing efficiency.",
+        "keywords": [
+          "semantic task",
+          "response time",
+          "accuracy",
+          "behavioral measure",
+          "cognitive performance"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774745",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Neural Connectivity and Networks",
+        "description": "Functional and structural connectivity patterns between brain regions during semantic processing, including network integration and segregation.",
+        "keywords": [
+          "functional connectivity",
+          "structural connectivity",
+          "network integration",
+          "semantic network",
+          "graph theory"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774755",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "neural",
+          "network",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Electrophysiological Signals",
+        "description": "Neural oscillations and event-related potentials that reflect semantic processing, including N400 component and theta/alpha band activity.",
+        "keywords": [
+          "N400",
+          "ERP components",
+          "neural oscillations",
+          "theta band",
+          "alpha oscillations"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774763",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "neural",
+          "electrophysiology",
+          "preliminary"
+        ]
+      },
+      "t4.3": {
+        "id": "t4.3",
+        "name": "Sensorimotor Cortex Engagement",
+        "description": "Role of sensory and motor cortices in semantic processing, particularly for concrete words, and the neural mechanisms supporting embodied semantic representations.",
+        "keywords": [
+          "sensorimotor cortex",
+          "embodied semantics",
+          "modal grounding",
+          "perceptual simulation",
+          "motor simulation"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774772",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "neural",
+          "concreteness",
+          "embodied",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Neurophysiological Mechanisms",
+        "description": "Underlying neurophysiological processes and mechanisms that explain how neural activity translates to semantic processing differences based on concreteness.",
+        "keywords": [
+          "neural mechanisms",
+          "neural oscillations",
+          "connectivity",
+          "BOLD signal",
+          "neurotransmission"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774779",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2",
+          "t4.3"
+        ],
+        "order": 3,
+        "tags": [
+          "neural",
+          "mechanistic",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Concreteness as Semantic Dimension",
+        "description": "Characterization of concreteness as a fundamental semantic dimension, its measurement, and relationship to other word properties such as imageability and familiarity.",
+        "keywords": [
+          "concreteness dimension",
+          "imageability",
+          "familiarity",
+          "word concreteness",
+          "semantic properties"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774789",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "linguistic",
+          "concreteness",
+          "central",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Semantic Context and Compositionality",
+        "description": "How semantic context and compositional meaning affect the processing of concrete and abstract words within sentences or larger discourse.",
+        "keywords": [
+          "semantic context",
+          "compositionality",
+          "contextual meaning",
+          "sentence processing",
+          "discourse semantics"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774797",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "linguistic",
+          "preliminary"
+        ]
+      },
+      "t5.3": {
+        "id": "t5.3",
+        "name": "Associated Linguistic Variables",
+        "description": "Other linguistic factors correlated with concreteness that influence semantic processing, including frequency, word length, age of acquisition, and semantic diversity.",
+        "keywords": [
+          "word frequency",
+          "word length",
+          "age of acquisition",
+          "semantic diversity",
+          "contextual diversity"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774805",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "linguistic",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Linguistic and Semantic Dimensions",
+        "description": "Linguistic properties and semantic dimensions of words that interact with concreteness to influence processing, including word frequency, familiarity, and semantic richness.",
+        "keywords": [
+          "word properties",
+          "semantic dimensions",
+          "concreteness",
+          "word frequency",
+          "semantic features"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774812",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2",
+          "t5.3"
+        ],
+        "order": 4,
+        "tags": [
+          "linguistic",
+          "stimulus-level",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Developmental Variations",
+        "description": "Changes in concreteness effects across lifespan development, including childhood semantic development, adult aging, and effects in older adults.",
+        "keywords": [
+          "developmental differences",
+          "aging",
+          "child development",
+          "lifespan changes",
+          "older adults"
+        ],
+        "confidence": 0.81,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774822",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "clinical",
+          "developmental",
+          "preliminary"
+        ]
+      },
+      "t6.2": {
+        "id": "t6.2",
+        "name": "Individual Differences",
+        "description": "Variation in concreteness effects related to individual characteristics such as literacy, language exposure, cognitive ability, and semantic knowledge.",
+        "keywords": [
+          "individual differences",
+          "cognitive ability",
+          "vocabulary knowledge",
+          "language experience",
+          "literacy"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774830",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "individual-differences",
+          "preliminary"
+        ]
+      },
+      "t6.3": {
+        "id": "t6.3",
+        "name": "Healthy Brain Baseline Effects",
+        "description": "Characterization of normal concreteness effects in cognitively intact, healthy individuals as a baseline for comparison with clinical populations.",
+        "keywords": [
+          "healthy controls",
+          "normal cognition",
+          "baseline effects",
+          "neurotypical",
+          "typical development"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774839",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "clinical",
+          "central",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Clinical and Population Differences",
+        "description": "Variations in concreteness effects across different populations and clinical groups, including healthy controls and individuals with language or cognitive disorders.",
+        "keywords": [
+          "population differences",
+          "individual differences",
+          "clinical groups",
+          "healthy controls",
+          "patient populations"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774846",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1",
+          "t6.2",
+          "t6.3"
+        ],
+        "order": 5,
+        "tags": [
+          "clinical",
+          "individual-differences",
+          "preliminary"
+        ]
+      },
+      "t7.1": {
+        "id": "t7.1",
+        "name": "Modality Effects",
+        "description": "How concreteness effects vary across different presentation modalities, such as reading, listening, and visual imagery tasks.",
+        "keywords": [
+          "reading",
+          "auditory processing",
+          "visual modality",
+          "spoken language",
+          "stimulus modality"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774855",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodological",
+          "modality",
+          "preliminary"
+        ]
+      },
+      "t7.2": {
+        "id": "t7.2",
+        "name": "Cross-linguistic Generalizability",
+        "description": "Examination of whether concreteness effects on semantic processing are universal across different languages or culture-specific.",
+        "keywords": [
+          "cross-linguistic",
+          "language universals",
+          "multilingual",
+          "language differences",
+          "translation"
+        ],
+        "confidence": 0.78,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774863",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "comparative",
+          "cross-linguistic",
+          "preliminary"
+        ]
+      },
+      "t7.3": {
+        "id": "t7.3",
+        "name": "Stimulus Type Variations",
+        "description": "Effects of different stimulus materials on concreteness processing, including isolated words, phrases, sentences, and pictures.",
+        "keywords": [
+          "word stimuli",
+          "sentence context",
+          "phrase processing",
+          "pictorial stimuli",
+          "stimulus materials"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774871",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodological",
+          "preliminary"
+        ]
+      },
+      "t7": {
+        "id": "t7",
+        "name": "Multimodal and Cross-linguistic Evidence",
+        "description": "Studies examining concreteness effects across different modalities, languages, and stimuli types, including text, speech, and visual modalities.",
+        "keywords": [
+          "multimodal processing",
+          "cross-linguistic",
+          "modality differences",
+          "visual processing",
+          "auditory processing"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774879",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t7.1",
+          "t7.2",
+          "t7.3"
+        ],
+        "order": 6,
+        "tags": [
+          "methodological",
+          "comparative",
+          "preliminary"
+        ]
+      },
+      "t8.1": {
+        "id": "t8.1",
+        "name": "Early vs. Late Processing",
+        "description": "Distinction between early automatic semantic access and later controlled semantic processes, and how concreteness influences each stage.",
+        "keywords": [
+          "early processing",
+          "late processing",
+          "automatic processes",
+          "controlled processes",
+          "semantic access"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774888",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t8",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "temporal",
+          "mechanistic",
+          "preliminary"
+        ]
+      },
+      "t8.2": {
+        "id": "t8.2",
+        "name": "Time-course of Concreteness Effects",
+        "description": "Temporal dynamics of how concreteness emerges and evolves during word comprehension, from initial access to full semantic integration.",
+        "keywords": [
+          "concreteness effect timing",
+          "temporal resolution",
+          "millisecond dynamics",
+          "event timeline",
+          "latency measures"
+        ],
+        "confidence": 0.81,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774896",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t8",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "temporal",
+          "concreteness",
+          "preliminary"
+        ]
+      },
+      "t8": {
+        "id": "t8",
+        "name": "Temporal Dynamics and Processing Stages",
+        "description": "Time-course of semantic processing and how concreteness effects emerge at different stages of lexical and semantic access.",
+        "keywords": [
+          "temporal dynamics",
+          "processing stages",
+          "time-course",
+          "early effects",
+          "late effects"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774903",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t8.1",
+          "t8.2"
+        ],
+        "order": 7,
+        "tags": [
+          "temporal",
+          "mechanistic",
+          "preliminary"
+        ]
+      },
+      "t9.1": {
+        "id": "t9.1",
+        "name": "Meta-analytic Reviews",
+        "description": "Quantitative syntheses of empirical findings on concreteness effects, examining consistency, effect sizes, and moderating factors across studies.",
+        "keywords": [
+          "meta-analysis",
+          "effect size",
+          "systematic review",
+          "consistency",
+          "moderators"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774912",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t9",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "meta-analysis",
+          "preliminary"
+        ]
+      },
+      "t9.2": {
+        "id": "t9.2",
+        "name": "Theoretical Model Integration",
+        "description": "Attempts to unify different theoretical frameworks and empirical findings into comprehensive models explaining concreteness effects on semantic processing.",
+        "keywords": [
+          "unified theory",
+          "model integration",
+          "theoretical framework",
+          "explanation",
+          "mechanistic models"
+        ],
+        "confidence": 0.81,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774920",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t9",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "synthesis",
+          "preliminary"
+        ]
+      },
+      "t9": {
+        "id": "t9",
+        "name": "Integration and Synthesis",
+        "description": "Meta-analyses, reviews, and theoretical syntheses integrating findings across multiple studies to establish robust conclusions about concreteness effects on semantic processing.",
+        "keywords": [
+          "meta-analysis",
+          "review",
+          "synthesis",
+          "effect sizes",
+          "theoretical integration"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:00:59.774927",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t9.1",
+          "t9.2"
+        ],
+        "order": 8,
+        "tags": [
+          "meta-analysis",
+          "synthesis",
+          "preliminary"
+        ]
+      }
+    },
+    "n20": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Concreteness Definition and Measurement",
+        "description": "Methods for defining and quantifying concreteness in linguistic stimuli, including rating scales and corpus-based approaches.",
+        "keywords": [
+          "concreteness ratings",
+          "imagability",
+          "perceptual experience",
+          "measurement scales",
+          "norms"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064149",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Theoretical Models of Semantic Processing",
+        "description": "Major theoretical frameworks explaining how semantic information is processed, including embodied cognition and distributional models.",
+        "keywords": [
+          "embodied cognition",
+          "grounded semantics",
+          "semantic networks",
+          "symbol grounding",
+          "distributed semantics"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064198",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Concreteness Effect in Behavior",
+        "description": "Empirical behavioral findings showing that concrete words are typically processed faster and remembered better than abstract words.",
+        "keywords": [
+          "concreteness effect",
+          "memory advantage",
+          "reaction times",
+          "recall performance",
+          "lexical processing"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064211",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "empirical",
+          "behavior",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Concreteness in Language and Cognition",
+        "description": "Foundational concepts defining concreteness as a linguistic and cognitive dimension, including theoretical frameworks for understanding concrete versus abstract word processing.",
+        "keywords": [
+          "concreteness",
+          "abstract words",
+          "concrete words",
+          "lexical properties",
+          "semantic dimension"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064220",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundation",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "fMRI Studies of Concreteness",
+        "description": "Functional magnetic resonance imaging investigations of brain regions differentially activated during concrete versus abstract word processing.",
+        "keywords": [
+          "fMRI",
+          "functional activation",
+          "BOLD signal",
+          "temporal dynamics",
+          "spatial patterns"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064231",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "empirical",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Electrophysiological Measures",
+        "description": "Event-related potentials (ERP) and electroencephalography (EEG) findings on semantic processing timing and neural dynamics.",
+        "keywords": [
+          "ERP",
+          "N400",
+          "P600",
+          "EEG",
+          "event-related potentials",
+          "latency"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064240",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "temporal resolution",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Structural Brain Differences",
+        "description": "Neuroanatomical variations and white matter connectivity related to semantic processing abilities.",
+        "keywords": [
+          "DTI",
+          "white matter",
+          "structural connectivity",
+          "gray matter volume",
+          "neural anatomy"
+        ],
+        "confidence": 0.72,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064248",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.4": {
+        "id": "t2.4",
+        "name": "Functional Connectivity Networks",
+        "description": "Analysis of functional brain networks and inter-regional communication patterns during semantic processing.",
+        "keywords": [
+          "functional connectivity",
+          "network analysis",
+          "resting-state",
+          "graph theory",
+          "synchronization"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064256",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "network",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Neuroimaging and Brain Activity",
+        "description": "Neural mechanisms underlying semantic processing of concrete and abstract words using various neuroimaging modalities.",
+        "keywords": [
+          "fMRI",
+          "neuroimaging",
+          "brain activation",
+          "neural correlates",
+          "semantic processing"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064264",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3",
+          "t2.4"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "neuroscience",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Temporal and Anterior Temporal Cortex",
+        "description": "Role of temporal lobe regions, particularly anterior temporal cortex, in semantic representation and integration.",
+        "keywords": [
+          "anterior temporal cortex",
+          "temporal lobe",
+          "ATL",
+          "semantic hub",
+          "consolidation"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064278",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "neuroscience",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Sensorimotor and Motor Cortex",
+        "description": "Involvement of motor and somatosensory cortices in grounding semantic meaning through embodied representations.",
+        "keywords": [
+          "motor cortex",
+          "sensorimotor cortex",
+          "embodied semantics",
+          "simulation",
+          "action"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064291",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "neuroscience",
+          "embodied",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Prefrontal Cortex Function",
+        "description": "Contribution of prefrontal regions to semantic control, integration, and disambiguation during word processing.",
+        "keywords": [
+          "prefrontal cortex",
+          "executive function",
+          "semantic control",
+          "IFG",
+          "integration"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064299",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "neuroscience",
+          "preliminary"
+        ]
+      },
+      "t3.4": {
+        "id": "t3.4",
+        "name": "Parietal and Posterior Regions",
+        "description": "Parietal cortex and posterior temporal regions involved in multimodal semantic integration and conceptual processing.",
+        "keywords": [
+          "parietal cortex",
+          "angular gyrus",
+          "posterior cingulate",
+          "multimodal",
+          "conceptual"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064306",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 3,
+        "tags": [
+          "neuroscience",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Regional Brain Systems for Semantics",
+        "description": "Specific brain regions and neural systems implicated in semantic processing of concrete and abstract information.",
+        "keywords": [
+          "semantic regions",
+          "temporal lobe",
+          "prefrontal cortex",
+          "sensorimotor cortex",
+          "angular gyrus"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064316",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3",
+          "t3.4"
+        ],
+        "order": 2,
+        "tags": [
+          "neuroscience",
+          "anatomy",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Visual Semantics Processing",
+        "description": "Role of visual cortex and visual processing areas in representing visual properties of concrete concepts.",
+        "keywords": [
+          "visual cortex",
+          "visual semantics",
+          "imagery",
+          "visual features",
+          "V1"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064328",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "neuroscience",
+          "visual",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Cross-Modal Integration",
+        "description": "Integration of information across multiple sensory modalities during semantic processing of concrete words.",
+        "keywords": [
+          "cross-modal",
+          "multisensory integration",
+          "multimodal semantic",
+          "sensory convergence",
+          "integration"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064340",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "neuroscience",
+          "integration",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Sensory and Modality-Specific Processing",
+        "description": "Neural processing of sensory and perceptual attributes associated with concrete words across different modalities.",
+        "keywords": [
+          "sensory cortex",
+          "modality-specific",
+          "visual processing",
+          "perceptual simulation",
+          "multimodal"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064347",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "neuroscience",
+          "embodied",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Early Versus Late Semantic Effects",
+        "description": "Temporal dynamics distinguishing early automatic semantic effects from later controlled semantic integration.",
+        "keywords": [
+          "semantic priming",
+          "automatic processing",
+          "controlled processing",
+          "N400",
+          "stages"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064357",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "temporal",
+          "cognitive",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Semantic Integration and Composition",
+        "description": "Processes by which individual word meanings are combined and integrated into coherent semantic representations.",
+        "keywords": [
+          "semantic composition",
+          "integration",
+          "combinatorial semantics",
+          "meaning assembly",
+          "context"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064365",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "cognitive",
+          "semantic",
+          "preliminary"
+        ]
+      },
+      "t5.3": {
+        "id": "t5.3",
+        "name": "Attention and Resource Allocation",
+        "description": "Role of attention and cognitive resources in processing concrete versus abstract semantic information.",
+        "keywords": [
+          "attention",
+          "cognitive load",
+          "resource allocation",
+          "working memory",
+          "capacity"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064374",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "cognitive",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Cognitive Mechanisms and Processing Dynamics",
+        "description": "Cognitive and temporal aspects of how the brain processes concrete versus abstract semantic information.",
+        "keywords": [
+          "semantic processing",
+          "cognitive mechanisms",
+          "processing stages",
+          "dynamics",
+          "temporal"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064380",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2",
+          "t5.3"
+        ],
+        "order": 4,
+        "tags": [
+          "cognition",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Age-Related Changes",
+        "description": "Effects of aging on concreteness processing and neural correlates of semantic processing across lifespan.",
+        "keywords": [
+          "aging",
+          "lifespan",
+          "older adults",
+          "age effects",
+          "longitudinal"
+        ],
+        "confidence": 0.81,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064389",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "lifespan",
+          "preliminary"
+        ]
+      },
+      "t6.2": {
+        "id": "t6.2",
+        "name": "Cognitive Ability and Expertise",
+        "description": "Relationship between cognitive abilities, expertise, and differential processing of concrete and abstract semantic information.",
+        "keywords": [
+          "cognitive ability",
+          "IQ",
+          "expertise",
+          "domain knowledge",
+          "intelligence"
+        ],
+        "confidence": 0.76,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064398",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "individual",
+          "preliminary"
+        ]
+      },
+      "t6.3": {
+        "id": "t6.3",
+        "name": "Language Background and Bilingualism",
+        "description": "Effects of language experience, bilingualism, and native language on concreteness effects and semantic processing.",
+        "keywords": [
+          "bilingualism",
+          "language experience",
+          "linguistic background",
+          "cross-linguistic",
+          "multilingual"
+        ],
+        "confidence": 0.74,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064405",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "individual",
+          "language",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Individual Differences and Variability",
+        "description": "Factors affecting variability in how individuals process semantic information related to concreteness.",
+        "keywords": [
+          "individual differences",
+          "variability",
+          "age",
+          "education",
+          "cognitive ability"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064412",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1",
+          "t6.2",
+          "t6.3"
+        ],
+        "order": 5,
+        "tags": [
+          "individual",
+          "variability",
+          "preliminary"
+        ]
+      },
+      "t7.1": {
+        "id": "t7.1",
+        "name": "Semantic Dementia and Temporal Lobe Degeneration",
+        "description": "Selective semantic impairments and dissociations between concrete and abstract word processing in semantic dementia.",
+        "keywords": [
+          "semantic dementia",
+          "primary progressive aphasia",
+          "temporal lobe",
+          "semantic loss",
+          "degradation"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064421",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t7.2": {
+        "id": "t7.2",
+        "name": "Aphasia and Acquired Language Disorders",
+        "description": "Concreteness effects in different types of aphasia following stroke or brain injury.",
+        "keywords": [
+          "aphasia",
+          "stroke",
+          "brain injury",
+          "language disorder",
+          "semantic deficits"
+        ],
+        "confidence": 0.79,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064428",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t7.3": {
+        "id": "t7.3",
+        "name": "Neurodevelopmental Disorders",
+        "description": "Semantic processing and concreteness effects in developmental language disorders and neurodevelopmental conditions.",
+        "keywords": [
+          "dyslexia",
+          "language disorder",
+          "autism",
+          "developmental",
+          "neurodevelopmental"
+        ],
+        "confidence": 0.7,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064435",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t7",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "clinical",
+          "developmental",
+          "preliminary"
+        ]
+      },
+      "t7": {
+        "id": "t7",
+        "name": "Clinical and Pathological Cases",
+        "description": "Effects of neurological and psychiatric disorders on concreteness processing and semantic impairments.",
+        "keywords": [
+          "semantic dementia",
+          "aphasia",
+          "neurological disorders",
+          "impairment",
+          "clinical"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064441",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t7.1",
+          "t7.2",
+          "t7.3"
+        ],
+        "order": 6,
+        "tags": [
+          "clinical",
+          "pathology",
+          "preliminary"
+        ]
+      },
+      "t8.1": {
+        "id": "t8.1",
+        "name": "Sentence and Discourse Context",
+        "description": "Influence of surrounding sentence and discourse context on how concrete and abstract words are processed semantically.",
+        "keywords": [
+          "sentence context",
+          "discourse",
+          "contextual constraint",
+          "semantic fit",
+          "congruity"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064450",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t8",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "linguistic",
+          "context",
+          "preliminary"
+        ]
+      },
+      "t8.2": {
+        "id": "t8.2",
+        "name": "Ambiguity and Word Polysemy",
+        "description": "Effects of concreteness on processing of ambiguous words and words with multiple semantic meanings.",
+        "keywords": [
+          "ambiguity",
+          "polysemy",
+          "multiple meanings",
+          "homonymy",
+          "sense selection"
+        ],
+        "confidence": 0.77,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064456",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t8",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "linguistic",
+          "preliminary"
+        ]
+      },
+      "t8.3": {
+        "id": "t8.3",
+        "name": "Metaphor and Abstract Language",
+        "description": "Processing of metaphorical expressions and how abstract meanings are derived from concrete source domains.",
+        "keywords": [
+          "metaphor",
+          "figurative language",
+          "conceptual metaphor",
+          "abstract meaning",
+          "grounding"
+        ],
+        "confidence": 0.81,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064463",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t8",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "linguistic",
+          "abstract",
+          "preliminary"
+        ]
+      },
+      "t8": {
+        "id": "t8",
+        "name": "Context and Linguistic Factors",
+        "description": "How linguistic context, word properties, and sentence-level factors modulate concreteness effects on semantic processing.",
+        "keywords": [
+          "context effects",
+          "linguistic factors",
+          "sentence context",
+          "word properties",
+          "modulation"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-05-29T10:01:31.064470",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t8.1",
+          "t8.2",
+          "t8.3"
+        ],
+        "order": 7,
+        "tags": [
+          "linguistic",
+          "context",
+          "preliminary"
+        ]
+      }
+    }
+  },
+  "order": [
+    "n5",
+    "n8",
+    "n10",
+    "n12",
+    "n15",
+    "n18",
+    "n20"
+  ]
+}
