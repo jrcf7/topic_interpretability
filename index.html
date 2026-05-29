@@ -201,11 +201,16 @@ let ratings      = {};
 let raterInfo    = {};
 
 /* ─── boot: show intro immediately, load hierarchies after rater confirms ─── */
-(function init() {
-  renderShell();
-  renderIntroStep();
-  showStep(0);
-})();
+function init() {
+     renderShell();
+     renderIntroStep();
+     showStep(0);
+   }
+   if (document.readyState === 'loading') {
+     document.addEventListener('DOMContentLoaded', init);
+   } else {
+     init();
+   }
 
 /* ─── shell: header + progress + step containers ─── */
 function renderShell() {
