@@ -1,0 +1,493 @@
+{
+  "query": "the aerodynamics of flying penguins",
+  "rater_id": "demo",
+  "hierarchies": {
+    "n5": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Wing-Body Interaction",
+        "description": "Analysis of how penguin wings interact with water during propulsion, including lift generation, drag forces, and efficiency of wing motion patterns.",
+        "keywords": [
+          "wing morphology",
+          "lift coefficient",
+          "drag reduction",
+          "wing kinematics",
+          "flipper dynamics"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087315",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "aerodynamic-forces",
+          "biomechanics",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Hydrodynamic Efficiency",
+        "description": "Study of energy expenditure, thrust-to-drag ratios, and metabolic optimization in penguin swimming-diving locomotion.",
+        "keywords": [
+          "swimming efficiency",
+          "energy expenditure",
+          "thrust optimization",
+          "metabolic rate",
+          "stroking frequency"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087386",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "efficiency",
+          "biomechanics",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Penguin Locomotion Physics",
+        "description": "Fundamental physical principles governing how penguins move through air, including forces, motion dynamics, and biomechanical adaptations that enable flight-like locomotion.",
+        "keywords": [
+          "penguin locomotion",
+          "underwater flight",
+          "hydrodynamics",
+          "biomechanics",
+          "propulsion"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087397",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "core-physics",
+          "biomechanics",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Forelimb Specialization",
+        "description": "Evolutionary and structural modifications of penguin flippers from ancestral bird wings, including bone fusion, muscle arrangement, and articulation.",
+        "keywords": [
+          "flipper structure",
+          "wing-to-flipper evolution",
+          "bone fusion",
+          "joint mechanics",
+          "forelimb modification"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087408",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "anatomy",
+          "evolution",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Hydrodynamic Surface Properties",
+        "description": "Physical properties of penguin skin, feathers, and body surface that minimize drag and optimize fluid flow during aquatic movement.",
+        "keywords": [
+          "feather arrangement",
+          "skin texture",
+          "surface roughness",
+          "drag coefficient",
+          "boundary layer"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087423",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "hydrodynamics",
+          "adaptation",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Anatomical Adaptations",
+        "description": "Structural and physiological features of penguins that enable efficient aquatic locomotion, including skeletal structure, muscle composition, and integumentary properties.",
+        "keywords": [
+          "penguin anatomy",
+          "skeletal structure",
+          "muscle fiber type",
+          "feather morphology",
+          "body density"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087430",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "morphology",
+          "adaptation",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Other Diving Species",
+        "description": "Comparative study of aerodynamic and hydrodynamic strategies in cormorants, auks, seals, and dolphins.",
+        "keywords": [
+          "diving birds comparison",
+          "marine mammal locomotion",
+          "convergent evolution",
+          "alternative strategies",
+          "ecological niches"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087439",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "comparison",
+          "evolution",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Biomimetic Engineering Applications",
+        "description": "Use of penguin aerodynamic principles in designing underwater vehicles, robotic swimmers, and engineering solutions inspired by penguin morphology.",
+        "keywords": [
+          "biomimetic design",
+          "robotic penguins",
+          "AUV design",
+          "bio-inspired engineering",
+          "underwater vehicles"
+        ],
+        "confidence": 0.78,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087446",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "engineering",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Comparative Aerodynamic Analysis",
+        "description": "Comparison of penguin locomotion mechanics with other diving birds, marine mammals, and engineered systems to contextualize aerodynamic performance.",
+        "keywords": [
+          "comparative locomotion",
+          "diving birds",
+          "marine mammals",
+          "biomimetic design",
+          "functional morphology"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087452",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "comparison",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Field Study Techniques",
+        "description": "In situ observational and tracking methods for measuring penguin swimming behavior, diving patterns, and performance in natural environments.",
+        "keywords": [
+          "field observation",
+          "dive tracking",
+          "time-depth recorder",
+          "accelerometry",
+          "natural behavior"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087469",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "field-study",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Modeling and Simulation",
+        "description": "Computational fluid dynamics, physical models in water tunnels, and mathematical modeling to predict and analyze penguin aerodynamic performance.",
+        "keywords": [
+          "CFD simulation",
+          "water tunnel testing",
+          "numerical modeling",
+          "fluid dynamics",
+          "hydrodynamic models"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087475",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "computational",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Experimental and Computational Methods",
+        "description": "Research techniques and analytical approaches used to study penguin aerodynamics, including field observations, laboratory experiments, and computational simulations.",
+        "keywords": [
+          "experimental methods",
+          "CFD modeling",
+          "video analysis",
+          "hydrodynamic testing",
+          "computational simulation"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087480",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Evolutionary Transition to Aquatic Flight",
+        "description": "Paleontological evidence and evolutionary mechanisms explaining how penguins transitioned from aerial to aquatic flight and the loss of aerial flight capability.",
+        "keywords": [
+          "penguin evolution",
+          "fossil penguins",
+          "flightless birds",
+          "evolutionary transition",
+          "phylogenetic history"
+        ],
+        "confidence": 0.79,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087487",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "evolution",
+          "paleontology",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Species-Specific Variation",
+        "description": "Differences in aerodynamic performance, morphology, and swimming behavior across penguin species related to size, habitat, and foraging ecology.",
+        "keywords": [
+          "species variation",
+          "size allometry",
+          "habitat specialization",
+          "foraging behavior",
+          "inter-species differences"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087494",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "ecology",
+          "variation",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Evolutionary and Ecological Context",
+        "description": "Historical evolution of penguin flight capabilities, ecological drivers of aerodynamic specialization, and environmental factors influencing locomotor strategies.",
+        "keywords": [
+          "penguin evolution",
+          "fossil record",
+          "ecological adaptation",
+          "environmental pressure",
+          "species variation"
+        ],
+        "confidence": 0.81,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-01T09:38:02.087502",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "evolution",
+          "ecology",
+          "preliminary"
+        ]
+      }
+    }
+  },
+  "order": [
+    "n5",
+    "n12",
+    "n18"
+  ]
+}
