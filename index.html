@@ -11,13 +11,13 @@
   --text: #111111; --text-secondary: #555555; --text-muted: #888888; --text-hint: #aaaaaa;
   --accent: #1a56db; --accent-light: #e8f0fe;
   --tag-bg: #f0f0f0; --tag-text: #333333; --tag-border: #d0d0d0;
-  --badge-prelim-bg: #f3f4f6; --badge-prelim-text: #6b7280;
   --badge-l2-bg: #eff6ff; --badge-l2-text: #1d4ed8; --badge-l2-border: #bfdbfe;
   --red: #dc2626; --red-light: #fef2f2;
   --green: #16a34a; --green-light: #f0fdf4;
   --purple-bg: #eef2ff; --purple-text: #4338ca;
   --teal-bg: #f0fdfa; --teal-text: #0f766e;
   --amber-bg: #fffbeb; --amber-text: #92400e;
+  --gold-bg: #fefce8; --gold-text: #854d0e; --gold-border: #fde68a;
   --radius: 8px; --radius-sm: 5px;
 }
 body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; line-height: 1.5; }
@@ -34,10 +34,12 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sa
 .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
 @media (max-width: 500px) { .intro-grid { grid-template-columns: 1fr; } }
 .field-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; font-weight: 500; display: block; }
-input[type=text], select { width: 100%; padding: 7px 10px; font-size: 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--text); }
+input[type=text], select, input[type=text].kw-input { width: 100%; padding: 7px 10px; font-size: 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--text); }
 input[type=text]:focus, select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-light); }
-.info-box { background: var(--accent-light); border: 1px solid #c7d7f9; border-radius: var(--radius-sm); padding: 12px 14px; font-size: 13px; color: #1e3a8a; margin-bottom: 16px; line-height: 1.55; }
+.info-box { background: var(--accent-light); border: 1px solid #c7d7f9; border-radius: var(--radius-sm); padding: 12px 14px; font-size: 13px; color: #1e3a8a; margin-bottom: 12px; line-height: 1.6; }
 .info-box strong { font-weight: 600; }
+.info-box ol, .info-box ul { margin: 6px 0 0 18px; }
+.info-box li { margin-bottom: 3px; }
 .dim-guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px,1fr)); gap: 8px; margin-top: 12px; }
 .dim-pill { border-radius: var(--radius-sm); padding: 10px 12px; font-size: 12px; line-height: 1.4; }
 .dim-pill strong { display: block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px; }
@@ -46,15 +48,19 @@ input[type=text]:focus, select:focus { outline: none; border-color: var(--accent
 .dim-interpret  { background: var(--amber-bg);  color: var(--amber-text);  }
 .section-header { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); margin-bottom: 10px; }
 .topic-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 6px; overflow: hidden; }
+.topic-card.editable { border-color: var(--accent); }
 .topic-root { padding: 12px 16px; }
 .topic-root-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 5px; }
 .topic-name { font-size: 15px; font-weight: 700; color: var(--text); }
 .badge { font-size: 11px; padding: 2px 8px; border-radius: 4px; font-weight: 500; white-space: nowrap; }
-.badge-count  { background: var(--tag-bg); color: var(--text-secondary); border: 1px solid var(--tag-border); }
+.badge-count  { background: var(--tag-bg); color: var(--text-secondary); border: 1px solid var(--border); }
 .badge-l2     { background: var(--badge-l2-bg); color: var(--badge-l2-text); border: 1px solid var(--badge-l2-border); font-weight: 600; }
+.badge-best   { background: var(--gold-bg); color: var(--gold-text); border: 1px solid var(--gold-border); }
 .topic-desc { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; line-height: 1.45; }
-.keyword-row { display: flex; flex-wrap: wrap; gap: 5px; }
-.kw-tag { font-size: 11px; padding: 2px 8px; background: var(--tag-bg); color: var(--tag-text); border: 1px solid var(--tag-border); border-radius: 4px; }
+.keyword-row { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.kw-tag { font-size: 11px; padding: 2px 8px; background: var(--tag-bg); color: var(--tag-text); border: 1px solid var(--border); border-radius: 4px; display: inline-flex; align-items: center; gap: 4px; }
+.kw-remove { cursor: pointer; color: var(--text-muted); font-size: 13px; line-height: 1; padding: 0 1px; }
+.kw-remove:hover { color: var(--red); }
 .children-list { border-top: 1px solid var(--border-light); }
 .topic-child { padding: 11px 16px 11px 28px; border-bottom: 1px solid var(--border-light); }
 .topic-child:last-child { border-bottom: none; }
@@ -84,17 +90,40 @@ input[type=text]:focus, select:focus { outline: none; border-color: var(--accent
 .hierarchy-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
 .meta-pill { font-size: 12px; padding: 3px 10px; border-radius: 4px; border: 1px solid var(--border); background: var(--surface); color: var(--text-secondary); font-weight: 500; }
 .btn-row { display: flex; gap: 8px; margin-top: 16px; align-items: center; flex-wrap: wrap; }
+.jump-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; align-items: center; }
+.jump-label { font-size: 11px; color: var(--text-muted); font-weight: 500; margin-right: 2px; }
+.jump-btn { font-family: inherit; font-size: 11px; font-weight: 500; padding: 4px 10px; border-radius: 4px; cursor: pointer; border: 1px solid var(--border); background: var(--surface); color: var(--text-secondary); transition: background 0.1s; }
+.jump-btn:hover { background: var(--accent-light); border-color: var(--accent); color: var(--accent); }
+.jump-btn.rated { background: var(--green-light); border-color: #86efac; color: var(--green); }
+.jump-btn.current { background: var(--accent); border-color: var(--accent); color: #fff; }
 button { font-family: inherit; font-size: 13px; font-weight: 500; padding: 8px 18px; border-radius: var(--radius-sm); cursor: pointer; border: 1px solid var(--border); background: var(--surface); color: var(--text); transition: background 0.12s, transform 0.1s; }
 button:hover { background: var(--bg); }
 button:active { transform: scale(0.98); }
 button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
 button.primary:hover { background: #1648c7; }
+button.success { background: var(--green); border-color: var(--green); color: #fff; }
+button.success:hover { background: #15803d; }
 button:disabled { opacity: 0.4; cursor: not-allowed; }
 .err-msg { font-size: 12px; color: var(--red); margin-left: 4px; }
 .done-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 40px 24px; text-align: center; }
 .done-wrap h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
 .done-wrap p { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; }
-pre { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px; font-size: 11px; font-family: 'Courier New', monospace; color: var(--text-secondary); text-align: left; white-space: pre-wrap; word-break: break-all; max-height: 280px; overflow-y: auto; margin-bottom: 12px; }
+pre { background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px; font-size: 11px; font-family: 'Courier New', monospace; color: var(--text-secondary); text-align: left; white-space: pre-wrap; word-break: break-all; max-height: 220px; overflow-y: auto; margin-bottom: 12px; }
+/* optimise step */
+.opt-info { background: var(--gold-bg); border: 1px solid var(--gold-border); border-radius: var(--radius-sm); padding: 12px 14px; font-size: 13px; color: var(--gold-text); margin-bottom: 16px; line-height: 1.6; }
+.opt-info strong { font-weight: 600; }
+.opt-info ol { margin: 6px 0 0 18px; }
+.opt-info li { margin-bottom: 3px; }
+.add-kw-row { display: flex; gap: 6px; margin-top: 8px; }
+.add-kw-row input { flex: 1; padding: 6px 10px; font-size: 13px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg); color: var(--text); }
+.add-kw-row input:focus { outline: none; border-color: var(--accent); }
+.add-kw-row button { padding: 6px 12px; font-size: 12px; }
+.new-topic-form { background: var(--bg); border: 1px dashed var(--border); border-radius: var(--radius); padding: 14px 16px; margin-top: 10px; }
+.new-topic-form .form-row { margin-bottom: 10px; }
+.new-topic-form label { font-size: 12px; font-weight: 500; color: var(--text-secondary); display: block; margin-bottom: 4px; }
+.new-topic-form input, .new-topic-form select { width: 100%; padding: 7px 10px; font-size: 13px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--surface); color: var(--text); }
+.new-topic-form input:focus, .new-topic-form select:focus { outline: none; border-color: var(--accent); }
+.score-badge { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; background: var(--gold-bg); color: var(--gold-text); border: 1px solid var(--gold-border); font-weight: 600; margin-left: 6px; }
 </style>
 </head>
 <body>
@@ -110,6 +139,7 @@ pre { background: var(--bg); border: 1px solid var(--border); border-radius: var
     <div class="progress-label" id="prog-label">Introduction</div>
   </div>
 
+  <!-- ── Step 0: intro ── -->
   <div class="step active" id="step-0">
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px">
       <div class="section-header" style="margin-bottom:12px">Rater information</div>
@@ -129,7 +159,14 @@ pre { background: var(--bg); border: 1px solid var(--border); border-radius: var
         </div>
       </div>
       <div class="info-box">
-        <strong>Instructions.</strong> Enter your rater ID exactly as provided by the study coordinator. Your personalised set of topic hierarchies will load automatically. Rate each hierarchy on three dimensions (1–7 scale). Session takes roughly 15–20 minutes.
+        <strong>How this session works</strong>
+        <ol>
+          <li>You will be shown several topic hierarchies generated from the same scientific corpus, each with a different number of topics (N).</li>
+          <li>For each hierarchy, rate three dimensions on a 1–7 scale: <strong>Coverage</strong>, <strong>Granularity</strong>, and <strong>Interpretability</strong>.</li>
+          <li><strong>You can freely navigate back and forth</strong> between hierarchies using the Back button or the quick-jump buttons at the bottom of each page. Feel free to revise your ratings after seeing others.</li>
+          <li>After rating all hierarchies, you will be shown the <strong>best-scoring hierarchy</strong> and invited to optimise it: you can add keywords to existing topics or add new topics entirely.</li>
+          <li>At the end, download the results as a JSON file and <strong>send it to Karen Meersmans</strong>.</li>
+        </ol>
       </div>
       <div class="section-header" style="margin-bottom:8px">What you are rating</div>
       <div class="dim-guide">
@@ -144,22 +181,23 @@ pre { background: var(--bg); border: 1px solid var(--border); border-radius: var
     </div>
   </div>
 
+  <!-- ── Dynamic steps injected here ── -->
   <div id="dynamic-steps"></div>
 
 </div>
 <script>
-let CONDITIONS = [];
-let ratings    = {};
-let raterInfo  = {};
+let CONDITIONS  = [];
+let ratings     = {};
+let raterInfo   = {};
+let optimised   = {};   // topic edits from the optimise step
 
+/* ── fetch & boot ── */
 async function startSession() {
   const id  = document.getElementById('rater-id').value.trim();
   const dom = document.getElementById('domain-fam').value;
   const err = document.getElementById('intro-err');
   const btn = document.getElementById('start-btn');
-
   if (!id || !dom) { err.textContent = 'Please fill in both fields.'; return; }
-
   err.textContent = '';
   btn.disabled = true;
   btn.textContent = 'Loading\u2026';
@@ -178,44 +216,69 @@ async function startSession() {
   const order = data.order || Object.keys(data.hierarchies);
   CONDITIONS = order
     .filter(slug => data.hierarchies[slug])
-    .map(slug => ({ slug, ...data.hierarchies[slug] }));
+    .map(slug => {
+      const h = data.hierarchies[slug];
+      // support both {topics:{...}} and flat {t1:{...}} structures
+      const topics = h.topics || h;
+      const meta   = h.meta   || {};
+      return { slug, meta, topics };
+    });
 
-  CONDITIONS = order
-  .filter(slug => data.hierarchies[slug])
-  .map(slug => ({ slug, ...data.hierarchies[slug] }));
-console.log('CONDITIONS:', CONDITIONS.length, CONDITIONS.map(c => c.slug));
-
-  
   if (!CONDITIONS.length) {
-    err.textContent = 'No hierarchies found in this file. Contact the study coordinator.';
+    err.textContent = 'No hierarchies found. Contact the study coordinator.';
     btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
   }
 
+  buildAllSteps();
+  goToStep(1);
+}
+
+function buildAllSteps() {
   const container = document.getElementById('dynamic-steps');
   container.innerHTML = '';
-  
-console.log('about to build steps, CONDITIONS:', CONDITIONS.length);
-console.log('first cond:', JSON.stringify(Object.keys(CONDITIONS[0])));
-console.log('topics check:', CONDITIONS[0].topics, typeof CONDITIONS[0]);
-  
- CONDITIONS.forEach((cond, i) => {
-  const div = document.createElement('div');
+
+  // rating steps
+  CONDITIONS.forEach((cond, i) => {
+    const div = document.createElement('div');
     div.className = 'step';
     div.id = 'step-' + (i + 1);
     div.innerHTML = buildRatingStep(cond, i + 1);
     container.appendChild(div);
   });
+
+  // optimise step
+  const opt = document.createElement('div');
+  opt.className = 'step';
+  opt.id = 'step-optimise';
+  opt.innerHTML = buildOptimiseStep();
+  container.appendChild(opt);
+
+  // done step
   const done = document.createElement('div');
   done.className = 'step';
   done.id = 'step-done';
-  done.innerHTML = '<div class="done-wrap"><div style="font-size:28px;margin-bottom:10px">&#10003;</div><h2>Session complete</h2><p>Thank you. Copy or download the JSON and send it to the study coordinator.</p><pre id="result-json"></pre><div class="btn-row" style="justify-content:center"><button onclick="copyJSON()">Copy JSON</button><button class="primary" onclick="downloadJSON()">Download .json</button></div></div>';
+  done.innerHTML = buildDoneStep();
   container.appendChild(done);
-
-  goToStep(1);
 }
 
+/* ── jump bar (shared across all rating steps) ── */
+function buildJumpBar(currentN) {
+  let html = '<div class="jump-row"><span class="jump-label">Jump to N:</span>';
+  CONDITIONS.forEach((cond, i) => {
+    const stepN  = i + 1;
+    const slug   = cond.slug;
+    const label  = slug.replace('n','N=');
+    const rated  = ratings[slug] ? ' rated' : '';
+    const active = stepN === currentN ? ' current' : '';
+    html += '<button class="jump-btn' + rated + active + '" onclick="jumpTo(' + stepN + ')">' + label + '</button>';
+  });
+  html += '</div>';
+  return html;
+}
+
+/* ── rating step ── */
 function buildRatingStep(cond, stepN) {
-  const topics = cond.topics || cond;
+  const topics = cond.topics;
   const roots  = Object.values(topics).filter(t => t.level === 1).sort((a,b) => a.order - b.order);
   const total  = Object.keys(topics).length;
 
@@ -223,106 +286,299 @@ function buildRatingStep(cond, stepN) {
     const children = (root.childrenIds || []).map(id => topics[id]).filter(Boolean).sort((a,b) => a.order - b.order);
     const childHTML = children.map(ch =>
       '<div class="topic-child">' +
-        '<div class="topic-child-header">' +
-          '<span class="badge badge-l2">L2</span>' +
-          '<span class="topic-name">' + x(ch.name) + '</span>' +
-        '</div>' +
+        '<div class="topic-child-header"><span class="badge badge-l2">L2</span><span class="topic-name">' + x(ch.name) + '</span></div>' +
         '<div class="topic-desc">' + x(ch.description) + '</div>' +
         '<div class="keyword-row">' + (ch.keywords||[]).map(k => '<span class="kw-tag">' + x(k) + '</span>').join('') + '</div>' +
       '</div>'
     ).join('');
-
-    return '<div class="topic-card">' +
-      '<div class="topic-root">' +
-        '<div class="topic-root-header">' +
-          '<span class="topic-name">' + x(root.name) + '</span>' +
-          (children.length ? '<span class="badge badge-count">' + children.length + ' subtopic' + (children.length > 1 ? 's' : '') + '</span>' : '') +
-        '</div>' +
-        '<div class="topic-desc">' + x(root.description) + '</div>' +
-        '<div class="keyword-row">' + (root.keywords||[]).map(k => '<span class="kw-tag">' + x(k) + '</span>').join('') + '</div>' +
+    return '<div class="topic-card"><div class="topic-root">' +
+      '<div class="topic-root-header"><span class="topic-name">' + x(root.name) + '</span>' +
+        (children.length ? '<span class="badge badge-count">' + children.length + ' subtopic' + (children.length>1?'s':'') + '</span>' : '') +
       '</div>' +
-      (children.length ? '<div class="children-list">' + childHTML + '</div>' : '') +
-    '</div>';
+      '<div class="topic-desc">' + x(root.description) + '</div>' +
+      '<div class="keyword-row">' + (root.keywords||[]).map(k=>'<span class="kw-tag">'+x(k)+'</span>').join('') + '</div>' +
+    '</div>' + (children.length ? '<div class="children-list">'+childHTML+'</div>' : '') + '</div>';
   }).join('');
 
   const n = stepN;
+  const isLast = n === CONDITIONS.length;
   return (
     '<div class="hierarchy-meta">' +
       '<span class="meta-pill">Hierarchy ' + n + ' of ' + CONDITIONS.length + '</span>' +
       '<span class="meta-pill">N = ' + total + ' topics</span>' +
-      '<span class="meta-pill">' + roots.length + ' root' + (roots.length > 1 ? 's' : '') + '</span>' +
-      '<span class="meta-pill" style="color:var(--text-muted)">' + x(cond.slug) + '</span>' +
+      '<span class="meta-pill">' + roots.length + ' root' + (roots.length>1?'s':'') + '</span>' +
+      '<span class="meta-pill" style="color:var(--text-muted)">' + x(cond.meta.topic || cond.slug) + '</span>' +
     '</div>' +
     '<div class="section-header">Topic hierarchy</div>' +
     topicsHTML +
     '<div class="rating-panel">' +
       '<div class="section-header" style="margin-bottom:16px">Your ratings</div>' +
-      buildDim('Coverage',        'label-coverage',    'cov-'  + n, 'How well does this set of topics cover all major themes in the corpus?',      '1 = important areas missing or over-merged &nbsp;&middot;&nbsp; 7 = comprehensive, nothing obvious absent', 'Not at all',       'Fully covered') +
-      buildDim('Granularity',     'label-granularity', 'gran-' + n, 'Is the level of detail appropriate for this corpus?',                          '1 = far too coarse or too fine-grained &nbsp;&middot;&nbsp; 7 = exactly the right resolution',              'Inappropriate',    'Just right') +
-      buildDim('Interpretability','label-interpret',   'int-'  + n, 'How clear and meaningful are the topic labels and descriptions?',              '1 = labels opaque or misleading &nbsp;&middot;&nbsp; 7 = every topic immediately understandable',             'Not interpretable','Fully clear') +
+      buildDim('Coverage',        'label-coverage',    'cov-'+n,  'How well does this set of topics cover all major themes in the corpus?',  '1 = important areas missing or over-merged &nbsp;&middot;&nbsp; 7 = comprehensive, nothing obvious absent', 'Not at all','Fully covered') +
+      buildDim('Granularity',     'label-granularity', 'gran-'+n, 'Is the level of detail appropriate for this corpus?',                     '1 = far too coarse or too fine-grained &nbsp;&middot;&nbsp; 7 = exactly the right resolution',              'Inappropriate','Just right') +
+      buildDim('Interpretability','label-interpret',   'int-'+n,  'How clear and meaningful are the topic labels and descriptions?',         '1 = labels opaque or misleading &nbsp;&middot;&nbsp; 7 = every topic immediately understandable',             'Not interpretable','Fully clear') +
       '<div class="notes-label">Notes (optional)</div>' +
-      '<textarea class="notes-area" id="notes-' + n + '" placeholder="Note any issues \u2014 a topic that felt misplaced, a gap, or what made this hierarchy easier or harder to navigate\u2026"></textarea>' +
+      '<textarea class="notes-area" id="notes-'+n+'" placeholder="Note any issues \u2014 a topic that felt misplaced, a gap, or what made this hierarchy easier or harder to navigate\u2026"></textarea>' +
     '</div>' +
     '<div class="btn-row">' +
-      '<button onclick="goToStep(' + (n - 1) + ')">&#8592; Back</button>' +
-      '<button class="primary" onclick="saveAndAdvance(' + n + ')">' + (n === CONDITIONS.length ? 'Finish' : 'Next hierarchy &rarr;') + '</button>' +
-      '<span class="err-msg" id="err-' + n + '"></span>' +
-    '</div>'
+      '<button onclick="goToStep(' + (n-1) + ')">&#8592; Back</button>' +
+      '<button class="primary" onclick="saveAndAdvance(' + n + ')">' + (isLast ? 'Save &amp; continue to optimisation &rarr;' : 'Save &amp; next &rarr;') + '</button>' +
+      '<span class="err-msg" id="err-'+n+'"></span>' +
+    '</div>' +
+    buildJumpBar(n)
   );
 }
 
-function buildDim(label, cls, name, question, hint, lo, hi) {
-  const radios = [1,2,3,4,5,6,7].map(v =>
-    '<input type="radio" name="' + name + '" id="' + name + '-' + v + '" value="' + v + '">' +
-    '<label for="' + name + '-' + v + '">' + v + '</label>'
+/* ── optimise step ── */
+function buildOptimiseStep() {
+  return '<div id="opt-content"><p style="color:var(--text-muted);font-size:13px">Complete all ratings first to unlock the optimisation step.</p></div>';
+}
+
+function renderOptimiseStep() {
+  // find best-scoring condition
+  const scored = CONDITIONS.map(cond => {
+    const r = ratings[cond.slug];
+    const score = r ? (r.coverage + r.granularity + r.interpretability) : 0;
+    return { cond, score };
+  }).sort((a,b) => b.score - a.score);
+  const best = scored[0].cond;
+  const bestScore = scored[0].score;
+
+  // deep-clone topics for editing
+  optimised = JSON.parse(JSON.stringify(best.topics));
+
+  const el = document.getElementById('opt-content');
+  el.innerHTML =
+    '<div class="opt-info">' +
+      '<strong>&#9733; Best-scoring hierarchy: ' + x(best.slug) + '</strong><span class="score-badge">Total score: ' + bestScore + '/21</span>' +
+      '<ol style="margin-top:8px">' +
+        '<li>Review the topics below. For each topic you can <strong>add keywords</strong> that you feel are missing.</li>' +
+        '<li>You can also <strong>add a new topic</strong> at the bottom if you think an important theme is missing entirely.</li>' +
+        '<li>When you are happy, click <strong>Save &amp; finish</strong>.</li>' +
+      '</ol>' +
+    '</div>' +
+    '<div class="section-header">Optimise hierarchy</div>' +
+    '<div id="opt-topics">' + buildOptTopics() + '</div>' +
+    '<div style="margin-top:16px;padding:14px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)">' +
+      '<div class="section-header" style="margin-bottom:10px">Add a new topic</div>' +
+      '<div class="new-topic-form" id="new-topic-form">' +
+        '<div class="form-row"><label>Topic name</label><input type="text" id="new-topic-name" placeholder="e.g. Methodological Approaches"></div>' +
+        '<div class="form-row"><label>Description</label><input type="text" id="new-topic-desc" placeholder="Brief description of this topic"></div>' +
+        '<div class="form-row"><label>Keywords (comma-separated)</label><input type="text" id="new-topic-kws" placeholder="e.g. fMRI, EEG, reaction time"></div>' +
+        '<div class="form-row"><label>Parent topic (optional — leave blank for root)</label>' +
+          '<select id="new-topic-parent"><option value="">— root topic (L1) —</option>' +
+          buildParentOptions() +
+          '</select>' +
+        '</div>' +
+        '<button onclick="addNewTopic()" class="primary" style="margin-top:4px">+ Add topic</button>' +
+        '<span class="err-msg" id="new-topic-err"></span>' +
+      '</div>' +
+    '</div>' +
+    '<div class="btn-row" style="margin-top:20px">' +
+      '<button onclick="goToStep(CONDITIONS.length)">&#8592; Back to last rating</button>' +
+      '<button class="success" onclick="finishSession()">Save &amp; finish &#10003;</button>' +
+    '</div>';
+}
+
+function buildParentOptions() {
+  return Object.values(optimised)
+    .filter(t => t.level === 1)
+    .sort((a,b) => a.order - b.order)
+    .map(t => '<option value="' + x(t.id) + '">' + x(t.name) + '</option>')
+    .join('');
+}
+
+function buildOptTopics() {
+  const roots = Object.values(optimised).filter(t => t.level === 1).sort((a,b) => a.order - b.order);
+  return roots.map(root => {
+    const children = (root.childrenIds||[]).map(id => optimised[id]).filter(Boolean).sort((a,b) => a.order - b.order);
+    const childHTML = children.map(ch =>
+      '<div class="topic-child">' +
+        '<div class="topic-child-header"><span class="badge badge-l2">L2</span><span class="topic-name">' + x(ch.name) + '</span></div>' +
+        '<div class="topic-desc">' + x(ch.description) + '</div>' +
+        buildKwEditor(ch) +
+      '</div>'
+    ).join('');
+    return '<div class="topic-card editable"><div class="topic-root">' +
+      '<div class="topic-root-header"><span class="topic-name">' + x(root.name) + '</span>' +
+        (children.length ? '<span class="badge badge-count">'+children.length+' subtopic'+(children.length>1?'s':'')+'</span>' : '') +
+        '<span class="badge" style="background:var(--green-light);color:var(--green);border:1px solid #bbf7d0">editable</span>' +
+      '</div>' +
+      '<div class="topic-desc">' + x(root.description) + '</div>' +
+      buildKwEditor(root) +
+    '</div>' + (children.length ? '<div class="children-list">'+childHTML+'</div>' : '') + '</div>';
+  }).join('');
+}
+
+function buildKwEditor(topic) {
+  const kws = (topic.keywords||[]).map((k,i) =>
+    '<span class="kw-tag">' + x(k) + '<span class="kw-remove" onclick="removeKw(\'' + x(topic.id) + '\',' + i + ')" title="Remove">&times;</span></span>'
   ).join('');
-  return '<div class="dim-row">' +
-    '<div class="dim-header"><span class="dim-label ' + cls + '">' + label + '</span>' +
-    '<div><div class="dim-q">' + question + '</div><div class="dim-hint">' + hint + '</div></div></div>' +
-    '<div class="likert-wrap"><div class="likert">' + radios + '</div>' +
-    '<div class="likert-ends"><span>' + lo + '</span><span>' + hi + '</span></div></div>' +
+  return '<div class="keyword-row" id="kw-row-' + x(topic.id) + '">' + kws + '</div>' +
+    '<div class="add-kw-row">' +
+      '<input type="text" id="kw-input-' + x(topic.id) + '" placeholder="Add keyword\u2026" onkeydown="if(event.key===\'Enter\')addKw(\'' + x(topic.id) + '\')">' +
+      '<button onclick="addKw(\'' + x(topic.id) + '\')">+ Add</button>' +
+    '</div>';
+}
+
+function addKw(topicId) {
+  const input = document.getElementById('kw-input-' + topicId);
+  const val = (input.value||'').trim();
+  if (!val) return;
+  if (!optimised[topicId].keywords) optimised[topicId].keywords = [];
+  optimised[topicId].keywords.push(val);
+  input.value = '';
+  refreshOptTopics();
+}
+
+function removeKw(topicId, idx) {
+  optimised[topicId].keywords.splice(idx, 1);
+  refreshOptTopics();
+}
+
+function addNewTopic() {
+  const name   = (document.getElementById('new-topic-name').value||'').trim();
+  const desc   = (document.getElementById('new-topic-desc').value||'').trim();
+  const kwsRaw = (document.getElementById('new-topic-kws').value||'').trim();
+  const parent = document.getElementById('new-topic-parent').value;
+  const err    = document.getElementById('new-topic-err');
+  if (!name) { err.textContent = 'Topic name is required.'; return; }
+  err.textContent = '';
+
+  const kws   = kwsRaw ? kwsRaw.split(',').map(s=>s.trim()).filter(Boolean) : [];
+  const level = parent ? 2 : 1;
+  const newId = 'u' + Date.now();
+  const order = Object.values(optimised).filter(t=>t.level===level).length;
+
+  optimised[newId] = {
+    id: newId, name, description: desc, keywords: kws,
+    level, order, parentId: parent||null, childrenIds: [],
+    tags: ['user-added'], confidence: null,
+    isUserCreated: true, createdAt: new Date().toISOString()
+  };
+  if (parent && optimised[parent]) {
+    optimised[parent].childrenIds.push(newId);
+  }
+
+  // clear form
+  document.getElementById('new-topic-name').value = '';
+  document.getElementById('new-topic-desc').value = '';
+  document.getElementById('new-topic-kws').value  = '';
+  document.getElementById('new-topic-parent').value = '';
+  refreshOptTopics();
+}
+
+function refreshOptTopics() {
+  document.getElementById('opt-topics').innerHTML = buildOptTopics();
+  // refresh parent dropdown too
+  const sel = document.getElementById('new-topic-parent');
+  if (sel) sel.innerHTML = '<option value="">— root topic (L1) —</option>' + buildParentOptions();
+}
+
+/* ── done step ── */
+function buildDoneStep() {
+  return '<div class="done-wrap">' +
+    '<div style="font-size:28px;margin-bottom:10px">&#10003;</div>' +
+    '<h2>Session complete</h2>' +
+    '<p>Thank you for your time. Download the JSON file below and <strong>send it to Karen Meersmans</strong>.</p>' +
+    '<pre id="result-json"></pre>' +
+    '<div class="btn-row" style="justify-content:center">' +
+      '<button onclick="copyJSON()">Copy JSON</button>' +
+      '<button class="primary" onclick="downloadJSON()">Download .json</button>' +
+    '</div>' +
   '</div>';
 }
 
+/* ── navigation ── */
 function goToStep(n) {
+  // save current ratings silently if fields filled
+  const active = document.querySelector('.step.active');
+  if (active) {
+    const m = active.id.match(/^step-(\d+)$/);
+    if (m) silentSave(parseInt(m[1]));
+  }
   document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
-  const id = n <= 0 ? '0' : n > CONDITIONS.length ? 'done' : String(n);
+  let id;
+  if (n <= 0)                     id = '0';
+  else if (n > CONDITIONS.length) id = 'optimise';
+  else                            id = String(n);
   const el = document.getElementById('step-' + id);
   if (el) el.classList.add('active');
-  const pct = n <= 0 ? 0 : n > CONDITIONS.length ? 100 : Math.round(n / (CONDITIONS.length + 1) * 100);
+
+  if (id === 'optimise') renderOptimiseStep();
+
+  const total = CONDITIONS.length + 1; // +1 for optimise
+  const pct = n <= 0 ? 0 : n > CONDITIONS.length ? 95 : Math.round(n / total * 100);
   document.getElementById('prog').style.width = pct + '%';
   document.getElementById('prog-label').textContent =
-    n <= 0 ? 'Introduction' : n > CONDITIONS.length ? 'Complete' : 'Hierarchy ' + n + ' of ' + CONDITIONS.length;
+    n <= 0 ? 'Introduction' :
+    n > CONDITIONS.length ? 'Optimisation' :
+    'Hierarchy ' + n + ' of ' + CONDITIONS.length;
   window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  // refresh jump bar buttons (rated state may have changed)
+  document.querySelectorAll('.jump-btn').forEach(btn => {
+    const sn = parseInt(btn.textContent.replace('N=',''));
+    const cond = CONDITIONS.find(c => parseInt(c.slug.replace('n','')) === sn);
+    if (!cond) return;
+    btn.className = 'jump-btn' + (ratings[cond.slug] ? ' rated' : '') + (CONDITIONS.indexOf(cond)+1 === n ? ' current' : '');
+  });
 }
 
-function saveAndAdvance(n) {
-  const cov  = document.querySelector('input[name="cov-'  + n + '"]:checked');
-  const gran = document.querySelector('input[name="gran-' + n + '"]:checked');
-  const int_ = document.querySelector('input[name="int-'  + n + '"]:checked');
-  const err  = document.getElementById('err-' + n);
-  if (!cov || !gran || !int_) { err.textContent = 'Please rate all three dimensions before continuing.'; return; }
-  err.textContent = '';
-  const cond = CONDITIONS[n - 1];
+function jumpTo(n) { goToStep(n); }
+
+function silentSave(n) {
+  const cov  = document.querySelector('input[name="cov-'+n+'"]:checked');
+  const gran = document.querySelector('input[name="gran-'+n+'"]:checked');
+  const int_ = document.querySelector('input[name="int-'+n+'"]:checked');
+  if (!cov || !gran || !int_) return;
+  const cond = CONDITIONS[n-1];
+  if (!cond) return;
   ratings[cond.slug] = {
-    slug:             cond.slug,
-    topic:            (cond.meta && cond.meta.topic) || cond.slug,
-    n_topics:         Object.keys(cond.topics || cond).length,
+    slug: cond.slug,
+    topic: cond.meta.topic || cond.slug,
+    n_topics: Object.keys(cond.topics).length,
     coverage:         parseInt(cov.value),
     granularity:      parseInt(gran.value),
     interpretability: parseInt(int_.value),
-    notes:            (document.getElementById('notes-' + n).value || '').trim(),
-    timestamp:        new Date().toISOString()
+    notes: (document.getElementById('notes-'+n)||{value:''}).value.trim(),
+    timestamp: new Date().toISOString()
   };
-  if (n === CONDITIONS.length) {
-    const out = Object.assign({}, raterInfo, { session_end: new Date().toISOString(), ratings: Object.values(ratings) });
-    document.getElementById('result-json').textContent = JSON.stringify(out, null, 2);
-    goToStep(CONDITIONS.length + 1);
-  } else {
-    goToStep(n + 1);
-  }
 }
 
+function saveAndAdvance(n) {
+  const cov  = document.querySelector('input[name="cov-'+n+'"]:checked');
+  const gran = document.querySelector('input[name="gran-'+n+'"]:checked');
+  const int_ = document.querySelector('input[name="int-'+n+'"]:checked');
+  const err  = document.getElementById('err-'+n);
+  if (!cov || !gran || !int_) { err.textContent = 'Please rate all three dimensions before continuing.'; return; }
+  err.textContent = '';
+  silentSave(n);
+  goToStep(n + 1);
+}
+
+function finishSession() {
+  const out = Object.assign({}, raterInfo, {
+    session_end: new Date().toISOString(),
+    ratings: Object.values(ratings),
+    optimised_hierarchy: {
+      based_on: getBestSlug(),
+      topics: optimised
+    }
+  });
+  document.getElementById('result-json').textContent = JSON.stringify(out, null, 2);
+  document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+  document.getElementById('step-done').classList.add('active');
+  document.getElementById('prog').style.width = '100%';
+  document.getElementById('prog-label').textContent = 'Complete';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function getBestSlug() {
+  return CONDITIONS.map(c => ({ slug: c.slug, score: ratings[c.slug] ? (ratings[c.slug].coverage + ratings[c.slug].granularity + ratings[c.slug].interpretability) : 0 }))
+    .sort((a,b) => b.score - a.score)[0]?.slug || '';
+}
+
+/* ── export ── */
 function copyJSON() {
   navigator.clipboard.writeText(document.getElementById('result-json').textContent)
     .then(() => { const b = document.querySelector('.done-wrap button'); b.textContent = 'Copied \u2713'; setTimeout(() => b.textContent = 'Copy JSON', 2000); });
@@ -330,13 +586,22 @@ function copyJSON() {
 function downloadJSON() {
   const blob = new Blob([document.getElementById('result-json').textContent], { type: 'application/json' });
   const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a'); a.href = url;
-  a.download = 'rass_ratings_' + (raterInfo.rater_id || 'rater') + '.json';
+  const a    = document.createElement('a');
+  a.href = url; a.download = 'rass_ratings_' + (raterInfo.rater_id||'rater') + '.json';
   a.click(); URL.revokeObjectURL(url);
 }
-function x(s) {
-  return s ? s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : '';
+
+/* ── helpers ── */
+function buildDim(label, cls, name, q, hint, lo, hi) {
+  const radios = [1,2,3,4,5,6,7].map(v =>
+    '<input type="radio" name="'+name+'" id="'+name+'-'+v+'" value="'+v+'"><label for="'+name+'-'+v+'">'+v+'</label>'
+  ).join('');
+  return '<div class="dim-row"><div class="dim-header"><span class="dim-label '+cls+'">'+label+'</span>' +
+    '<div><div class="dim-q">'+q+'</div><div class="dim-hint">'+hint+'</div></div></div>' +
+    '<div class="likert-wrap"><div class="likert">'+radios+'</div>' +
+    '<div class="likert-ends"><span>'+lo+'</span><span>'+hi+'</span></div></div></div>';
 }
+function x(s) { return s ? String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;') : ''; }
 </script>
 </body>
 </html>
