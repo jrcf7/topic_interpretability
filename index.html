@@ -193,7 +193,11 @@ console.log('CONDITIONS:', CONDITIONS.length, CONDITIONS.map(c => c.slug));
 
   const container = document.getElementById('dynamic-steps');
   container.innerHTML = '';
- CONDITIONS = CONDITIONS.filter(cond => cond.topics);
+  
+console.log('about to build steps, CONDITIONS:', CONDITIONS.length);
+console.log('first cond:', JSON.stringify(Object.keys(CONDITIONS[0])));
+console.log('topics check:', CONDITIONS[0].topics, typeof CONDITIONS[0]);
+  
  CONDITIONS.forEach((cond, i) => {
   const div = document.createElement('div');
     div.className = 'step';
