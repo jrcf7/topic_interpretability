@@ -211,7 +211,7 @@ console.log('CONDITIONS:', CONDITIONS.length, CONDITIONS.map(c => c.slug));
 }
 
 function buildRatingStep(cond, stepN) {
-  const topics = cond.topics;
+  const topics = cond.topics || cond;
   const roots  = Object.values(topics).filter(t => t.level === 1).sort((a,b) => a.order - b.order);
   const total  = Object.keys(topics).length;
 
@@ -247,7 +247,7 @@ function buildRatingStep(cond, stepN) {
       '<span class="meta-pill">Hierarchy ' + n + ' of ' + CONDITIONS.length + '</span>' +
       '<span class="meta-pill">N = ' + total + ' topics</span>' +
       '<span class="meta-pill">' + roots.length + ' root' + (roots.length > 1 ? 's' : '') + '</span>' +
-      '<span class="meta-pill" style="color:var(--text-muted)">' + x((cond.meta && cond.meta.topic) || cond.slug) + '</span>' +
+      '<span class="meta-pill" style="color:var(--text-muted)">' + x(cond.slug) + '</span>' +
     '</div>' +
     '<div class="section-header">Topic hierarchy</div>' +
     topicsHTML +
@@ -303,7 +303,7 @@ function saveAndAdvance(n) {
   ratings[cond.slug] = {
     slug:             cond.slug,
     topic:            (cond.meta && cond.meta.topic) || cond.slug,
-    n_topics:         Object.keys(cond.topics).length,
+    n_topics:         Object.keys(cond.topics || cond).length,
     coverage:         parseInt(cov.value),
     granularity:      parseInt(gran.value),
     interpretability: parseInt(int_.value),
