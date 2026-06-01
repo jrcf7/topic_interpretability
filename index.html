@@ -189,8 +189,9 @@ pre { background: var(--bg); border: 1px solid var(--border); border-radius: var
 let CONDITIONS  = [];
 let ratings     = {};
 let raterInfo   = {};
-let optimised   = {};   // topic edits from the optimise step
-
+let optimised   = {};
+let query       = '';
+  
 /* ── fetch & boot ── */
 async function startSession() {
   const id  = document.getElementById('rater-id').value.trim();
@@ -217,7 +218,7 @@ async function startSession() {
   console.log('hierarchies keys:', data.hierarchies ? Object.keys(data.hierarchies) : 'NO HIERARCHIES KEY');
   console.log('order:', data.order);
   const order = data.order || Object.keys(data.hierarchies);
-  const query = data.query || '';
+  query = data.query || '';
   console.log('order resolved:', order);
   console.log('CONDITIONS will be:', order.filter(slug => data.hierarchies[slug]).length, 'items');
   CONDITIONS = order
