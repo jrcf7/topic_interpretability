@@ -213,8 +213,13 @@ async function startSession() {
     btn.disabled = false; btn.textContent = 'Load my hierarchies \u2192'; return;
   }
 
+  console.log('data keys:', Object.keys(data));
+  console.log('hierarchies keys:', data.hierarchies ? Object.keys(data.hierarchies) : 'NO HIERARCHIES KEY');
+  console.log('order:', data.order);
   const order = data.order || Object.keys(data.hierarchies);
   const query = data.query || '';
+  console.log('order resolved:', order);
+  console.log('CONDITIONS will be:', order.filter(slug => data.hierarchies[slug]).length, 'items');
   CONDITIONS = order
     .filter(slug => data.hierarchies[slug])
     .map(slug => {
