@@ -214,6 +214,7 @@ async function startSession() {
   }
 
   const order = data.order || Object.keys(data.hierarchies);
+  const query = data.query || '';
   CONDITIONS = order
     .filter(slug => data.hierarchies[slug])
     .map(slug => {
@@ -303,7 +304,8 @@ function buildRatingStep(cond, stepN) {
   const n = stepN;
   const isLast = n === CONDITIONS.length;
   return (
-    '<div class="hierarchy-meta">' +
+    (query ? '<div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;margin-bottom:14px;font-size:13px;color:var(--text-secondary)"><span style="font-weight:600;color:var(--text)">Query:</span> ' + x(query) + '</div>' : '') +
+'<div class="hierarchy-meta">' +
       '<span class="meta-pill">Hierarchy ' + n + ' of ' + CONDITIONS.length + '</span>' +
       '<span class="meta-pill">N = ' + total + ' topics</span>' +
       '<span class="meta-pill">' + roots.length + ' root' + (roots.length>1?'s':'') + '</span>' +
