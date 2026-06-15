@@ -1,0 +1,2780 @@
+{
+  "query": "Np Hard optimization problem in biology and health",
+  "rater_id": "indaco",
+  "hierarchies": {
+    "n5": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Energy Minimization Algorithms",
+        "description": "Computational methods for finding the global energy minimum in protein folding, involving complex search spaces and approximate solutions due to NP-hardness.",
+        "keywords": [
+          "energy landscape",
+          "global optimization",
+          "force fields",
+          "molecular dynamics",
+          "heuristic algorithms"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:13.001791",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "optimization",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Protein Structure Prediction and Folding",
+        "description": "Computational problems related to predicting three-dimensional protein structures from amino acid sequences, including protein folding pathways. These are classic NP-hard problems with significant implications for drug design and disease understanding.",
+        "keywords": [
+          "protein folding",
+          "structure prediction",
+          "computational complexity",
+          "energy minimization",
+          "AlphaFold"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:13.001821",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1"
+        ],
+        "order": 0,
+        "tags": [
+          "computational-biology",
+          "molecular-biology",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Multiple Sequence Alignment Complexity",
+        "description": "The computational challenges of aligning three or more biological sequences simultaneously, proven to be NP-complete with implications for phylogenetics and comparative genomics.",
+        "keywords": [
+          "MSA algorithms",
+          "phylogenetic analysis",
+          "sequence homology",
+          "progressive alignment",
+          "computational complexity"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:13.001833",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Genome Assembly and Sequence Alignment",
+        "description": "NP-hard problems in reconstructing complete genomes from DNA fragments and aligning multiple genetic sequences, fundamental to genomics and personalized medicine.",
+        "keywords": [
+          "de novo assembly",
+          "sequence alignment",
+          "shortest superstring problem",
+          "genome reconstruction",
+          "bioinformatics"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:13.001845",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "genomics",
+          "computational-biology",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Clinical Treatment Optimization",
+        "description": "NP-hard scheduling and resource allocation problems in healthcare settings, including radiation therapy planning, surgery scheduling, and hospital resource management.",
+        "keywords": [
+          "radiotherapy planning",
+          "treatment scheduling",
+          "resource allocation",
+          "healthcare optimization",
+          "dose optimization"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:13.001859",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "healthcare",
+          "operations-research",
+          "application",
+          "preliminary"
+        ]
+      }
+    },
+    "n7": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Energy Landscape Optimization",
+        "description": "Computational approaches to navigate complex energy landscapes in protein folding, including local minima identification and global energy minimum search strategies.",
+        "keywords": [
+          "energy landscape",
+          "global minimum",
+          "folding pathways",
+          "molecular dynamics"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:39.268864",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "computational",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Protein Threading and Alignment",
+        "description": "NP-hard problems in aligning protein sequences to structural templates and threading sequences through known structural frameworks to predict tertiary structures.",
+        "keywords": [
+          "protein threading",
+          "sequence alignment",
+          "template matching",
+          "structure recognition"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:39.268906",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "bioinformatics",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Protein Structure and Folding",
+        "description": "NP-hard computational problems in predicting three-dimensional protein structures from amino acid sequences and understanding protein folding mechanisms, including energy minimization and conformational space exploration.",
+        "keywords": [
+          "protein folding problem",
+          "structure prediction",
+          "energy minimization",
+          "conformational space",
+          "computational complexity"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:39.268915",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "structural biology",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Genome Assembly and Reconstruction",
+        "description": "NP-hard problems in reconstructing complete genome sequences from short reads, including shortest superstring problems and Hamiltonian path approaches in de Bruijn graphs.",
+        "keywords": [
+          "de novo assembly",
+          "shortest superstring",
+          "scaffold construction",
+          "sequence reconstruction"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:39.268925",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "computational",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Genomics and Sequence Analysis",
+        "description": "Computational complexity in genome assembly, sequence alignment, motif discovery, and phylogenetic tree construction, all involving NP-hard optimization challenges in processing biological sequence data.",
+        "keywords": [
+          "genome assembly",
+          "sequence alignment",
+          "phylogenetics",
+          "motif finding",
+          "computational genomics"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:39.268932",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "bioinformatics",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Drug Design and Molecular Docking",
+        "description": "Optimization problems in computational drug discovery, including molecular docking for predicting ligand-receptor binding conformations and drug-target interaction optimization under structural and chemical constraints.",
+        "keywords": [
+          "molecular docking",
+          "drug-target binding",
+          "ligand optimization",
+          "virtual screening",
+          "pharmacophore modeling"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:39.268941",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "translational",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Healthcare Resource Optimization",
+        "description": "NP-hard scheduling and allocation problems in healthcare delivery, including operating room scheduling, staff assignment, patient routing, and treatment planning optimization under multiple constraints.",
+        "keywords": [
+          "healthcare scheduling",
+          "resource allocation",
+          "patient flow",
+          "treatment planning",
+          "facility optimization"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:54:39.268949",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 3,
+        "tags": [
+          "application",
+          "operational",
+          "preliminary"
+        ]
+      }
+    },
+    "n10": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Lattice Model Optimization",
+        "description": "Simplified protein models using lattice structures where optimal conformations must be found through combinatorial search, proven to be NP-complete.",
+        "keywords": [
+          "HP model",
+          "hydrophobic-polar model",
+          "lattice proteins",
+          "NP-complete",
+          "combinatorial optimization"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549900",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "theoretical-model",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Side-Chain Placement Problems",
+        "description": "Optimization of amino acid side-chain conformations on a fixed backbone structure, involving discrete rotamer selection and energy function minimization.",
+        "keywords": [
+          "rotamer optimization",
+          "side-chain packing",
+          "energy function",
+          "discrete optimization",
+          "protein design"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549935",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "structural-biology",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Protein Structure and Folding",
+        "description": "Computational problems related to predicting three-dimensional protein structures from amino acid sequences, including protein folding pathways and conformational search spaces.",
+        "keywords": [
+          "protein folding problem",
+          "computational biology",
+          "energy minimization",
+          "conformational space",
+          "ab initio prediction"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549946",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "fundamental-problem",
+          "molecular-biology",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Multiple Sequence Alignment",
+        "description": "Aligning three or more biological sequences to identify conserved regions and evolutionary relationships, proven NP-hard for optimal solutions under common scoring schemes.",
+        "keywords": [
+          "MSA problem",
+          "dynamic programming",
+          "progressive alignment",
+          "sum-of-pairs score",
+          "alignment algorithms"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549958",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "computational-complexity",
+          "bioinformatics",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Sequence Alignment and Phylogeny",
+        "description": "Computational challenges in aligning multiple biological sequences and constructing evolutionary trees, where optimal solutions become computationally intractable with increasing sequence numbers.",
+        "keywords": [
+          "multiple sequence alignment",
+          "phylogenetic tree",
+          "maximum parsimony",
+          "sequence comparison",
+          "evolutionary analysis"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549964",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "bioinformatics",
+          "fundamental-problem",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Radiation Therapy Planning",
+        "description": "Optimization of beam angles, intensities, and dose distributions in cancer radiotherapy to maximize tumor coverage while minimizing damage to healthy tissue.",
+        "keywords": [
+          "IMRT optimization",
+          "dose planning",
+          "beam angle selection",
+          "intensity modulation",
+          "treatment planning"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549973",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "medical-application",
+          "oncology",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Drug-Target Interaction Prediction",
+        "description": "Computational prediction of molecular interactions between candidate drugs and biological targets, involving combinatorial search through chemical and conformational space.",
+        "keywords": [
+          "molecular docking",
+          "binding affinity",
+          "virtual screening",
+          "structure-based design",
+          "pharmacophore modeling"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549980",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "drug-discovery",
+          "computational-chemistry",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Clinical Treatment and Drug Design",
+        "description": "NP-hard optimization problems arising in healthcare delivery, treatment planning, and pharmaceutical development where resource constraints and biological complexity create computational challenges.",
+        "keywords": [
+          "treatment optimization",
+          "drug discovery",
+          "clinical scheduling",
+          "personalized medicine",
+          "computational healthcare"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549985",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "application",
+          "healthcare",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Evolutionary and Swarm Intelligence Methods",
+        "description": "Bio-inspired optimization algorithms including genetic algorithms, particle swarm optimization, and ant colony optimization applied to biological and healthcare problems.",
+        "keywords": [
+          "genetic algorithms",
+          "particle swarm",
+          "evolutionary computation",
+          "bio-inspired computing",
+          "population-based methods"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549992",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "computational-method",
+          "heuristics",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Algorithmic Approaches and Heuristics",
+        "description": "Computational methods and algorithmic strategies developed to address NP-hard biological optimization problems, including approximation algorithms, metaheuristics, and machine learning approaches.",
+        "keywords": [
+          "approximation algorithms",
+          "genetic algorithms",
+          "metaheuristics",
+          "machine learning",
+          "computational methods"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:20.549997",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "algorithms",
+          "preliminary"
+        ]
+      }
+    },
+    "n12": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Biological Problem Hardness Proofs",
+        "description": "Formal demonstrations of NP-hardness for specific biological problems such as protein folding, sequence alignment, and phylogenetic tree construction through reduction techniques.",
+        "keywords": [
+          "hardness proof",
+          "reduction",
+          "protein folding complexity",
+          "alignment hardness"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364782",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Approximation Algorithms and Guarantees",
+        "description": "Development of polynomial-time approximation algorithms with provable performance bounds for biological NP-hard problems when exact solutions are computationally infeasible.",
+        "keywords": [
+          "approximation ratio",
+          "PTAS",
+          "performance guarantee",
+          "approximability",
+          "hardness of approximation"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364819",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "algorithms",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Computational Complexity Foundations",
+        "description": "Theoretical foundations of NP-hard problems in computational biology, including complexity classes, reduction techniques, and hardness proofs for biological optimization problems.",
+        "keywords": [
+          "computational complexity",
+          "NP-completeness",
+          "reduction theory",
+          "intractability",
+          "complexity classes"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364831",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundations",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Multiple Sequence Alignment",
+        "description": "Computational challenges in aligning three or more biological sequences simultaneously, a fundamental NP-hard problem in comparative genomics and evolutionary studies.",
+        "keywords": [
+          "MSA",
+          "progressive alignment",
+          "star alignment",
+          "sum-of-pairs score",
+          "alignment heuristics"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364845",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "De Novo Genome Assembly",
+        "description": "NP-hard graph-based optimization problems in reconstructing complete genomes from short sequencing reads, including Hamiltonian path and shortest superstring formulations.",
+        "keywords": [
+          "de Bruijn graph",
+          "overlap-layout-consensus",
+          "shortest superstring",
+          "contig assembly",
+          "scaffolding"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364853",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Genomics and Sequence Analysis",
+        "description": "NP-hard optimization problems in DNA/RNA sequence analysis, including assembly, alignment, motif finding, and genome rearrangement problems critical to modern genomics research.",
+        "keywords": [
+          "sequence alignment",
+          "genome assembly",
+          "motif discovery",
+          "genome rearrangement",
+          "sequence optimization"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364858",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "application",
+          "genomics",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Protein Structure Prediction",
+        "description": "Computational complexity of predicting protein three-dimensional structure from amino acid sequence, including lattice models and continuous space folding problems.",
+        "keywords": [
+          "ab initio prediction",
+          "lattice model",
+          "energy landscape",
+          "native structure",
+          "folding funnel"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364866",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Protein-Ligand Docking",
+        "description": "NP-hard optimization in predicting optimal binding configurations between proteins and small molecules, essential for computational drug discovery and design.",
+        "keywords": [
+          "binding pose",
+          "scoring function",
+          "conformational space",
+          "virtual screening",
+          "binding affinity"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364873",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "drug discovery",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Structural Biology Optimization",
+        "description": "NP-hard problems in predicting and analyzing three-dimensional molecular structures, including protein folding, docking, and structure-based drug design optimization challenges.",
+        "keywords": [
+          "protein folding",
+          "molecular docking",
+          "structure prediction",
+          "energy minimization",
+          "conformational search"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364879",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "application",
+          "structural biology",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Radiation Therapy Planning",
+        "description": "Computational complexity in optimizing radiation beam configurations and intensities to maximize tumor dose while minimizing damage to healthy tissue, a critical NP-hard problem in cancer treatment.",
+        "keywords": [
+          "IMRT",
+          "dose optimization",
+          "beam angle selection",
+          "fluence map",
+          "inverse planning"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364886",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Personalized Treatment Optimization",
+        "description": "NP-hard decision problems in selecting optimal drug combinations and dosing schedules based on patient-specific characteristics, genomic profiles, and disease dynamics.",
+        "keywords": [
+          "drug combination",
+          "dosing schedule",
+          "personalized medicine",
+          "treatment response",
+          "pharmacogenomics"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364893",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "personalized medicine",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Healthcare Systems Optimization",
+        "description": "NP-hard optimization problems in healthcare delivery, resource allocation, treatment planning, and clinical decision-making that impact patient outcomes and healthcare efficiency.",
+        "keywords": [
+          "radiation therapy planning",
+          "organ allocation",
+          "treatment scheduling",
+          "healthcare logistics",
+          "clinical optimization"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:57:54.364899",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "application",
+          "healthcare",
+          "preliminary"
+        ]
+      }
+    },
+    "n15": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Protein Folding Problem",
+        "description": "The NP-hard problem of predicting three-dimensional protein structure from amino acid sequences, including lattice models and energy minimization approaches.",
+        "keywords": [
+          "protein structure prediction",
+          "folding simulation",
+          "energy landscape",
+          "conformational search",
+          "lattice models"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715652",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "structural biology",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Sequence Alignment and Assembly",
+        "description": "Computational challenges in aligning biological sequences (DNA, RNA, protein) and genome assembly, including multiple sequence alignment which is proven NP-complete.",
+        "keywords": [
+          "sequence alignment",
+          "genome assembly",
+          "multiple alignment",
+          "sequence comparison",
+          "alignment scoring"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715689",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "genomics",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Computational Complexity in Biological Systems",
+        "description": "Foundational concepts of NP-hardness and computational complexity theory as applied to biological and healthcare optimization problems. Covers theoretical frameworks and complexity classifications.",
+        "keywords": [
+          "computational complexity",
+          "NP-complete",
+          "intractability",
+          "biological computing",
+          "complexity theory"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715707",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundations",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Radiation Therapy Planning",
+        "description": "Optimization of radiation dose delivery in cancer treatment, involving beam angle selection and intensity modulation, which presents NP-hard combinatorial challenges.",
+        "keywords": [
+          "radiotherapy optimization",
+          "dose distribution",
+          "beam angle optimization",
+          "IMRT",
+          "treatment planning"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715719",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "oncology",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Drug Combination Therapy",
+        "description": "Selection and optimization of multi-drug treatment regimens considering drug interactions, resistance, and patient-specific factors in a combinatorially explosive search space.",
+        "keywords": [
+          "combination therapy",
+          "drug synergy",
+          "treatment optimization",
+          "polypharmacy",
+          "drug interactions"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715727",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "pharmacology",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Surgical Scheduling and Operating Room Allocation",
+        "description": "NP-hard optimization of surgical schedules, operating room assignments, and resource allocation in hospitals considering constraints like staff availability and emergency cases.",
+        "keywords": [
+          "operating room scheduling",
+          "resource allocation",
+          "surgical planning",
+          "hospital optimization",
+          "scheduling constraints"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715735",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "operations",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Clinical Decision and Treatment Optimization",
+        "description": "NP-hard optimization problems in clinical settings including treatment planning, resource allocation, and personalized medicine approaches that require balancing multiple conflicting objectives.",
+        "keywords": [
+          "treatment planning",
+          "clinical optimization",
+          "personalized medicine",
+          "therapy scheduling",
+          "dose optimization"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715742",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "clinical",
+          "healthcare",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Metabolic Pathway Optimization",
+        "description": "Finding optimal pathways in metabolic networks for biotechnology applications and understanding cellular metabolism, often involving finding paths in weighted graphs.",
+        "keywords": [
+          "metabolic engineering",
+          "flux balance analysis",
+          "pathway design",
+          "metabolic networks",
+          "optimization algorithms"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715751",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "metabolism",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Gene Regulatory Network Inference",
+        "description": "Reconstructing gene regulatory networks from expression data, which involves NP-hard problems in network structure learning and feature selection.",
+        "keywords": [
+          "network inference",
+          "gene regulation",
+          "network reconstruction",
+          "expression analysis",
+          "regulatory circuits"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715758",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "genomics",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Network and Pathway Analysis",
+        "description": "Computational problems in analyzing biological networks including metabolic pathways, gene regulatory networks, and protein interaction networks that involve NP-hard graph problems.",
+        "keywords": [
+          "biological networks",
+          "pathway analysis",
+          "network optimization",
+          "graph algorithms",
+          "systems biology"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715765",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "systems biology",
+          "networks",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Machine Learning Approaches",
+        "description": "Application of machine learning techniques including deep learning and reinforcement learning to approximate solutions for NP-hard biological optimization problems.",
+        "keywords": [
+          "deep learning",
+          "neural networks",
+          "reinforcement learning",
+          "machine learning optimization",
+          "data-driven methods"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715773",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "AI",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Evolutionary and Swarm Intelligence Algorithms",
+        "description": "Bio-inspired optimization algorithms such as genetic algorithms, particle swarm optimization, and ant colony optimization applied to biological and healthcare problems.",
+        "keywords": [
+          "genetic algorithms",
+          "evolutionary computation",
+          "swarm intelligence",
+          "bio-inspired algorithms",
+          "population-based methods"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715781",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "bio-inspired",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Approximation Algorithms and Heuristic Methods",
+        "description": "Computational approaches and algorithmic strategies developed to tackle NP-hard biological optimization problems, including exact methods, approximation algorithms, and metaheuristics.",
+        "keywords": [
+          "approximation algorithms",
+          "heuristics",
+          "metaheuristics",
+          "genetic algorithms",
+          "optimization methods"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715787",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "algorithms",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Quantum Computing for Biological Problems",
+        "description": "Application of quantum algorithms and quantum annealing to biological optimization problems, exploring potential quantum speedups for NP-hard problems in biology.",
+        "keywords": [
+          "quantum algorithms",
+          "quantum annealing",
+          "quantum speedup",
+          "QAOA",
+          "quantum optimization"
+        ],
+        "confidence": 0.75,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715795",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "quantum",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Emerging Computational Paradigms",
+        "description": "Novel computing approaches including quantum computing and DNA computing that offer potential advantages for solving NP-hard biological optimization problems.",
+        "keywords": [
+          "quantum computing",
+          "DNA computing",
+          "unconventional computing",
+          "quantum algorithms",
+          "molecular computing"
+        ],
+        "confidence": 0.78,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:35.715802",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1"
+        ],
+        "order": 4,
+        "tags": [
+          "emerging",
+          "future directions",
+          "preliminary"
+        ]
+      }
+    },
+    "n18": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "NP-Hard Problem Fundamentals",
+        "description": "Core definitions and characteristics of NP-hard optimization problems as they apply to biological and medical contexts.",
+        "keywords": [
+          "NP-completeness",
+          "optimization theory",
+          "algorithm complexity",
+          "decision problems"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006542",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Biological System Complexity",
+        "description": "Inherent complexity of biological systems that gives rise to NP-hard computational problems, including high dimensionality and interconnectedness.",
+        "keywords": [
+          "system complexity",
+          "biological networks",
+          "high dimensionality",
+          "emergent properties"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006586",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Computational Complexity in Biological Systems",
+        "description": "Foundational concepts of NP-hard problems and their manifestation in biological and healthcare computational challenges. Covers the theoretical basis for why biological optimization problems are computationally intractable.",
+        "keywords": [
+          "computational complexity",
+          "NP-hardness",
+          "biological computing",
+          "intractability",
+          "complexity theory"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006594",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Protein Structure Prediction",
+        "description": "Computational methods for predicting three-dimensional protein structures from amino acid sequences, a classic NP-hard problem.",
+        "keywords": [
+          "tertiary structure",
+          "ab initio prediction",
+          "homology modeling",
+          "fold recognition"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006603",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Protein-Protein Docking",
+        "description": "Optimization of protein-protein interaction geometries, essential for understanding cellular processes and drug design.",
+        "keywords": [
+          "molecular docking",
+          "binding affinity",
+          "interaction prediction",
+          "conformational sampling"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006611",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Protein Structure and Folding Optimization",
+        "description": "NP-hard problems in predicting protein structure and understanding protein folding pathways, which are critical for drug design and disease understanding.",
+        "keywords": [
+          "protein folding",
+          "structure prediction",
+          "Levinthal paradox",
+          "conformational search",
+          "AlphaFold"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006617",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Multiple Sequence Alignment",
+        "description": "Computational problem of aligning three or more biological sequences to identify conserved regions, proven to be NP-hard.",
+        "keywords": [
+          "MSA",
+          "progressive alignment",
+          "sequence homology",
+          "conserved domains"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006627",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Genome Assembly and Reconstruction",
+        "description": "Optimization problems in reconstructing complete genomes from short sequencing reads, involving graph-theoretic NP-hard problems.",
+        "keywords": [
+          "de Bruijn graphs",
+          "shotgun sequencing",
+          "contig assembly",
+          "scaffolding"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006635",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Phylogenetic Tree Construction",
+        "description": "Building evolutionary trees from molecular data, where finding the most parsimonious or likely tree is NP-hard.",
+        "keywords": [
+          "maximum parsimony",
+          "phylogenetic inference",
+          "evolutionary trees",
+          "tree search algorithms"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006646",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Genomics and Sequence Analysis",
+        "description": "NP-hard optimization problems arising in DNA/RNA sequence analysis, genome assembly, and phylogenetic reconstruction.",
+        "keywords": [
+          "sequence alignment",
+          "genome assembly",
+          "phylogenetics",
+          "motif finding",
+          "sequence optimization"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006663",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Radiation Therapy Planning",
+        "description": "Optimization of radiation dose delivery to maximize tumor coverage while minimizing damage to healthy tissue, an NP-hard inverse planning problem.",
+        "keywords": [
+          "IMRT",
+          "dose optimization",
+          "treatment planning",
+          "beam angle selection",
+          "inverse problem"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006672",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Drug Design and Discovery",
+        "description": "Computational optimization in identifying and designing drug candidates, including molecular design and target identification.",
+        "keywords": [
+          "drug discovery",
+          "molecular design",
+          "QSAR",
+          "virtual screening",
+          "lead optimization"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006679",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t4.3": {
+        "id": "t4.3",
+        "name": "Clinical Trial Design Optimization",
+        "description": "Optimization of patient cohort selection, trial protocols, and resource allocation in clinical studies.",
+        "keywords": [
+          "patient stratification",
+          "adaptive trials",
+          "sample size optimization",
+          "trial efficiency"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006686",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Clinical and Healthcare Optimization",
+        "description": "NP-hard optimization problems in clinical decision-making, treatment planning, and healthcare resource allocation.",
+        "keywords": [
+          "treatment optimization",
+          "clinical scheduling",
+          "resource allocation",
+          "personalized medicine",
+          "healthcare logistics"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006693",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2",
+          "t4.3"
+        ],
+        "order": 3,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Heuristic and Metaheuristic Methods",
+        "description": "Practical algorithmic approaches including genetic algorithms, simulated annealing, and other stochastic optimization methods for biological problems.",
+        "keywords": [
+          "genetic algorithms",
+          "simulated annealing",
+          "particle swarm optimization",
+          "evolutionary computation"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006702",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Machine Learning Approaches",
+        "description": "Application of deep learning and other ML techniques to approximate solutions or learn patterns in NP-hard biological problems.",
+        "keywords": [
+          "deep learning",
+          "neural networks",
+          "reinforcement learning",
+          "transfer learning",
+          "AI-driven optimization"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006709",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t5.3": {
+        "id": "t5.3",
+        "name": "Approximation Algorithms and Bounds",
+        "description": "Theoretical approaches that guarantee solution quality within provable bounds for NP-hard biological optimization problems.",
+        "keywords": [
+          "approximation ratio",
+          "performance guarantees",
+          "polynomial-time approximation",
+          "inapproximability"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006716",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Algorithmic Approaches and Solutions",
+        "description": "Computational methods and heuristic approaches developed to address NP-hard biological optimization problems in practical time frames.",
+        "keywords": [
+          "approximation algorithms",
+          "heuristics",
+          "metaheuristics",
+          "machine learning",
+          "quantum computing"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:41.006722",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2",
+          "t5.3"
+        ],
+        "order": 4,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      }
+    },
+    "n20": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Complexity Theory Fundamentals",
+        "description": "Basic concepts of P vs NP, reduction techniques, and proof methods for establishing NP-hardness in biological contexts.",
+        "keywords": [
+          "P vs NP",
+          "reduction",
+          "NP-hardness proof",
+          "decision problems"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392614",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Tractability Analysis",
+        "description": "Examination of when biological optimization problems become intractable and identification of problem parameters that influence computational difficulty.",
+        "keywords": [
+          "tractability",
+          "parameterized complexity",
+          "fixed-parameter tractability",
+          "problem size"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392645",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "theory",
+          "analysis",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Computational Complexity in Biology",
+        "description": "Foundational concepts of computational complexity theory as applied to biological problems, including the classification of problems as P, NP, NP-complete, and NP-hard.",
+        "keywords": [
+          "computational complexity",
+          "NP-completeness",
+          "polynomial time",
+          "intractability",
+          "reduction proofs"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392655",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "theory",
+          "foundations",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Protein Folding Problem",
+        "description": "The computational challenge of predicting three-dimensional protein structure from amino acid sequences, proven NP-hard for various models including HP lattice models.",
+        "keywords": [
+          "protein folding",
+          "HP model",
+          "hydrophobic-polar model",
+          "energy landscape",
+          "native structure"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392683",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "NP-hard",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Protein-Protein Docking",
+        "description": "Optimization of protein complex structures through docking simulations, involving search over high-dimensional conformational spaces.",
+        "keywords": [
+          "molecular docking",
+          "binding affinity",
+          "conformational search",
+          "protein complexes",
+          "scoring functions"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392692",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "drug discovery",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Protein Structure and Folding",
+        "description": "NP-hard optimization problems related to protein folding, structure prediction, and conformational analysis, which are central challenges in computational biology.",
+        "keywords": [
+          "protein folding",
+          "structure prediction",
+          "energy minimization",
+          "conformational space",
+          "lattice models"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392699",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "application",
+          "molecular biology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Multiple Sequence Alignment",
+        "description": "The NP-hard problem of optimally aligning three or more biological sequences to identify conserved regions and evolutionary relationships.",
+        "keywords": [
+          "MSA",
+          "optimal alignment",
+          "edit distance",
+          "sum-of-pairs score",
+          "progressive alignment"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392708",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "NP-hard",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Genome Assembly Optimization",
+        "description": "Computational challenges in reconstructing complete genomes from sequencing reads, including shortest superstring and scaffolding problems.",
+        "keywords": [
+          "de novo assembly",
+          "shortest superstring",
+          "scaffolding",
+          "contig ordering",
+          "overlap graphs"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392716",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "sequencing",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Phylogenetic Tree Construction",
+        "description": "NP-hard optimization in reconstructing evolutionary trees from sequence data using maximum parsimony and maximum likelihood methods.",
+        "keywords": [
+          "phylogenetic inference",
+          "maximum parsimony",
+          "tree topology",
+          "evolutionary distance",
+          "ancestral reconstruction"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392724",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "evolution",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Genomics and Sequence Analysis",
+        "description": "NP-hard problems arising in genome assembly, sequence alignment, motif finding, and phylogenetic reconstruction.",
+        "keywords": [
+          "sequence alignment",
+          "genome assembly",
+          "multiple sequence alignment",
+          "phylogenetics",
+          "motif discovery"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392730",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "application",
+          "genomics",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Radiotherapy Treatment Planning",
+        "description": "Optimization of radiation dose delivery to maximize tumor coverage while minimizing damage to healthy tissue, formulated as complex non-convex optimization problems.",
+        "keywords": [
+          "IMRT",
+          "dose optimization",
+          "beam angle selection",
+          "inverse planning",
+          "fluence map optimization"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392765",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "treatment",
+          "NP-hard",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Personalized Treatment Selection",
+        "description": "Optimization problems in selecting patient-specific treatment combinations from large combinatorial spaces based on genetic profiles and clinical data.",
+        "keywords": [
+          "precision medicine",
+          "treatment combination",
+          "drug selection",
+          "biomarker analysis",
+          "response prediction"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392773",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "personalized medicine",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Clinical and Healthcare Optimization",
+        "description": "NP-hard optimization problems in healthcare delivery, treatment planning, resource allocation, and personalized medicine.",
+        "keywords": [
+          "treatment optimization",
+          "radiotherapy planning",
+          "drug dosing",
+          "resource scheduling",
+          "personalized medicine"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392782",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "application",
+          "healthcare",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Network Inference and Reconstruction",
+        "description": "Computational challenges in inferring biological network structures from experimental data, including gene regulatory and protein interaction networks.",
+        "keywords": [
+          "network reconstruction",
+          "topology inference",
+          "causal networks",
+          "regulatory interactions",
+          "network topology"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392790",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "networks",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Pathway Optimization",
+        "description": "Optimization problems in metabolic engineering and synthetic biology for designing optimal metabolic pathways and gene circuits.",
+        "keywords": [
+          "metabolic engineering",
+          "flux balance analysis",
+          "pathway design",
+          "synthetic circuits",
+          "optimization objectives"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392797",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "synthetic biology",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Network Biology and Systems",
+        "description": "NP-hard problems in biological network analysis, pathway reconstruction, and systems biology modeling.",
+        "keywords": [
+          "network inference",
+          "pathway analysis",
+          "gene regulatory networks",
+          "metabolic networks",
+          "network optimization"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392804",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "systems biology",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Heuristic and Metaheuristic Methods",
+        "description": "Application of genetic algorithms, simulated annealing, particle swarm optimization, and other metaheuristics to biological NP-hard problems.",
+        "keywords": [
+          "genetic algorithms",
+          "simulated annealing",
+          "particle swarm",
+          "evolutionary computation",
+          "local search"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392812",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "algorithms",
+          "preliminary"
+        ]
+      },
+      "t6.2": {
+        "id": "t6.2",
+        "name": "Approximation Algorithms",
+        "description": "Polynomial-time algorithms that provide provable approximation guarantees for NP-hard biological optimization problems.",
+        "keywords": [
+          "approximation ratio",
+          "PTAS",
+          "constant-factor approximation",
+          "greedy algorithms",
+          "performance guarantee"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392819",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t6.3": {
+        "id": "t6.3",
+        "name": "Machine Learning Integration",
+        "description": "Use of deep learning, reinforcement learning, and other ML techniques to solve or approximate solutions to NP-hard biological problems.",
+        "keywords": [
+          "deep learning",
+          "neural networks",
+          "reinforcement learning",
+          "learned heuristics",
+          "AlphaFold"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392826",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "machine learning",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Algorithmic Approaches and Solutions",
+        "description": "Computational methods and algorithmic strategies developed to address NP-hard biological optimization problems, including approximation algorithms, heuristics, and exact methods.",
+        "keywords": [
+          "approximation algorithms",
+          "heuristics",
+          "metaheuristics",
+          "branch and bound",
+          "dynamic programming"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:03:52.392832",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1",
+          "t6.2",
+          "t6.3"
+        ],
+        "order": 5,
+        "tags": [
+          "methodology",
+          "algorithms",
+          "preliminary"
+        ]
+      }
+    }
+  },
+  "order": [
+    "n5",
+    "n7",
+    "n10",
+    "n12",
+    "n15",
+    "n18",
+    "n20"
+  ]
+}

@@ -1,0 +1,2796 @@
+{
+  "query": "One Exposome – the Human Exposome meets the One Health Paradigm",
+  "rater_id": "sandra",
+  "hierarchies": {
+    "n5": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Exposome Domains and Classification",
+        "description": "The three traditional exposome domains: internal, specific external, and general external environments, including chemical, physical, biological, and social exposure factors.",
+        "keywords": [
+          "internal exposome",
+          "external exposome",
+          "social exposome",
+          "exposome domains",
+          "exposure classification"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:17.107139",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "classification",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Exposome Concept and Framework",
+        "description": "Foundational understanding of the exposome paradigm, including its definition, evolution, and methodological approaches for measuring total environmental exposures across the lifespan.",
+        "keywords": [
+          "exposome definition",
+          "environmental exposure",
+          "exposure science",
+          "exposome methodology",
+          "wild type exposome"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:17.107170",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Human-Animal-Environment Interface",
+        "description": "The critical connections and shared exposure pathways between humans, animals, and ecosystems, including shared pathogens, antimicrobial resistance, and environmental contaminants affecting multiple species.",
+        "keywords": [
+          "zoonoses",
+          "antimicrobial resistance",
+          "shared exposures",
+          "ecological health",
+          "species interconnections"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:17.107183",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "One Health Paradigm Integration",
+        "description": "The One Health approach connecting human, animal, and environmental health, and its integration with exposome science to address interconnected health challenges at the human-animal-environment interface.",
+        "keywords": [
+          "One Health",
+          "planetary health",
+          "ecosystem health",
+          "zoonotic diseases",
+          "environmental health"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:17.107191",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "foundational",
+          "interdisciplinary",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "One Exposome Conceptual Framework",
+        "description": "The synthesis of exposome science with One Health principles, creating an integrated framework that examines environmental exposures across humans, animals, and ecosystems simultaneously to understand shared health determinants.",
+        "keywords": [
+          "One Exposome",
+          "integrated assessment",
+          "cross-species exposures",
+          "holistic health",
+          "exposome-One Health nexus"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:17.107200",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "interdisciplinary",
+          "emerging-concept",
+          "preliminary"
+        ]
+      }
+    },
+    "n7": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "One Health Implementation Models",
+        "description": "Operational frameworks and case studies demonstrating how One Health principles are applied across different sectors including zoonotic disease surveillance, antimicrobial resistance programs, and ecosystem health initiatives.",
+        "keywords": [
+          "implementation framework",
+          "zoonotic diseases",
+          "antimicrobial resistance",
+          "surveillance systems",
+          "sector collaboration"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:53.596170",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "One Health Paradigm Foundations",
+        "description": "Fundamental concepts of the One Health approach, emphasizing interconnections between human, animal, and environmental health as a unified framework for addressing complex health challenges.",
+        "keywords": [
+          "one health",
+          "interdisciplinary collaboration",
+          "human-animal-environment interface",
+          "systems thinking",
+          "transdisciplinary approach"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:53.596208",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational-concept",
+          "framework",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Exposome Measurement Technologies",
+        "description": "Advanced technologies and methodologies for measuring and monitoring exposome components, including personal sensors, omics technologies, geospatial tracking, and integrated data platforms.",
+        "keywords": [
+          "biosensors",
+          "wearable devices",
+          "omics platforms",
+          "geospatial analysis",
+          "big data analytics"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:53.596222",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Human Exposome Concept and Assessment",
+        "description": "Comprehensive characterization of the human exposome, encompassing all environmental exposures from conception onwards, including chemical, physical, biological, and social factors that influence health outcomes.",
+        "keywords": [
+          "exposome",
+          "environmental exposures",
+          "exposure assessment",
+          "biomonitoring",
+          "life-course approach"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:53.596233",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "foundational-concept",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Shared Environmental Stressors",
+        "description": "Common environmental exposures affecting human, animal, and ecosystem health simultaneously, including air pollution, water contaminants, climate change impacts, and chemical pollutants.",
+        "keywords": [
+          "environmental pollution",
+          "climate change",
+          "water quality",
+          "air quality",
+          "chemical contaminants"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:53.596244",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "environmental-factor",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Policy and Governance Implications",
+        "description": "Regulatory frameworks, policy development, and governance structures needed to operationalize the One Exposome approach across health, environmental, and agricultural sectors.",
+        "keywords": [
+          "health policy",
+          "environmental regulation",
+          "multi-sectoral governance",
+          "risk assessment",
+          "policy integration"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:53.596253",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "policy",
+          "governance",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Integration of Exposome and One Health",
+        "description": "Conceptual and practical integration of exposome science with One Health principles, creating a unified framework that addresses environmental exposures across human, animal, and ecosystem boundaries.",
+        "keywords": [
+          "integrated framework",
+          "cross-species exposures",
+          "ecosystem services",
+          "environmental determinants",
+          "holistic health approach"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:53:53.596263",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "integration",
+          "framework",
+          "innovation",
+          "preliminary"
+        ]
+      }
+    },
+    "n10": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Exposome Science Principles",
+        "description": "Core principles of exposome science including the totality of environmental exposures from conception onwards, internal and external exposome components, and temporal dynamics of exposure assessment.",
+        "keywords": [
+          "total environmental exposure",
+          "exposure assessment",
+          "life-course epidemiology",
+          "environmental factors",
+          "biomonitoring"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688329",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "One Health Paradigm Evolution",
+        "description": "Development and core tenets of the One Health approach emphasizing interconnections between human, animal, and environmental health, including zoonotic disease interfaces and ecosystem health considerations.",
+        "keywords": [
+          "One Health triad",
+          "human-animal-environment interface",
+          "zoonotic diseases",
+          "ecosystem health",
+          "transdisciplinary collaboration"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688363",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Framework Integration Rationale",
+        "description": "Justification and theoretical basis for merging exposome and One Health frameworks, identifying synergies, complementary approaches, and enhanced understanding of complex health determinants across domains.",
+        "keywords": [
+          "framework synthesis",
+          "systems thinking",
+          "transdisciplinary approach",
+          "holistic health assessment",
+          "integrated paradigm"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688378",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "conceptual",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Conceptual Foundations and Integration",
+        "description": "Foundational concepts defining the exposome and One Health paradigm, their evolution, and the theoretical basis for integrating these frameworks to understand health determinants across human, animal, and environmental domains.",
+        "keywords": [
+          "exposome definition",
+          "One Health framework",
+          "interdisciplinary integration",
+          "environmental health determinants",
+          "holistic health approach"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688389",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "conceptual",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Multi-Domain Exposure Measurement",
+        "description": "Technologies and protocols for measuring chemical, biological, physical, and social exposures across human populations, animal species, and environmental matrices simultaneously.",
+        "keywords": [
+          "biomarkers",
+          "environmental sensors",
+          "personal exposure monitoring",
+          "wildlife surveillance",
+          "geospatial analysis"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688400",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Computational and Systems Biology Tools",
+        "description": "Advanced computational methods including machine learning, network analysis, and systems biology approaches to integrate multi-scale exposome and One Health data for pattern identification and prediction.",
+        "keywords": [
+          "machine learning",
+          "network analysis",
+          "bioinformatics",
+          "predictive modeling",
+          "artificial intelligence"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688408",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Methodological Approaches and Data Integration",
+        "description": "Technical methods, measurement technologies, and data science approaches for characterizing exposures across human, animal, and environmental compartments, including big data analytics and systems biology techniques.",
+        "keywords": [
+          "exposure assessment methods",
+          "multi-omics",
+          "environmental monitoring",
+          "data integration",
+          "systems biology"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688416",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Planetary Health and Climate Change",
+        "description": "Application of the One Exposome framework to understand climate change impacts on health across human, animal, and ecosystem levels, including extreme weather events, vector-borne diseases, and environmental degradation effects.",
+        "keywords": [
+          "climate health impacts",
+          "planetary health",
+          "environmental degradation",
+          "vector-borne diseases",
+          "ecosystem services"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688425",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Antimicrobial Resistance Surveillance",
+        "description": "Integration of exposome and One Health perspectives to track antimicrobial resistance emergence and transmission across human-animal-environment interfaces, including agricultural and healthcare settings.",
+        "keywords": [
+          "AMR surveillance",
+          "antibiotic exposure",
+          "environmental reservoirs",
+          "transmission pathways",
+          "integrated monitoring"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688432",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Applications and Case Studies",
+        "description": "Real-world applications demonstrating the practical implementation of integrated One Exposome-One Health approaches in addressing complex health challenges, including disease prevention, environmental health interventions, and policy development.",
+        "keywords": [
+          "practical applications",
+          "case examples",
+          "disease prevention",
+          "intervention strategies",
+          "implementation science"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:55:36.688439",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "application",
+          "practice",
+          "preliminary"
+        ]
+      }
+    },
+    "n12": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "One Health Historical Development",
+        "description": "Evolution of One Health from veterinary medicine origins to contemporary integrated health frameworks, including key milestones and institutional adoption.",
+        "keywords": [
+          "One Health history",
+          "zoonotic diseases",
+          "interdisciplinary evolution",
+          "WHO-FAO-OIE collaboration"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539605",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "historical-context",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "One Health Implementation Frameworks",
+        "description": "Practical frameworks and methodologies for implementing One Health approaches across sectors, including governance structures and multi-stakeholder collaboration models.",
+        "keywords": [
+          "One Health implementation",
+          "cross-sectoral collaboration",
+          "governance frameworks",
+          "stakeholder engagement"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539640",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "One Health Paradigm Foundations",
+        "description": "Foundational concepts of One Health as an integrative approach connecting human, animal, and environmental health through interdisciplinary collaboration and systems thinking.",
+        "keywords": [
+          "One Health",
+          "interdisciplinary health",
+          "human-animal-environment interface",
+          "planetary health",
+          "ecosystem health"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539648",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational-concept",
+          "framework",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Exposome Measurement Technologies",
+        "description": "Advanced technologies and methodologies for measuring and monitoring environmental exposures, including biomonitoring, sensors, omics technologies, and geospatial tools.",
+        "keywords": [
+          "biomonitoring",
+          "exposure assessment",
+          "wearable sensors",
+          "exposomics",
+          "environmental monitoring"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539656",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Internal and External Exposome",
+        "description": "Distinction between external exposures from environment and lifestyle, and internal biological responses including metabolism, inflammation, and microbiome interactions.",
+        "keywords": [
+          "external exposome",
+          "internal exposome",
+          "metabolomics",
+          "microbiome",
+          "biological response"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539664",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "classification",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Human Exposome Concepts",
+        "description": "Comprehensive framework encompassing all environmental exposures from conception onwards, including chemical, physical, biological, and social factors influencing human health across the lifespan.",
+        "keywords": [
+          "exposome",
+          "environmental exposures",
+          "exposure science",
+          "life-course epidemiology",
+          "total exposure assessment"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539670",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "foundational-concept",
+          "framework",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Shared Environmental Exposures",
+        "description": "Common environmental exposures affecting humans, animals, and ecosystems simultaneously, including pollutants, climate factors, and habitat modifications.",
+        "keywords": [
+          "shared exposures",
+          "environmental contaminants",
+          "climate change impacts",
+          "ecosystem degradation",
+          "pollution"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539678",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Cross-Species Health Surveillance",
+        "description": "Integrated surveillance systems monitoring health outcomes and exposures across human populations, wildlife, livestock, and environmental indicators.",
+        "keywords": [
+          "health surveillance",
+          "sentinel species",
+          "biomonitoring programs",
+          "cross-species indicators",
+          "early warning systems"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539685",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "One Exposome Integration Framework",
+        "description": "Conceptual and practical integration of exposome science with One Health principles, creating unified approaches to understanding multi-domain health determinants across species and ecosystems.",
+        "keywords": [
+          "One Exposome",
+          "integrated assessment",
+          "cross-species exposures",
+          "environmental health integration",
+          "systems approach"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539694",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "framework",
+          "integration",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Multi-Domain Data Harmonization",
+        "description": "Strategies for standardizing and integrating heterogeneous data from human health, veterinary, environmental, and social science domains.",
+        "keywords": [
+          "data harmonization",
+          "standardization",
+          "interoperability",
+          "data linkage",
+          "metadata standards"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539708",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Applications and Case Studies",
+        "description": "Real-world applications demonstrating One Exposome approaches in areas such as zoonotic disease prevention, climate health impacts, and environmental policy.",
+        "keywords": [
+          "case studies",
+          "practical applications",
+          "zoonotic diseases",
+          "antimicrobial resistance",
+          "policy implementation"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539715",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Data Integration and Modeling",
+        "description": "Computational approaches, data infrastructures, and modeling frameworks for integrating diverse exposome and One Health data sources to generate actionable insights.",
+        "keywords": [
+          "data integration",
+          "computational modeling",
+          "machine learning",
+          "big data analytics",
+          "predictive models"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:56:12.539720",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      }
+    },
+    "n15": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Internal and External Exposome",
+        "description": "Distinction between internal exposome (biological responses, metabolites) and external exposome (environmental factors, lifestyle, occupational exposures).",
+        "keywords": [
+          "internal exposome",
+          "external exposome",
+          "biomarkers",
+          "environmental factors",
+          "exposure classification"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260864",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Exposome Measurement Technologies",
+        "description": "Technical approaches and tools for measuring exposome components, including biomonitoring, personal sensors, geospatial methods, and omics technologies.",
+        "keywords": [
+          "biomonitoring",
+          "wearable sensors",
+          "omics technologies",
+          "exposure measurement",
+          "geospatial analysis"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260896",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Exposome Concept and Framework",
+        "description": "Foundational concepts defining the exposome, including its origins, scope, and methodological approaches to measuring total environmental exposures across the lifespan.",
+        "keywords": [
+          "exposome definition",
+          "environmental exposure",
+          "exposure assessment",
+          "life course approach",
+          "total environment"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260905",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Zoonotic Disease and Health Interfaces",
+        "description": "Connections between animal, human, and environmental health through disease transmission, antimicrobial resistance, and shared environmental exposures.",
+        "keywords": [
+          "zoonoses",
+          "disease transmission",
+          "antimicrobial resistance",
+          "vector-borne disease",
+          "human-animal interface"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260919",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Environmental Health Determinants",
+        "description": "Environmental factors affecting health across species, including climate change, pollution, biodiversity loss, and ecosystem degradation.",
+        "keywords": [
+          "climate change",
+          "environmental pollution",
+          "biodiversity",
+          "ecosystem services",
+          "environmental determinants"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260939",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "One Health Paradigm",
+        "description": "Core principles of One Health integrating human, animal, and environmental health as interconnected domains requiring collaborative, transdisciplinary approaches.",
+        "keywords": [
+          "One Health",
+          "human-animal-environment interface",
+          "transdisciplinary",
+          "planetary health",
+          "ecosystem health"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260947",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Shared Environmental Exposures",
+        "description": "Common exposures affecting multiple species simultaneously, including air and water quality, chemical contaminants, and urban environmental factors.",
+        "keywords": [
+          "shared exposures",
+          "environmental contaminants",
+          "air quality",
+          "water pollution",
+          "multi-species exposure"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260955",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Cross-Species Biomonitoring",
+        "description": "Surveillance and monitoring approaches that track exposure biomarkers across human, animal, and environmental matrices to assess ecosystem-wide health impacts.",
+        "keywords": [
+          "biomonitoring",
+          "sentinel species",
+          "environmental surveillance",
+          "exposure biomarkers",
+          "ecosystem monitoring"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260963",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Climate Change and Exposome",
+        "description": "Impact of climate change on exposome components affecting all species, including heat exposure, extreme weather events, and changing disease patterns.",
+        "keywords": [
+          "climate health impacts",
+          "heat exposure",
+          "extreme weather",
+          "climate adaptation",
+          "environmental change"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260970",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "challenge",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Integration: One Exposome Framework",
+        "description": "Conceptual integration of exposome science with One Health principles, creating a unified framework for understanding health across human, animal, and environmental domains.",
+        "keywords": [
+          "integrated framework",
+          "exposome-One Health",
+          "systems approach",
+          "cross-species health",
+          "holistic exposure assessment"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260977",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "foundational",
+          "integration",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Multi-Sectoral Collaboration Models",
+        "description": "Frameworks for collaboration across public health, veterinary, environmental, and agricultural sectors to operationalize One Exposome surveillance and intervention.",
+        "keywords": [
+          "intersectoral collaboration",
+          "coordination mechanisms",
+          "collaborative governance",
+          "multi-agency partnerships",
+          "transdisciplinary teams"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260985",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "policy",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Data Integration and Standardization",
+        "description": "Technical and methodological challenges in integrating diverse exposure and health data across species, scales, and disciplines for One Exposome applications.",
+        "keywords": [
+          "data integration",
+          "interoperability",
+          "data harmonization",
+          "data sharing",
+          "standardized protocols"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.260993",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "challenge",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Implementation and Policy",
+        "description": "Practical applications, policy frameworks, and governance structures for implementing One Exposome approaches in public health, environmental management, and veterinary practice.",
+        "keywords": [
+          "policy implementation",
+          "governance",
+          "public health practice",
+          "regulatory frameworks",
+          "stakeholder engagement"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.261000",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "application",
+          "policy",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Novel Technologies and Big Data",
+        "description": "Emerging technological innovations including artificial intelligence, machine learning, and big data analytics for advancing One Exposome research and surveillance.",
+        "keywords": [
+          "artificial intelligence",
+          "machine learning",
+          "big data",
+          "predictive modeling",
+          "digital health technologies"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.261007",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "technology",
+          "future-outlook",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Future Directions and Research Gaps",
+        "description": "Emerging research priorities, knowledge gaps, and future opportunities for advancing the One Exposome framework in science and practice.",
+        "keywords": [
+          "research priorities",
+          "knowledge gaps",
+          "future research",
+          "emerging challenges",
+          "innovation opportunities"
+        ],
+        "confidence": 0.78,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T07:58:31.261014",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1"
+        ],
+        "order": 4,
+        "tags": [
+          "future-outlook",
+          "preliminary"
+        ]
+      }
+    },
+    "n18": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Exposome Paradigm Overview",
+        "description": "Comprehensive overview of the exposome concept, including internal, external, and behavioral exposures throughout the life course and its role in disease etiology.",
+        "keywords": [
+          "total environmental exposure",
+          "life course approach",
+          "exposure assessment",
+          "Wild's definition",
+          "exposome domains"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510732",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "foundation",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "One Health Paradigm Fundamentals",
+        "description": "Explanation of One Health as an integrative approach recognizing interconnections between human, animal, and environmental health at local, global, and ecosystem levels.",
+        "keywords": [
+          "human-animal-environment interface",
+          "interdisciplinary approach",
+          "zoonotic diseases",
+          "ecosystem health",
+          "transdisciplinary collaboration"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510765",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "foundation",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Convergence Rationale and One Exposome",
+        "description": "Justification for integrating exposome and One Health frameworks, emphasizing shared environmental determinants and the need for holistic assessment across species and ecosystems.",
+        "keywords": [
+          "paradigm integration",
+          "shared exposures",
+          "cross-species health",
+          "holistic assessment",
+          "environmental determinants"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510778",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "integration",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Foundational Concepts and Frameworks",
+        "description": "Core definitions, historical development, and conceptual frameworks underlying both the exposome and One Health paradigms, including their individual origins and the rationale for their integration.",
+        "keywords": [
+          "exposome definition",
+          "One Health framework",
+          "paradigm integration",
+          "environmental health",
+          "conceptual evolution"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510789",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "foundation",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Chemical and Physical Exposures",
+        "description": "Chemical contaminants and physical stressors affecting human, animal, and environmental health, including persistent pollutants, pesticides, heavy metals, and climate-related factors.",
+        "keywords": [
+          "persistent organic pollutants",
+          "endocrine disruptors",
+          "air pollution",
+          "water contamination",
+          "climate factors"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510800",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "exposure",
+          "environmental",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Biological and Infectious Agents",
+        "description": "Pathogenic microorganisms, zoonotic diseases, antimicrobial resistance, and microbiome interactions as shared exposures across species in the One Exposome context.",
+        "keywords": [
+          "zoonotic pathogens",
+          "antimicrobial resistance",
+          "microbiome",
+          "infectious disease ecology",
+          "vector-borne diseases"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510807",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "exposure",
+          "infectious disease",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Social and Built Environment Factors",
+        "description": "Socioeconomic conditions, urbanization, land use patterns, and built environment characteristics affecting exposures and health outcomes across populations and species.",
+        "keywords": [
+          "urbanization",
+          "socioeconomic determinants",
+          "land use change",
+          "built environment",
+          "environmental justice"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510814",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "exposure",
+          "social determinants",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Environmental Exposure Categories",
+        "description": "Major categories of environmental exposures relevant to both human and animal health, including chemical, biological, physical, and social determinants across different environmental compartments.",
+        "keywords": [
+          "environmental pollutants",
+          "chemical exposures",
+          "biological agents",
+          "physical stressors",
+          "exposure pathways"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510819",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "exposure",
+          "classification",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Biomonitoring and Biomarker Approaches",
+        "description": "Use of biological specimens and biomarkers to assess internal exposures in humans, wildlife, and sentinel species within the One Exposome framework.",
+        "keywords": [
+          "human biomonitoring",
+          "biomarkers of exposure",
+          "wildlife biomonitoring",
+          "sentinel species",
+          "internal dose"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510826",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "measurement",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Multi-Omics and Systems Biology",
+        "description": "Application of genomics, metabolomics, proteomics, and integrated omics approaches to characterize exposure-response relationships across species and ecosystems.",
+        "keywords": [
+          "exposomics",
+          "metabolomics",
+          "multi-omics integration",
+          "systems biology",
+          "molecular epidemiology"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510833",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Environmental Monitoring and Geospatial Methods",
+        "description": "External exposure assessment through environmental sampling, remote sensing, GIS-based modeling, and spatiotemporal analysis for integrated environmental health surveillance.",
+        "keywords": [
+          "environmental sampling",
+          "remote sensing",
+          "GIS modeling",
+          "exposure modeling",
+          "spatiotemporal analysis"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510840",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Methodological Approaches and Technologies",
+        "description": "Advanced methods, tools, and technologies for measuring, monitoring, and analyzing exposures across human, animal, and environmental domains in integrated One Exposome studies.",
+        "keywords": [
+          "exposure assessment methods",
+          "biomonitoring",
+          "omics technologies",
+          "exposure science",
+          "measurement tools"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510845",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Non-Communicable Disease Patterns",
+        "description": "Environmental contributions to chronic diseases in humans and animals, including cancer, cardiovascular disease, metabolic disorders, and developmental conditions linked to exposures.",
+        "keywords": [
+          "chronic disease",
+          "cancer etiology",
+          "metabolic disorders",
+          "developmental origins",
+          "wildlife disease"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510852",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "health outcomes",
+          "chronic disease",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Infectious Disease Emergence and Transmission",
+        "description": "Environmental drivers of zoonotic disease emergence, spillover events, and transmission dynamics at the human-animal-environment interface within the One Health context.",
+        "keywords": [
+          "disease emergence",
+          "spillover events",
+          "transmission dynamics",
+          "pandemic risk",
+          "environmental drivers"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510858",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "health outcomes",
+          "infectious disease",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Health Outcomes and Disease Linkages",
+        "description": "Disease endpoints and health outcomes in humans, animals, and ecosystems that result from shared environmental exposures, demonstrating the interconnectedness emphasized by One Exposome.",
+        "keywords": [
+          "disease burden",
+          "cross-species health effects",
+          "ecosystem health outcomes",
+          "exposure-disease relationships",
+          "health impacts"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510864",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "health outcomes",
+          "disease",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Data Integration and Standardization",
+        "description": "Challenges and approaches for integrating heterogeneous data from human, animal, and environmental sources, including harmonization, interoperability, and big data management.",
+        "keywords": [
+          "data harmonization",
+          "interoperability",
+          "data standards",
+          "big data analytics",
+          "cross-domain integration"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510871",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenges",
+          "data management",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Policy and Governance Frameworks",
+        "description": "Policy implications, regulatory frameworks, and governance structures needed to support One Exposome initiatives and translate findings into public health action and environmental policy.",
+        "keywords": [
+          "policy translation",
+          "regulatory frameworks",
+          "governance structures",
+          "public health policy",
+          "environmental regulation"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510877",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "policy",
+          "governance",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Implementation Challenges and Solutions",
+        "description": "Practical barriers to implementing integrated One Exposome approaches and proposed solutions, including data integration, interdisciplinary collaboration, and policy translation.",
+        "keywords": [
+          "implementation barriers",
+          "data integration challenges",
+          "interdisciplinary collaboration",
+          "practical solutions",
+          "operational framework"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:00:04.510882",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "challenges",
+          "implementation",
+          "preliminary"
+        ]
+      }
+    },
+    "n20": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Exposome Framework and Classification",
+        "description": "Comprehensive overview of the exposome concept, including internal, specific external, and general external exposures, along with measurement methodologies.",
+        "keywords": [
+          "total environmental exposure",
+          "life-course approach",
+          "exposure classification",
+          "Wild's exposome",
+          "environmental factors"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836257",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "One Health Paradigm Principles",
+        "description": "Core principles of One Health emphasizing interconnections between human, animal, and environmental health, including transdisciplinary approaches.",
+        "keywords": [
+          "human-animal-environment interface",
+          "zoonotic diseases",
+          "ecosystem health",
+          "transdisciplinary collaboration",
+          "planetary health"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836297",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Integration of Exposome and One Health",
+        "description": "Theoretical and practical frameworks for integrating exposome research with One Health approaches to address complex environmental health challenges.",
+        "keywords": [
+          "One Exposome concept",
+          "integrated framework",
+          "systems approach",
+          "convergence paradigm",
+          "holistic health assessment"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836305",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "foundational",
+          "integration",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Foundational Concepts and Frameworks",
+        "description": "Core definitions, theoretical frameworks, and conceptual models underlying the exposome and One Health paradigm, including their historical development and key principles.",
+        "keywords": [
+          "exposome definition",
+          "One Health concept",
+          "environmental health",
+          "holistic framework",
+          "paradigm integration"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836311",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "theory",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Chemical and Physical Exposures",
+        "description": "Chemical contaminants, air and water pollutants, heavy metals, and physical environmental factors affecting multiple species and ecosystems.",
+        "keywords": [
+          "chemical pollutants",
+          "air quality",
+          "water contamination",
+          "pesticides",
+          "endocrine disruptors"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836319",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "environmental",
+          "exposure",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Climate Change and Health Impacts",
+        "description": "Climate-related exposures including temperature extremes, extreme weather events, and their cascading effects on human, animal, and environmental health.",
+        "keywords": [
+          "global warming",
+          "heat stress",
+          "climate-related diseases",
+          "environmental change",
+          "climate adaptation"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836326",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "environmental",
+          "climate",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Biodiversity and Ecosystem Health",
+        "description": "Role of biodiversity, ecosystem integrity, and environmental degradation in shaping exposure profiles and health outcomes across species.",
+        "keywords": [
+          "biodiversity loss",
+          "ecosystem disruption",
+          "habitat degradation",
+          "ecological balance",
+          "wildlife health"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836332",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "environmental",
+          "ecology",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Environmental and Ecological Determinants",
+        "description": "Environmental factors, exposures, and ecological conditions that affect human, animal, and ecosystem health within the One Exposome framework.",
+        "keywords": [
+          "environmental exposures",
+          "pollution",
+          "climate change",
+          "biodiversity loss",
+          "ecosystem services"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836337",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "environmental",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Emerging Infectious Diseases",
+        "description": "Zoonotic disease emergence, spillover events, and pandemic risks assessed through the lens of environmental exposures and One Health surveillance.",
+        "keywords": [
+          "disease emergence",
+          "spillover events",
+          "pandemic preparedness",
+          "zoonoses",
+          "viral transmission"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836344",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "biological",
+          "disease",
+          "surveillance",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Antimicrobial Resistance in Environment",
+        "description": "Environmental reservoirs of antimicrobial resistance, transmission pathways across human-animal-environment sectors, and exposome implications.",
+        "keywords": [
+          "AMR transmission",
+          "antibiotic pollution",
+          "resistance genes",
+          "environmental contamination",
+          "One Health AMR"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836350",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "biological",
+          "environmental",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Biological and Zoonotic Interfaces",
+        "description": "Biological exposures, infectious agents, and disease transmission at human-animal-environment interfaces within the integrated framework.",
+        "keywords": [
+          "zoonotic transmission",
+          "infectious diseases",
+          "antimicrobial resistance",
+          "pathogen exposure",
+          "disease emergence"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836355",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "biological",
+          "disease",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Multi-Omics and Biomarker Approaches",
+        "description": "Application of genomics, metabolomics, proteomics, and other omics technologies to characterize exposures and biological responses across species.",
+        "keywords": [
+          "metabolomics",
+          "genomics",
+          "biomarkers",
+          "molecular signatures",
+          "high-throughput screening"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836361",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Environmental Sensing and Monitoring",
+        "description": "Technologies for real-time environmental monitoring, remote sensing, and integrated surveillance systems for exposure assessment.",
+        "keywords": [
+          "environmental sensors",
+          "remote sensing",
+          "surveillance systems",
+          "real-time monitoring",
+          "IoT devices"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836367",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Measurement and Assessment Technologies",
+        "description": "Methods, technologies, and tools for measuring, monitoring, and assessing exposures across human, animal, and environmental domains.",
+        "keywords": [
+          "exposure assessment",
+          "biomonitoring",
+          "environmental monitoring",
+          "omics technologies",
+          "sensor systems"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836372",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Multi-Domain Data Integration",
+        "description": "Strategies for harmonizing and integrating diverse data streams from human health, animal health, and environmental monitoring systems.",
+        "keywords": [
+          "data harmonization",
+          "interoperability",
+          "data linkage",
+          "integrated databases",
+          "cross-sectoral data"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836379",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "data science",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Predictive Modeling and Risk Assessment",
+        "description": "Machine learning and computational models for predicting health outcomes, identifying exposure patterns, and assessing risks across populations.",
+        "keywords": [
+          "predictive analytics",
+          "risk modeling",
+          "exposure-response relationships",
+          "AI algorithms",
+          "health forecasting"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836384",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Data Integration and Computational Methods",
+        "description": "Computational approaches, data science methods, and analytical frameworks for integrating multi-domain exposure and health data.",
+        "keywords": [
+          "big data analytics",
+          "machine learning",
+          "data integration",
+          "computational modeling",
+          "AI applications"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836389",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "methodology",
+          "computational",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Transdisciplinary Collaboration Models",
+        "description": "Frameworks for coordinating across human health, veterinary, environmental, and social science sectors to implement integrated approaches.",
+        "keywords": [
+          "intersectoral collaboration",
+          "transdisciplinary teams",
+          "stakeholder coordination",
+          "capacity building",
+          "knowledge exchange"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.836394",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "collaboration",
+          "preliminary"
+        ]
+      },
+      "t6.2": {
+        "id": "t6.2",
+        "name": "Regulatory and Policy Frameworks",
+        "description": "International and national policies, regulations, and governance structures supporting One Exposome implementation and environmental health protection.",
+        "keywords": [
+          "environmental regulations",
+          "health policy",
+          "international agreements",
+          "regulatory science",
+          "policy coherence"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.837291",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "policy",
+          "governance",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Implementation and Policy Applications",
+        "description": "Practical implementation strategies, policy frameworks, and governance structures for operationalizing the One Exposome approach in practice.",
+        "keywords": [
+          "policy implementation",
+          "governance",
+          "regulatory frameworks",
+          "public health practice",
+          "stakeholder engagement"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-15T08:04:33.837484",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1",
+          "t6.2"
+        ],
+        "order": 5,
+        "tags": [
+          "application",
+          "policy",
+          "preliminary"
+        ]
+      }
+    }
+  },
+  "order": [
+    "n5",
+    "n7",
+    "n10",
+    "n12",
+    "n15",
+    "n18",
+    "n20"
+  ]
+}
