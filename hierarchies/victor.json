@@ -1,0 +1,2785 @@
+{
+  "query": "Named Entity Recognition in the Biomedical Domain",
+  "rater_id": "victor",
+  "hierarchies": {
+    "n5": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Deep Learning Architectures",
+        "description": "Neural network-based approaches including recurrent networks, transformers, and pre-trained language models specifically adapted for biomedical entity recognition tasks.",
+        "keywords": [
+          "BioBERT",
+          "PubMedBERT",
+          "SciBERT",
+          "neural networks",
+          "transfer learning"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:07.504088",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "state-of-art",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Core NER Methodologies",
+        "description": "Fundamental approaches and algorithms used for named entity recognition in biomedical texts, including traditional machine learning methods and modern deep learning architectures.",
+        "keywords": [
+          "conditional random fields",
+          "BiLSTM-CRF",
+          "transformer models",
+          "BERT",
+          "feature engineering"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:07.504192",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Multi-type Entity Recognition",
+        "description": "Approaches and challenges in simultaneously recognizing multiple biomedical entity types within the same text, including entity disambiguation and nested entity detection.",
+        "keywords": [
+          "nested entities",
+          "entity disambiguation",
+          "multi-task learning",
+          "joint modeling"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:07.504228",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Biomedical Entity Types",
+        "description": "Classification and characteristics of different entity categories in biomedical literature, including genes, proteins, diseases, chemical compounds, and their recognition challenges.",
+        "keywords": [
+          "gene recognition",
+          "protein mention",
+          "disease entities",
+          "drug names",
+          "anatomy terms"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:07.504239",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "domain-specific",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Benchmark Datasets and Evaluation",
+        "description": "Standard corpora, shared tasks, and evaluation metrics used to assess biomedical NER performance, including inter-annotator agreement and cross-corpus generalization challenges.",
+        "keywords": [
+          "BC5CDR",
+          "NCBI disease corpus",
+          "JNLPBA",
+          "F1-score",
+          "BioCreative"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:07.504250",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "evaluation",
+          "resources",
+          "preliminary"
+        ]
+      }
+    },
+    "n7": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Deep Learning Approaches",
+        "description": "Modern neural network methods including recurrent networks, attention mechanisms, and pre-trained language models specifically adapted for biomedical entity recognition tasks.",
+        "keywords": [
+          "BioBERT",
+          "PubMedBERT",
+          "SciBERT",
+          "attention mechanisms",
+          "contextual embeddings"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:32.625391",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "deep-learning",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Traditional ML and Rule-Based Systems",
+        "description": "Conventional approaches including conditional random fields, support vector machines, and dictionary-based methods that established foundational benchmarks in biomedical NER.",
+        "keywords": [
+          "CRF",
+          "SVM",
+          "dictionary matching",
+          "rule-based systems",
+          "feature extraction"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:32.625431",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "traditional-approaches",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Biomedical NER Methods and Architectures",
+        "description": "Core computational approaches and neural network architectures designed for recognizing and extracting named entities from biomedical text, including traditional machine learning and modern deep learning techniques.",
+        "keywords": [
+          "BiLSTM-CRF",
+          "transformer models",
+          "BERT",
+          "feature engineering",
+          "neural architectures"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:32.625439",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "core-topic",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Domain-Specific Linguistic Challenges",
+        "description": "Technical obstacles including abbreviation handling, nested entities, entity boundary detection, and disambiguation of polysemous terms in biomedical literature.",
+        "keywords": [
+          "abbreviation resolution",
+          "nested entities",
+          "boundary detection",
+          "term ambiguity",
+          "acronyms"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:32.625448",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "linguistic-issues",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Entity Types and Domain Challenges",
+        "description": "Specific categories of biomedical entities (genes, proteins, diseases, drugs) and unique challenges posed by medical terminology, ambiguity, and domain-specific language characteristics.",
+        "keywords": [
+          "gene names",
+          "protein recognition",
+          "drug entities",
+          "disease mentions",
+          "terminology ambiguity"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:32.625455",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "domain-specific",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Shared Tasks and Competitions",
+        "description": "Community challenges like BioCreative, BioNLP, and CLEF eHealth that drive innovation through standardized evaluation of biomedical NER systems on curated datasets.",
+        "keywords": [
+          "BioCreative",
+          "BioNLP Shared Task",
+          "CLEF eHealth",
+          "community challenges",
+          "comparative evaluation"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:32.625462",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "evaluation",
+          "community-resources",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Evaluation and Benchmark Datasets",
+        "description": "Standard datasets, evaluation metrics, and shared task competitions used to assess biomedical NER system performance and enable reproducible comparisons across methods.",
+        "keywords": [
+          "BC5CDR",
+          "NCBI-disease",
+          "JNLPBA",
+          "F1-score",
+          "BioCreative",
+          "i2b2"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:42:32.625467",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1"
+        ],
+        "order": 2,
+        "tags": [
+          "evaluation",
+          "benchmarking",
+          "preliminary"
+        ]
+      }
+    },
+    "n10": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Deep Learning Architectures for BioNER",
+        "description": "Modern neural network architectures including BiLSTM-CRF models, transformer-based models (BioBERT, PubMedBERT), and attention mechanisms specifically designed for biomedical entity recognition tasks.",
+        "keywords": [
+          "BioBERT",
+          "PubMedBERT",
+          "SciBERT",
+          "BiLSTM",
+          "CRF",
+          "attention mechanisms"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875100",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "deep-learning",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Traditional Machine Learning Approaches",
+        "description": "Classical NER methods including conditional random fields (CRF), support vector machines (SVM), and rule-based systems that established foundational techniques before deep learning dominance.",
+        "keywords": [
+          "CRF",
+          "SVM",
+          "maximum entropy",
+          "rule-based systems",
+          "feature engineering"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875142",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "classical-approaches",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Biomedical NER Methods and Architectures",
+        "description": "Core computational approaches and neural architectures used for identifying and classifying named entities in biomedical text, including traditional machine learning and modern deep learning methods.",
+        "keywords": [
+          "BiLSTM-CRF",
+          "transformers",
+          "BERT",
+          "feature engineering",
+          "sequence labeling"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875151",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "core-technology",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Clinical Entity Types",
+        "description": "Entity categories commonly found in clinical texts including diseases, symptoms, procedures, medications, and anatomical structures, along with their relationships and co-occurrence patterns.",
+        "keywords": [
+          "disease entities",
+          "symptom recognition",
+          "procedure extraction",
+          "medication entities",
+          "clinical terminology"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875165",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "clinical-applications",
+          "entity-types",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Molecular and Genomic Entities",
+        "description": "Recognition of molecular-level entities including genes, proteins, mutations, chemical compounds, and their variants in scientific literature and genomic databases.",
+        "keywords": [
+          "gene mentions",
+          "protein names",
+          "mutations",
+          "chemical entities",
+          "genomic variants"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875173",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "molecular-biology",
+          "entity-types",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Biomedical Entity Types and Ontologies",
+        "description": "Different categories of biomedical entities targeted for recognition (genes, proteins, diseases, drugs, chemicals) and the standardized ontologies and knowledge bases used for entity normalization and linking.",
+        "keywords": [
+          "gene entities",
+          "protein entities",
+          "disease entities",
+          "drug entities",
+          "UMLS",
+          "MeSH",
+          "entity normalization"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875180",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "domain-specific",
+          "knowledge-representation",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Terminology Ambiguity and Variability",
+        "description": "Challenges arising from multiple naming conventions, abbreviations, synonyms, and context-dependent meanings of biomedical terms that complicate entity recognition and normalization.",
+        "keywords": [
+          "acronyms",
+          "synonyms",
+          "polysemy",
+          "naming conventions",
+          "term variability"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875188",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenges",
+          "linguistic-issues",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Limited Annotated Training Data",
+        "description": "The scarcity of large-scale, high-quality annotated biomedical corpora due to the cost of expert annotation and domain expertise requirements, driving research in transfer learning and semi-supervised approaches.",
+        "keywords": [
+          "annotation cost",
+          "data scarcity",
+          "expert annotation",
+          "corpus availability",
+          "low-resource scenarios"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875195",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "challenges",
+          "data-issues",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Domain-Specific Challenges in Biomedical NER",
+        "description": "Unique technical and linguistic challenges specific to biomedical text processing including ambiguity, terminology variation, data scarcity, and domain complexity that distinguish biomedical NER from general-domain NER.",
+        "keywords": [
+          "term ambiguity",
+          "abbreviations",
+          "synonymy",
+          "limited annotated data",
+          "domain terminology"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875204",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "challenges",
+          "domain-specific",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Evaluation and Benchmark Datasets",
+        "description": "Standard evaluation methodologies, metrics, shared tasks, and publicly available benchmark datasets used to assess and compare biomedical NER system performance across different approaches and entity types.",
+        "keywords": [
+          "F1-score",
+          "precision",
+          "recall",
+          "benchmark corpora",
+          "shared tasks",
+          "BC5CDR",
+          "NCBI-disease",
+          "i2b2"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:43:04.875215",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 3,
+        "tags": [
+          "evaluation",
+          "benchmarking",
+          "preliminary"
+        ]
+      }
+    },
+    "n12": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Deep Learning Approaches",
+        "description": "Neural network-based methods including recurrent networks, transformers, and pre-trained language models specifically adapted for biomedical text.",
+        "keywords": [
+          "BioBERT",
+          "PubMedBERT",
+          "SciBERT",
+          "contextual embeddings",
+          "attention mechanisms"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381211",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "state-of-art",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Traditional Machine Learning Methods",
+        "description": "Earlier statistical and rule-based approaches including CRF, SVM, and dictionary-based systems that established baseline performance.",
+        "keywords": [
+          "conditional random fields",
+          "support vector machines",
+          "MetaMap",
+          "rule-based systems",
+          "feature extraction"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381253",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "baseline",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Core NER Methodologies and Architectures",
+        "description": "Fundamental approaches and computational architectures used for biomedical named entity recognition, from traditional machine learning to modern deep learning systems.",
+        "keywords": [
+          "BiLSTM-CRF",
+          "transformer models",
+          "feature engineering",
+          "BERT",
+          "neural architectures"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381261",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Gene and Protein Recognition",
+        "description": "Identification and normalization of gene names, protein mentions, and molecular entities in biomedical literature.",
+        "keywords": [
+          "gene normalization",
+          "protein identification",
+          "BioCreative",
+          "UniProt",
+          "gene-disease associations"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381271",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "entity-type",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Disease and Drug Recognition",
+        "description": "Detection and linking of disease mentions, chemical compounds, and pharmaceutical entities to standard terminologies.",
+        "keywords": [
+          "disease normalization",
+          "chemical entity recognition",
+          "adverse drug events",
+          "pharmacovigilance",
+          "DrugBank"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381278",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "entity-type",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Biomedical Entity Types and Ontologies",
+        "description": "Different categories of biomedical entities (diseases, genes, proteins, drugs) and the standardized vocabularies used to represent them.",
+        "keywords": [
+          "MeSH",
+          "UMLS",
+          "Gene Ontology",
+          "SNOMED CT",
+          "entity taxonomy"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381284",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "foundational",
+          "domain-specific",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Benchmark Datasets and Shared Tasks",
+        "description": "Publicly available annotated corpora and community challenges that establish performance standards and enable comparative evaluation.",
+        "keywords": [
+          "BioNLP shared tasks",
+          "CRAFT corpus",
+          "annotated datasets",
+          "gold standard",
+          "PubMed abstracts"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381292",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "evaluation",
+          "resources",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Datasets and Evaluation Benchmarks",
+        "description": "Standard corpora, shared tasks, and evaluation metrics used to train and assess biomedical NER systems.",
+        "keywords": [
+          "BC5CDR",
+          "NCBI Disease",
+          "JNLPBA",
+          "F1 score",
+          "inter-annotator agreement"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381297",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "evaluation",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Entity Normalization and Linking",
+        "description": "Mapping recognized entity mentions to unique identifiers in knowledge bases, addressing synonymy and ambiguity challenges.",
+        "keywords": [
+          "concept normalization",
+          "entity disambiguation",
+          "knowledge base linking",
+          "semantic similarity",
+          "cross-referencing"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381303",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Domain-Specific Challenges",
+        "description": "Unique difficulties in biomedical NER including terminology ambiguity, entity boundary detection, and handling specialized vocabulary.",
+        "keywords": [
+          "abbreviation disambiguation",
+          "nested entities",
+          "terminology variation",
+          "out-of-vocabulary terms",
+          "synonymy"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381308",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1"
+        ],
+        "order": 3,
+        "tags": [
+          "challenge",
+          "domain-specific",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Clinical NER Systems",
+        "description": "NER applications specifically designed for clinical notes, discharge summaries, and electronic health record processing.",
+        "keywords": [
+          "i2b2 challenges",
+          "clinical notes",
+          "de-identification",
+          "MIMIC dataset",
+          "clinical decision support"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381315",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Clinical and Real-World Applications",
+        "description": "Practical deployment of biomedical NER in clinical settings, literature mining, and biomedical knowledge discovery systems.",
+        "keywords": [
+          "clinical text mining",
+          "electronic health records",
+          "precision medicine",
+          "literature curation",
+          "drug repurposing"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:01.381320",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "impact",
+          "preliminary"
+        ]
+      }
+    },
+    "n15": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Traditional Machine Learning Approaches",
+        "description": "Classical methods including conditional random fields, support vector machines, and feature engineering techniques for biomedical NER.",
+        "keywords": [
+          "CRF",
+          "SVM",
+          "feature engineering",
+          "rule-based systems"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.644908",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Deep Learning and Transformer Models",
+        "description": "Neural network architectures including BiLSTM, attention mechanisms, and pre-trained language models like BioBERT, PubMedBERT, and SciBERT.",
+        "keywords": [
+          "BioBERT",
+          "PubMedBERT",
+          "transformers",
+          "attention mechanisms",
+          "fine-tuning"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.644958",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "state-of-the-art",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Core NER Methods and Architectures",
+        "description": "Fundamental approaches and model architectures used for named entity recognition in biomedical texts, from traditional machine learning to modern deep learning methods.",
+        "keywords": [
+          "CRF",
+          "LSTM",
+          "BERT",
+          "transformer models",
+          "BiLSTM-CRF"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.644967",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Gene and Protein Recognition",
+        "description": "Identification and normalization of gene and protein mentions in biomedical texts, addressing challenges of naming variability and ambiguity.",
+        "keywords": [
+          "gene normalization",
+          "protein mentions",
+          "gene synonyms",
+          "nomenclature"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.644977",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "entity-type",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Disease and Drug Entity Recognition",
+        "description": "Extraction of disease names, symptoms, and pharmaceutical drug mentions from clinical and research literature.",
+        "keywords": [
+          "disease mention",
+          "drug names",
+          "adverse events",
+          "clinical entities"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.644986",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "entity-type",
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Biomedical Entity Types",
+        "description": "Categories of named entities specific to biomedical literature including genes, proteins, diseases, drugs, and chemical compounds.",
+        "keywords": [
+          "gene recognition",
+          "protein names",
+          "disease entities",
+          "drug mentions",
+          "chemical compounds"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.644993",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "domain-specific",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Standard Biomedical NER Corpora",
+        "description": "Widely-used annotated datasets such as BC5CDR, NCBI Disease, JNLPBA, and LINNAEUS for training and benchmarking.",
+        "keywords": [
+          "BC5CDR",
+          "NCBI disease",
+          "JNLPBA",
+          "annotated corpus",
+          "training data"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645001",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "resources",
+          "evaluation",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Performance Metrics and Evaluation",
+        "description": "Assessment methodologies including precision, recall, F1-score, and entity-level vs. token-level evaluation strategies.",
+        "keywords": [
+          "F1-score",
+          "precision",
+          "recall",
+          "strict matching",
+          "partial matching"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645008",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "evaluation",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Datasets and Evaluation Benchmarks",
+        "description": "Standard corpora, annotated datasets, and evaluation methodologies used to train and assess biomedical NER systems.",
+        "keywords": [
+          "NCBI disease corpus",
+          "BC5CDR",
+          "JNLPBA",
+          "evaluation metrics",
+          "gold standard"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645015",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "evaluation",
+          "resources",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Terminology Ambiguity and Variation",
+        "description": "Challenges posed by synonyms, homonyms, abbreviations, and inconsistent naming conventions in biomedical literature.",
+        "keywords": [
+          "synonyms",
+          "homonyms",
+          "acronyms",
+          "name variations",
+          "disambiguation"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645023",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Data Annotation and Scarcity",
+        "description": "Difficulties in obtaining sufficient high-quality annotated data, including annotation inconsistency and domain expertise requirements.",
+        "keywords": [
+          "annotation cost",
+          "inter-annotator agreement",
+          "data scarcity",
+          "expert knowledge"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645038",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "challenge",
+          "resources",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Domain-Specific Challenges",
+        "description": "Unique difficulties in biomedical NER including terminology ambiguity, nested entities, abbreviation handling, and limited annotated data.",
+        "keywords": [
+          "entity ambiguity",
+          "nested entities",
+          "abbreviations",
+          "data scarcity",
+          "out-of-vocabulary terms"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645045",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "challenge",
+          "domain-specific",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Clinical and Healthcare Applications",
+        "description": "Use of biomedical NER in electronic health records, clinical decision support systems, and patient care improvement.",
+        "keywords": [
+          "EHR",
+          "clinical decision support",
+          "patient records",
+          "healthcare informatics"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645053",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Drug Discovery and Biomedical Research",
+        "description": "Applications in literature-based discovery, adverse drug reaction detection, and automated knowledge extraction for research.",
+        "keywords": [
+          "literature-based discovery",
+          "adverse drug reactions",
+          "target identification",
+          "research automation"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645060",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "research",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Applications and Use Cases",
+        "description": "Practical applications of biomedical NER in drug discovery, clinical decision support, literature mining, and knowledge base construction.",
+        "keywords": [
+          "drug discovery",
+          "clinical NLP",
+          "literature mining",
+          "knowledge graphs",
+          "pharmacovigilance"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:45:37.645067",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "impact",
+          "preliminary"
+        ]
+      }
+    },
+    "n18": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Rule-Based and Dictionary Methods",
+        "description": "Traditional approaches using lexicons, ontologies, and pattern-matching rules for entity recognition, including dictionary lookup and regular expression techniques.",
+        "keywords": [
+          "dictionary matching",
+          "lexicon-based NER",
+          "pattern matching",
+          "rule-based systems",
+          "UMLS"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521189",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "traditional-methods",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Machine Learning Approaches",
+        "description": "Statistical and supervised learning methods including conditional random fields (CRF), support vector machines (SVM), and feature engineering techniques for biomedical entity recognition.",
+        "keywords": [
+          "CRF",
+          "SVM",
+          "feature engineering",
+          "supervised learning",
+          "statistical NER"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521233",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Deep Learning and Neural Models",
+        "description": "Modern neural network architectures including BiLSTM-CRF, transformers, and pre-trained language models (BERT, BioBERT, PubMedBERT) for biomedical NER tasks.",
+        "keywords": [
+          "BiLSTM-CRF",
+          "BERT",
+          "BioBERT",
+          "transformers",
+          "neural networks",
+          "PubMedBERT"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521243",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "state-of-art",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Foundational Concepts and Approaches",
+        "description": "Core methodologies and fundamental techniques used for identifying and classifying biomedical entities in text, including traditional and modern computational approaches.",
+        "keywords": [
+          "biomedical NER",
+          "entity recognition",
+          "named entity extraction",
+          "biomedical text mining",
+          "entity detection"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521250",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Genes and Proteins",
+        "description": "Recognition of gene names, protein mentions, and related molecular entities, addressing challenges like naming ambiguity and multiple nomenclatures.",
+        "keywords": [
+          "gene recognition",
+          "protein NER",
+          "molecular entities",
+          "gene normalization",
+          "protein identification"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521261",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "entity-type",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Diseases and Clinical Conditions",
+        "description": "Identification of disease names, symptoms, medical conditions, and clinical phenotypes in biomedical literature and clinical text.",
+        "keywords": [
+          "disease recognition",
+          "clinical NER",
+          "disorder identification",
+          "phenotype extraction",
+          "medical conditions"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521269",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "entity-type",
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Drugs and Chemical Compounds",
+        "description": "Detection of pharmaceutical drugs, chemical compounds, and medication mentions including brand names, generic names, and chemical nomenclature.",
+        "keywords": [
+          "drug recognition",
+          "chemical NER",
+          "medication extraction",
+          "pharmacological entities",
+          "compound identification"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521278",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "entity-type",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Biomedical Entity Types",
+        "description": "Specific categories of biomedical entities targeted for recognition, including genes, proteins, diseases, drugs, and other domain-specific terminology.",
+        "keywords": [
+          "entity types",
+          "biomedical entities",
+          "entity categories",
+          "domain terminology",
+          "entity classification"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521285",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "domain-knowledge",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Ambiguity and Terminology Variation",
+        "description": "Issues arising from synonymy, polysemy, abbreviations, acronyms, and inconsistent naming conventions in biomedical terminology.",
+        "keywords": [
+          "entity ambiguity",
+          "synonyms",
+          "abbreviations",
+          "acronyms",
+          "naming variations",
+          "polysemy"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521293",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Limited Annotated Data",
+        "description": "Challenges related to scarcity of labeled training data, annotation costs, and the need for domain expertise in creating gold-standard datasets.",
+        "keywords": [
+          "data scarcity",
+          "annotation",
+          "labeled data",
+          "training corpora",
+          "gold standard datasets"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521301",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "challenge",
+          "data",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Entity Boundary Detection",
+        "description": "Difficulties in accurately determining the start and end positions of multi-word entities, nested entities, and discontinuous mentions.",
+        "keywords": [
+          "boundary detection",
+          "entity spans",
+          "nested entities",
+          "discontinuous mentions",
+          "segmentation"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521309",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Domain-Specific Challenges",
+        "description": "Unique difficulties and obstacles encountered in biomedical NER, including data characteristics, terminology complexity, and domain-specific issues.",
+        "keywords": [
+          "biomedical challenges",
+          "entity ambiguity",
+          "terminology variation",
+          "domain complexity",
+          "NER obstacles"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521316",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Benchmark Datasets and Shared Tasks",
+        "description": "Community-standard evaluation datasets and shared task challenges including BioCreative, i2b2/n2c2, and other benchmark corpora for biomedical NER.",
+        "keywords": [
+          "BioCreative",
+          "i2b2",
+          "n2c2",
+          "shared tasks",
+          "benchmark corpora",
+          "evaluation datasets"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521324",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "data",
+          "evaluation",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Biomedical Knowledge Bases",
+        "description": "Structured resources like UMLS, MeSH, Gene Ontology, and other ontologies used for entity normalization and knowledge integration.",
+        "keywords": [
+          "UMLS",
+          "MeSH",
+          "Gene Ontology",
+          "ontologies",
+          "knowledge graphs",
+          "terminology databases"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521332",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "resources",
+          "knowledge-base",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Data Resources and Corpora",
+        "description": "Standard datasets, benchmark corpora, and knowledge bases used for training and evaluating biomedical NER systems.",
+        "keywords": [
+          "biomedical corpora",
+          "benchmark datasets",
+          "annotated data",
+          "training data",
+          "evaluation resources"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521339",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "data",
+          "resources",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Clinical Text Processing",
+        "description": "Application of NER to electronic health records, clinical notes, and patient data for supporting clinical decision-making and cohort identification.",
+        "keywords": [
+          "EHR",
+          "clinical notes",
+          "patient records",
+          "clinical decision support",
+          "cohort identification"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521347",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "clinical",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Literature Mining and Knowledge Extraction",
+        "description": "Using NER for automated extraction of biomedical relationships, hypothesis generation, and systematic analysis of scientific publications.",
+        "keywords": [
+          "PubMed mining",
+          "scientific literature",
+          "relationship extraction",
+          "knowledge discovery",
+          "hypothesis generation"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521355",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Applications and Use Cases",
+        "description": "Practical applications of biomedical NER in clinical decision support, literature mining, drug discovery, and other downstream biomedical informatics tasks.",
+        "keywords": [
+          "clinical applications",
+          "literature mining",
+          "information extraction",
+          "knowledge discovery",
+          "practical use cases"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:48:01.521361",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      }
+    },
+    "n20": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Entity Types and Taxonomies",
+        "description": "Classification systems for biomedical entities including genes, proteins, diseases, drugs, and anatomical structures with their hierarchical relationships.",
+        "keywords": [
+          "entity types",
+          "biomedical ontologies",
+          "protein names",
+          "gene mentions",
+          "disease terminology"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310574",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Linguistic Challenges in Biomedical Text",
+        "description": "Unique linguistic characteristics of biomedical literature including domain-specific terminology, ambiguity, abbreviations, and complex naming conventions.",
+        "keywords": [
+          "terminology variation",
+          "abbreviations",
+          "synonym resolution",
+          "ambiguity",
+          "nomenclature"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310619",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Fundamentals of Biomedical NER",
+        "description": "Core concepts, definitions, and foundational principles underlying named entity recognition systems specifically designed for biomedical text processing.",
+        "keywords": [
+          "biomedical text mining",
+          "entity extraction",
+          "information extraction",
+          "natural language processing",
+          "text annotation"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310627",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Traditional Machine Learning Methods",
+        "description": "Classical approaches including CRF, SVM, and HMM models with hand-crafted features for biomedical entity recognition.",
+        "keywords": [
+          "conditional random fields",
+          "support vector machines",
+          "hidden markov models",
+          "feature extraction",
+          "statistical models"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310637",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Deep Learning Architectures",
+        "description": "Neural network-based approaches including BiLSTM-CRF, transformers, and attention mechanisms for biomedical NER tasks.",
+        "keywords": [
+          "LSTM",
+          "BiLSTM-CRF",
+          "neural networks",
+          "word embeddings",
+          "sequence labeling"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310645",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Transformer-Based Models",
+        "description": "State-of-the-art pre-trained language models such as BERT, BioBERT, PubMedBERT, and their variants specifically fine-tuned for biomedical entity recognition.",
+        "keywords": [
+          "BERT",
+          "BioBERT",
+          "transformer",
+          "pre-training",
+          "fine-tuning",
+          "contextualized embeddings"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310658",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Machine Learning Approaches",
+        "description": "Computational methods and algorithms employed for automatic recognition of biomedical entities, ranging from traditional statistical models to modern neural architectures.",
+        "keywords": [
+          "machine learning",
+          "deep learning",
+          "neural networks",
+          "supervised learning",
+          "feature engineering"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310669",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Benchmark Datasets and Corpora",
+        "description": "Standard annotated datasets such as GENIA, BC2GM, NCBI-Disease, and JNLPBA used for training and evaluating biomedical NER models.",
+        "keywords": [
+          "GENIA corpus",
+          "benchmark datasets",
+          "gold standard annotations",
+          "shared tasks",
+          "evaluation corpora"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310677",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "resources",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Knowledge Bases and Ontologies",
+        "description": "Structured biomedical knowledge resources including UMLS, MeSH, Gene Ontology, and disease databases used for entity normalization and linking.",
+        "keywords": [
+          "UMLS",
+          "MeSH",
+          "Gene Ontology",
+          "ontologies",
+          "entity normalization"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310685",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "resources",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Training Data and Resources",
+        "description": "Annotated corpora, knowledge bases, and lexical resources essential for developing and evaluating biomedical NER systems.",
+        "keywords": [
+          "annotated corpora",
+          "gold standard",
+          "benchmarks",
+          "knowledge bases",
+          "lexicons"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310692",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2"
+        ],
+        "order": 2,
+        "tags": [
+          "resources",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Performance Metrics and Standards",
+        "description": "Standard evaluation measures including strict and relaxed matching criteria, entity-level and token-level evaluation approaches for biomedical NER.",
+        "keywords": [
+          "precision-recall",
+          "F-measure",
+          "exact match",
+          "partial match",
+          "evaluation protocols"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310701",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Evaluation Methodologies",
+        "description": "Metrics, protocols, and benchmarking approaches for assessing the performance and quality of biomedical NER systems.",
+        "keywords": [
+          "evaluation metrics",
+          "precision",
+          "recall",
+          "F1-score",
+          "inter-annotator agreement"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310707",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Clinical Text Processing",
+        "description": "Application of NER to electronic health records, clinical notes, and discharge summaries for extracting patient-related medical entities.",
+        "keywords": [
+          "electronic health records",
+          "clinical notes",
+          "patient data",
+          "medical coding",
+          "clinical decision support"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310715",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Drug Discovery and Development",
+        "description": "Use of biomedical NER in identifying drug-target interactions, adverse effects, and chemical entities from scientific literature and patents.",
+        "keywords": [
+          "drug-drug interactions",
+          "adverse events",
+          "pharmacovigilance",
+          "chemical entities",
+          "target identification"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310723",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5.3": {
+        "id": "t5.3",
+        "name": "Literature Curation and Knowledge Graphs",
+        "description": "Automated extraction of biomedical entities from publications to construct structured databases and knowledge graphs for systems biology and research.",
+        "keywords": [
+          "automated curation",
+          "knowledge graphs",
+          "database population",
+          "relation extraction",
+          "text mining pipelines"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310730",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Domain-Specific Applications",
+        "description": "Practical applications and use cases of biomedical NER across different areas including clinical practice, drug discovery, and literature curation.",
+        "keywords": [
+          "clinical applications",
+          "drug discovery",
+          "literature mining",
+          "knowledge extraction",
+          "precision medicine"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310736",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2",
+          "t5.3"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Transfer Learning and Low-Resource Settings",
+        "description": "Techniques for adapting NER models to specialized domains or languages with limited annotated data through transfer learning and few-shot learning.",
+        "keywords": [
+          "transfer learning",
+          "domain adaptation",
+          "few-shot learning",
+          "cross-domain transfer",
+          "low-resource NLP"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310744",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t6.2": {
+        "id": "t6.2",
+        "name": "Multilingual Biomedical NER",
+        "description": "Challenges and approaches for entity recognition in non-English biomedical texts and cross-lingual model development.",
+        "keywords": [
+          "multilingual NLP",
+          "cross-lingual transfer",
+          "non-English corpora",
+          "language diversity",
+          "multilingual models"
+        ],
+        "confidence": 0.8,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310751",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t6.3": {
+        "id": "t6.3",
+        "name": "Explainability and Interpretability",
+        "description": "Methods for understanding and explaining NER model decisions, particularly important for clinical applications requiring transparency and trust.",
+        "keywords": [
+          "explainable AI",
+          "model interpretation",
+          "attention visualization",
+          "feature importance",
+          "transparency"
+        ],
+        "confidence": 0.82,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310758",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "challenge",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Current Challenges and Future Directions",
+        "description": "Open problems, limitations, and emerging research directions in biomedical NER including multilingual processing, low-resource scenarios, and explainability.",
+        "keywords": [
+          "future research",
+          "limitations",
+          "open problems",
+          "emerging trends",
+          "research gaps"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-16T12:53:06.310764",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1",
+          "t6.2",
+          "t6.3"
+        ],
+        "order": 5,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      }
+    }
+  },
+  "order": [
+    "n5",
+    "n7",
+    "n10",
+    "n12",
+    "n15",
+    "n18",
+    "n20"
+  ]
+}
