@@ -1,0 +1,2763 @@
+{
+  "query": "Habitat suitability modelling for seagrass meadows",
+  "rater_id": "ana",
+  "hierarchies": {
+    "n5": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Physical Parameters",
+        "description": "Physical environmental factors such as depth, substrate composition, hydrodynamics, and light penetration that determine seagrass habitat suitability.",
+        "keywords": [
+          "depth range",
+          "sediment characteristics",
+          "current velocity",
+          "photosynthetically active radiation",
+          "turbidity"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:02.681877",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "environmental-factors",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Water Quality Indicators",
+        "description": "Chemical and biological water quality parameters including nutrient levels, dissolved oxygen, chlorophyll concentration, and pollutants that affect seagrass health and distribution.",
+        "keywords": [
+          "nutrients",
+          "nitrogen",
+          "phosphorus",
+          "water clarity",
+          "eutrophication",
+          "dissolved oxygen"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:02.681920",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "environmental-factors",
+          "water-quality",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Environmental Variables and Predictor Selection",
+        "description": "Key environmental factors that influence seagrass distribution and growth, including physical, chemical, and biological parameters used as predictors in habitat suitability models.",
+        "keywords": [
+          "water quality",
+          "light availability",
+          "substrate type",
+          "salinity",
+          "temperature",
+          "bathymetry",
+          "wave exposure"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:02.681936",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "ecological-factors",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Modelling Approaches and Techniques",
+        "description": "Statistical and machine learning methods used to develop habitat suitability models, including species distribution models, spatial analysis techniques, and model validation procedures.",
+        "keywords": [
+          "MaxEnt",
+          "random forest",
+          "GLM",
+          "species distribution models",
+          "machine learning",
+          "GIS",
+          "spatial modelling"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:02.681947",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technical-approach",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Data Sources and Remote Sensing",
+        "description": "Methods for acquiring spatial and environmental data for seagrass habitat modelling, including satellite imagery, aerial surveys, acoustic mapping, and in-situ field observations.",
+        "keywords": [
+          "satellite imagery",
+          "aerial photography",
+          "sonar",
+          "LiDAR",
+          "field surveys",
+          "presence-absence data",
+          "remote sensing"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:02.681956",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "data-collection",
+          "preliminary"
+        ]
+      }
+    },
+    "n7": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Statistical and Machine Learning Techniques",
+        "description": "Specific algorithms and statistical approaches employed for habitat suitability modelling, including generalized linear models, random forests, neural networks, and ensemble methods.",
+        "keywords": [
+          "GLM",
+          "random forest",
+          "boosted regression trees",
+          "neural networks",
+          "ensemble modelling"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:27.245575",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "algorithm",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Spatial Data Processing and GIS",
+        "description": "Geographic information systems applications, spatial data handling, remote sensing integration, and bathymetric mapping techniques used in seagrass habitat modelling.",
+        "keywords": [
+          "GIS",
+          "remote sensing",
+          "bathymetry",
+          "spatial resolution",
+          "satellite imagery"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:27.245621",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "technology",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Modelling Approaches and Methods",
+        "description": "Overview of statistical and computational techniques used to predict seagrass habitat suitability, including species distribution models, machine learning algorithms, and spatial modelling frameworks.",
+        "keywords": [
+          "species distribution models",
+          "MaxEnt",
+          "machine learning",
+          "spatial modelling",
+          "predictive modelling"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:27.245630",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Physical and Hydrodynamic Factors",
+        "description": "Physical environmental conditions including water depth, wave exposure, current velocity, and sediment characteristics that determine seagrass establishment and persistence.",
+        "keywords": [
+          "bathymetry",
+          "wave energy",
+          "current velocity",
+          "sediment grain size",
+          "coastal hydrodynamics"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:27.245639",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "environmental factors",
+          "physical",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Environmental Variables and Predictors",
+        "description": "Physical, chemical, and biological factors that influence seagrass distribution and are used as predictor variables in habitat suitability models, including water quality, substrate type, and hydrodynamic conditions.",
+        "keywords": [
+          "water depth",
+          "light availability",
+          "salinity",
+          "substrate",
+          "water temperature",
+          "turbidity"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:27.245651",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1"
+        ],
+        "order": 1,
+        "tags": [
+          "environmental factors",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Model Validation and Performance Assessment",
+        "description": "Techniques for evaluating model accuracy, reliability, and predictive performance using validation datasets, cross-validation approaches, and accuracy metrics specific to habitat suitability models.",
+        "keywords": [
+          "AUC",
+          "model accuracy",
+          "cross-validation",
+          "uncertainty assessment",
+          "validation datasets"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:27.245660",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "evaluation",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Conservation and Management Applications",
+        "description": "Practical applications of habitat suitability models for seagrass conservation planning, restoration site selection, marine spatial planning, and ecosystem-based management.",
+        "keywords": [
+          "marine protected areas",
+          "restoration planning",
+          "marine spatial planning",
+          "conservation prioritization",
+          "ecosystem management"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:27:27.245668",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [],
+        "order": 3,
+        "tags": [
+          "application",
+          "conservation",
+          "preliminary"
+        ]
+      }
+    },
+    "n10": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Environmental Requirements and Limiting Factors",
+        "description": "Physical, chemical, and biological parameters that determine seagrass survival and growth, including light availability, water quality, temperature, salinity, and substrate characteristics.",
+        "keywords": [
+          "light attenuation",
+          "water depth",
+          "salinity tolerance",
+          "substrate type",
+          "nutrient requirements"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459401",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "environmental-variables",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Seagrass Ecosystem Services",
+        "description": "Ecological functions and benefits provided by seagrass meadows, including carbon sequestration, nursery habitat, coastal protection, and water quality improvement that justify conservation efforts.",
+        "keywords": [
+          "blue carbon",
+          "carbon storage",
+          "nursery grounds",
+          "sediment stabilization",
+          "ecosystem functions"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459454",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Seagrass Ecology and Distribution",
+        "description": "Fundamental ecological characteristics of seagrass ecosystems, including species distribution patterns, biodiversity, and ecosystem functions that form the biological basis for habitat suitability assessments.",
+        "keywords": [
+          "seagrass species",
+          "marine vegetation",
+          "coastal ecosystems",
+          "seagrass distribution",
+          "benthic habitat"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459471",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Species Distribution Modelling Techniques",
+        "description": "Specific algorithms and computational methods used for predicting seagrass habitat suitability, including machine learning approaches, regression models, and ensemble methods.",
+        "keywords": [
+          "random forest",
+          "generalized additive models",
+          "Bayesian models",
+          "neural networks",
+          "ensemble modelling"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459490",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Model Validation and Uncertainty Assessment",
+        "description": "Methods for evaluating model performance, accuracy assessment, and quantifying prediction uncertainty in habitat suitability models for seagrass.",
+        "keywords": [
+          "cross-validation",
+          "AUC",
+          "model accuracy",
+          "sensitivity analysis",
+          "prediction uncertainty"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459506",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "validation",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Modelling Methodologies and Approaches",
+        "description": "Technical frameworks and statistical methods employed in habitat suitability modelling, including algorithm selection, model validation, and comparative performance of different modelling techniques.",
+        "keywords": [
+          "species distribution models",
+          "MaxEnt",
+          "machine learning",
+          "habitat suitability index",
+          "predictive modelling"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459520",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Satellite and Aerial Imagery Applications",
+        "description": "Use of multispectral and hyperspectral remote sensing platforms for mapping seagrass extent, health, and environmental variables relevant to habitat suitability.",
+        "keywords": [
+          "Sentinel-2",
+          "Landsat",
+          "hyperspectral imaging",
+          "seagrass mapping",
+          "image classification"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459550",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "data-collection",
+          "technical",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Data Sources and Remote Sensing",
+        "description": "Spatial and environmental data acquisition methods, including satellite imagery, in-situ measurements, and bathymetric surveys used as input variables for habitat suitability models.",
+        "keywords": [
+          "remote sensing",
+          "satellite imagery",
+          "bathymetry",
+          "GIS",
+          "environmental data"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459564",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "data-collection",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Conservation and Restoration Planning",
+        "description": "Integration of habitat suitability models into marine spatial planning, identification of priority areas for seagrass restoration, and evaluation of conservation strategies.",
+        "keywords": [
+          "restoration sites",
+          "marine protected areas",
+          "spatial planning",
+          "conservation priorities",
+          "site selection"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459580",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "management",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Climate Change and Future Projections",
+        "description": "Application of habitat suitability models to project future seagrass distribution under climate change scenarios, including sea level rise, ocean warming, and altered environmental conditions.",
+        "keywords": [
+          "climate change scenarios",
+          "sea level rise",
+          "ocean warming",
+          "future projections",
+          "habitat shifts"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:28:40.459596",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1"
+        ],
+        "order": 3,
+        "tags": [
+          "application",
+          "challenge",
+          "preliminary"
+        ]
+      }
+    },
+    "n12": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Water Quality Parameters",
+        "description": "Chemical and optical water properties affecting seagrass photosynthesis and growth, including nutrient concentrations, dissolved oxygen, pH, and water clarity metrics.",
+        "keywords": [
+          "nutrients",
+          "chlorophyll-a",
+          "suspended sediments",
+          "secchi depth",
+          "dissolved oxygen"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964212",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Physical Habitat Characteristics",
+        "description": "Geomorphological and hydrodynamic features including bathymetry, substrate composition, current velocity, and wave energy that influence seagrass colonization and persistence.",
+        "keywords": [
+          "bathymetry",
+          "sediment grain size",
+          "current velocity",
+          "wave exposure",
+          "coastal geomorphology"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964264",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Environmental Variables and Drivers",
+        "description": "Physical, chemical, and biological environmental factors that determine seagrass distribution and habitat suitability, including water quality parameters, light availability, substrate characteristics, and hydrodynamic conditions.",
+        "keywords": [
+          "water depth",
+          "light attenuation",
+          "salinity",
+          "temperature",
+          "substrate type",
+          "wave exposure",
+          "turbidity"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964273",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "ecology",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Machine Learning Algorithms",
+        "description": "Application of machine learning techniques such as random forests, neural networks, and support vector machines for predicting seagrass presence, absence, and abundance patterns.",
+        "keywords": [
+          "random forest",
+          "neural networks",
+          "support vector machines",
+          "gradient boosting",
+          "deep learning"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964283",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Model Validation and Performance",
+        "description": "Techniques for assessing model accuracy, predictive performance, and uncertainty, including cross-validation, AUC-ROC analysis, and sensitivity testing of habitat suitability models.",
+        "keywords": [
+          "cross-validation",
+          "AUC",
+          "confusion matrix",
+          "model accuracy",
+          "sensitivity analysis",
+          "uncertainty quantification"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964293",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "validation",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Modelling Methods and Approaches",
+        "description": "Statistical, machine learning, and mechanistic modelling techniques used to predict seagrass habitat suitability, including species distribution models, ensemble methods, and process-based approaches.",
+        "keywords": [
+          "MaxEnt",
+          "random forest",
+          "GLM",
+          "boosted regression trees",
+          "ensemble modelling",
+          "species distribution models"
+        ],
+        "confidence": 0.98,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964301",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Satellite and Aerial Imagery",
+        "description": "Use of multispectral and hyperspectral satellite sensors, aerial photography, and UAV platforms for mapping seagrass extent, density, and deriving bathymetric and water quality data.",
+        "keywords": [
+          "Sentinel-2",
+          "Landsat",
+          "WorldView",
+          "hyperspectral",
+          "UAV mapping",
+          "image classification"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964310",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "data-collection",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Remote Sensing and Data Sources",
+        "description": "Satellite imagery, aerial photography, acoustic methods, and in-situ observations used to map seagrass distribution and derive environmental predictor variables for habitat modelling.",
+        "keywords": [
+          "satellite imagery",
+          "multispectral",
+          "LiDAR",
+          "UAV",
+          "hydroacoustics",
+          "field surveys"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964316",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1"
+        ],
+        "order": 2,
+        "tags": [
+          "data-collection",
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Climate Impact Assessment",
+        "description": "Evaluation of how changing temperature regimes, altered precipitation patterns, sea level rise, and extreme weather events affect seagrass habitat suitability and distribution ranges.",
+        "keywords": [
+          "temperature increase",
+          "sea level rise",
+          "storm frequency",
+          "climate vulnerability",
+          "range shifts"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964324",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "climate",
+          "impact",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Climate Change and Future Projections",
+        "description": "Integration of climate change scenarios into habitat suitability models to predict future seagrass distribution under altered temperature, sea level, and environmental conditions.",
+        "keywords": [
+          "climate scenarios",
+          "sea level rise",
+          "ocean warming",
+          "future projections",
+          "adaptation",
+          "vulnerability assessment"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964330",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1"
+        ],
+        "order": 3,
+        "tags": [
+          "application",
+          "climate",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Restoration Site Selection",
+        "description": "Use of suitability models to identify optimal locations for seagrass restoration efforts based on environmental conditions, success probability, and long-term viability.",
+        "keywords": [
+          "transplantation",
+          "site suitability",
+          "restoration success",
+          "habitat requirements",
+          "site prioritization"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964336",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "restoration",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Conservation and Management Applications",
+        "description": "Application of habitat suitability models to inform marine spatial planning, restoration site selection, marine protected area design, and seagrass conservation strategies.",
+        "keywords": [
+          "restoration planning",
+          "marine protected areas",
+          "spatial planning",
+          "site selection",
+          "conservation prioritization"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:29:14.964349",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "management",
+          "preliminary"
+        ]
+      }
+    },
+    "n15": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Species Distribution Patterns",
+        "description": "Geographic and depth-related distribution of different seagrass species worldwide, including endemic and cosmopolitan species ranges.",
+        "keywords": [
+          "Zostera",
+          "Posidonia",
+          "Thalassia",
+          "species range",
+          "bathymetric distribution"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.504962",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Ecosystem Services and Functions",
+        "description": "Ecological roles of seagrass meadows including carbon sequestration, sediment stabilization, nursery habitat provision, and water quality improvement.",
+        "keywords": [
+          "blue carbon",
+          "habitat provision",
+          "sediment dynamics",
+          "nutrient cycling",
+          "biodiversity support"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505001",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Seagrass Ecology and Distribution",
+        "description": "Fundamental ecological principles governing seagrass meadow formation, persistence, and global distribution patterns. Covers species diversity, ecosystem functions, and biogeographic characteristics.",
+        "keywords": [
+          "seagrass species",
+          "marine ecosystem",
+          "biogeography",
+          "ecological functions",
+          "meadow structure"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505016",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Physical Oceanographic Factors",
+        "description": "Water column properties including temperature, salinity, currents, wave exposure, and hydrodynamic conditions affecting seagrass growth.",
+        "keywords": [
+          "sea surface temperature",
+          "wave energy",
+          "current velocity",
+          "tidal regime",
+          "water circulation"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505032",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Light Availability and Water Clarity",
+        "description": "Underwater light penetration, turbidity, suspended sediments, and photosynthetically active radiation (PAR) as critical factors for seagrass photosynthesis.",
+        "keywords": [
+          "irradiance",
+          "turbidity",
+          "secchi depth",
+          "PAR",
+          "light attenuation",
+          "water transparency"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505040",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Substrate and Bathymetry",
+        "description": "Seabed characteristics including sediment grain size, organic content, depth ranges, and seafloor morphology influencing seagrass colonization.",
+        "keywords": [
+          "sediment composition",
+          "bathymetric depth",
+          "slope",
+          "grain size",
+          "substrate type",
+          "seafloor morphology"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505048",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Environmental Predictor Variables",
+        "description": "Physical, chemical, and biological environmental factors that influence seagrass habitat suitability. Includes measurable parameters used as model inputs.",
+        "keywords": [
+          "water quality",
+          "substrate type",
+          "depth",
+          "temperature",
+          "salinity",
+          "light availability"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505055",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Statistical Modelling Techniques",
+        "description": "Traditional statistical approaches including generalized linear models, generalized additive models, and regression-based methods for habitat suitability assessment.",
+        "keywords": [
+          "GLM",
+          "GAM",
+          "logistic regression",
+          "regression analysis",
+          "statistical inference"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505064",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Machine Learning Algorithms",
+        "description": "Advanced computational methods including random forests, boosted regression trees, neural networks, and ensemble approaches for complex pattern recognition.",
+        "keywords": [
+          "random forest",
+          "boosted regression trees",
+          "neural networks",
+          "MaxEnt",
+          "ensemble models",
+          "AI"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505071",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Model Validation and Performance",
+        "description": "Assessment metrics and validation procedures for evaluating model accuracy, including cross-validation, AUC, confusion matrices, and independent testing.",
+        "keywords": [
+          "AUC",
+          "ROC curve",
+          "cross-validation",
+          "accuracy assessment",
+          "confusion matrix",
+          "model evaluation"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505079",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Modelling Methodologies and Approaches",
+        "description": "Statistical, machine learning, and mechanistic modelling techniques applied to predict seagrass habitat suitability and distribution.",
+        "keywords": [
+          "species distribution models",
+          "MaxEnt",
+          "random forest",
+          "GLM",
+          "predictive modelling",
+          "machine learning"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505086",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Satellite and Aerial Imagery",
+        "description": "Use of multispectral and hyperspectral satellite platforms (Sentinel, Landsat, WorldView) and aerial photography for seagrass detection and mapping.",
+        "keywords": [
+          "Sentinel-2",
+          "Landsat",
+          "multispectral",
+          "hyperspectral",
+          "aerial photography",
+          "image classification"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505095",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Data Sources and Remote Sensing",
+        "description": "Collection methods, satellite imagery, acoustic surveys, and in-situ observations used to gather presence/absence data and environmental variables for modelling.",
+        "keywords": [
+          "remote sensing",
+          "satellite imagery",
+          "field surveys",
+          "GIS",
+          "acoustic mapping",
+          "data collection"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505101",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Climate Change Projections",
+        "description": "Using habitat suitability models with climate scenarios to predict future seagrass distribution shifts, vulnerability assessments, and range changes.",
+        "keywords": [
+          "climate change",
+          "future scenarios",
+          "range shifts",
+          "vulnerability",
+          "ocean warming",
+          "sea level rise"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505110",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Applications and Conservation Management",
+        "description": "Practical applications of habitat suitability models for marine spatial planning, restoration site selection, climate change adaptation, and conservation prioritization.",
+        "keywords": [
+          "marine spatial planning",
+          "restoration",
+          "conservation",
+          "management",
+          "climate adaptation",
+          "protected areas"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:31:43.505117",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      }
+    },
+    "n18": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Seagrass Species Characteristics",
+        "description": "Morphological and physiological traits of different seagrass species that influence habitat preferences and survival thresholds.",
+        "keywords": [
+          "Zostera",
+          "Posidonia",
+          "Halodule",
+          "species traits",
+          "morphology"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647590",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Environmental Tolerance Ranges",
+        "description": "Critical thresholds and optimal ranges for environmental factors affecting seagrass growth and survival.",
+        "keywords": [
+          "tolerance limits",
+          "environmental thresholds",
+          "optimal conditions",
+          "stress responses",
+          "physiological limits"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647637",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Seagrass Ecology and Distribution",
+        "description": "Fundamental ecological characteristics of seagrass ecosystems, including species diversity, biogeographic patterns, and environmental requirements that govern their distribution.",
+        "keywords": [
+          "seagrass species",
+          "biogeography",
+          "ecological requirements",
+          "meadow dynamics",
+          "distribution patterns"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647646",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2"
+        ],
+        "order": 0,
+        "tags": [
+          "foundational",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Light Availability and Water Clarity",
+        "description": "Underwater light penetration, turbidity, and photosynthetically active radiation as critical factors determining seagrass distribution depth limits.",
+        "keywords": [
+          "light attenuation",
+          "turbidity",
+          "PAR",
+          "Secchi depth",
+          "water clarity"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647655",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "environmental-factor",
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Hydrodynamic Conditions",
+        "description": "Wave exposure, current velocity, and water movement patterns that affect sediment stability and seagrass establishment.",
+        "keywords": [
+          "wave energy",
+          "current velocity",
+          "hydrodynamics",
+          "exposure index",
+          "water flow"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647661",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "environmental-factor",
+          "preliminary"
+        ]
+      },
+      "t2.3": {
+        "id": "t2.3",
+        "name": "Sediment and Substrate Properties",
+        "description": "Sediment grain size, organic content, and substrate composition that influence seagrass rooting and nutrient availability.",
+        "keywords": [
+          "grain size",
+          "sediment type",
+          "substrate composition",
+          "organic matter",
+          "sediment characteristics"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647667",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "environmental-factor",
+          "preliminary"
+        ]
+      },
+      "t2.4": {
+        "id": "t2.4",
+        "name": "Water Quality Parameters",
+        "description": "Temperature, salinity, nutrients, and dissolved oxygen levels that directly affect seagrass physiological processes.",
+        "keywords": [
+          "temperature",
+          "salinity",
+          "nutrients",
+          "dissolved oxygen",
+          "water chemistry"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647673",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 3,
+        "tags": [
+          "environmental-factor",
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Environmental Predictor Variables",
+        "description": "Key physical, chemical, and biological factors used as input variables in habitat suitability models to predict seagrass presence and health.",
+        "keywords": [
+          "predictor variables",
+          "environmental factors",
+          "model inputs",
+          "habitat parameters",
+          "covariates"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647679",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2",
+          "t2.3",
+          "t2.4"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Species Distribution Models",
+        "description": "Correlative modelling approaches including MaxEnt, GLMs, and GAMs commonly applied to predict seagrass spatial distribution.",
+        "keywords": [
+          "MaxEnt",
+          "GLM",
+          "GAM",
+          "species distribution modelling",
+          "correlative models"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647686",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Machine Learning Techniques",
+        "description": "Advanced algorithms including random forests, boosted regression trees, and neural networks for complex habitat prediction.",
+        "keywords": [
+          "random forest",
+          "boosted regression trees",
+          "neural networks",
+          "ensemble methods",
+          "deep learning"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647693",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "emerging-technology",
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Model Validation and Performance",
+        "description": "Techniques for assessing model accuracy, including cross-validation, AUC, kappa statistics, and spatial validation approaches.",
+        "keywords": [
+          "model validation",
+          "AUC",
+          "cross-validation",
+          "accuracy assessment",
+          "performance metrics"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647699",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Modelling Approaches and Algorithms",
+        "description": "Statistical and computational methods used to develop habitat suitability models, from traditional regression to machine learning techniques.",
+        "keywords": [
+          "modelling techniques",
+          "algorithms",
+          "statistical methods",
+          "machine learning",
+          "predictive models"
+        ],
+        "confidence": 0.94,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647705",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Satellite and Aerial Imagery",
+        "description": "Use of multispectral and hyperspectral imagery from satellites and drones for mapping seagrass extent and environmental conditions.",
+        "keywords": [
+          "multispectral imagery",
+          "hyperspectral",
+          "satellite remote sensing",
+          "aerial photography",
+          "image classification"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647712",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "data-acquisition",
+          "emerging-technology",
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Field Survey and Ground-truthing",
+        "description": "In-situ data collection methods including diver surveys, video transects, and grab samples for model training and validation.",
+        "keywords": [
+          "field surveys",
+          "ground-truthing",
+          "presence-absence data",
+          "underwater surveys",
+          "validation data"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647719",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "data-acquisition",
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Data Sources and Remote Sensing",
+        "description": "Methods for acquiring spatial data on seagrass presence and environmental variables, including satellite imagery and in-situ monitoring.",
+        "keywords": [
+          "remote sensing",
+          "satellite imagery",
+          "field surveys",
+          "data collection",
+          "monitoring methods"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647724",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "data-acquisition",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Restoration Site Selection",
+        "description": "Using habitat suitability models to identify optimal locations for seagrass restoration projects based on environmental conditions.",
+        "keywords": [
+          "restoration planning",
+          "site selection",
+          "habitat restoration",
+          "transplantation sites",
+          "restoration success"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647731",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "conservation",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Climate Change Projections",
+        "description": "Predicting future seagrass distribution under climate change scenarios using habitat suitability models with projected environmental conditions.",
+        "keywords": [
+          "climate change",
+          "future projections",
+          "range shifts",
+          "vulnerability assessment",
+          "scenario modelling"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647737",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "application",
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Applications and Management",
+        "description": "Practical applications of habitat suitability models for conservation planning, restoration site selection, and marine spatial planning.",
+        "keywords": [
+          "conservation",
+          "restoration",
+          "marine spatial planning",
+          "management applications",
+          "decision support"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:34:27.647742",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      }
+    },
+    "n20": {
+      "t1.1": {
+        "id": "t1.1",
+        "name": "Seagrass Species Distribution Patterns",
+        "description": "Geographic and bathymetric distribution of seagrass species globally and regionally, including biogeographic zones and species-specific habitat preferences.",
+        "keywords": [
+          "species distribution",
+          "biogeography",
+          "seagrass species",
+          "geographic range",
+          "habitat zonation"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176778",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t1.2": {
+        "id": "t1.2",
+        "name": "Environmental Tolerance Ranges",
+        "description": "Physiological tolerance limits of seagrass species to environmental variables including temperature, salinity, light availability, and nutrient conditions.",
+        "keywords": [
+          "tolerance limits",
+          "physiological thresholds",
+          "environmental stress",
+          "optimal conditions",
+          "growth parameters"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176823",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t1.3": {
+        "id": "t1.3",
+        "name": "Ecosystem Services and Functions",
+        "description": "Ecological roles of seagrass meadows including carbon sequestration, coastal protection, nursery habitat provision, and biodiversity support.",
+        "keywords": [
+          "ecosystem services",
+          "blue carbon",
+          "habitat provision",
+          "coastal protection",
+          "biodiversity"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176834",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t1",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t1": {
+        "id": "t1",
+        "name": "Ecological Fundamentals of Seagrass",
+        "description": "Core ecological characteristics, ecosystem functions, and environmental requirements that define seagrass habitats and their role in marine ecosystems.",
+        "keywords": [
+          "seagrass ecology",
+          "marine vegetation",
+          "coastal ecosystems",
+          "seagrass distribution",
+          "habitat characteristics"
+        ],
+        "confidence": 0.95,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176842",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t1.1",
+          "t1.2",
+          "t1.3"
+        ],
+        "order": 0,
+        "tags": [
+          "foundation",
+          "preliminary"
+        ]
+      },
+      "t2.1": {
+        "id": "t2.1",
+        "name": "Physical Variables and Bathymetry",
+        "description": "Physical environmental parameters including water depth, substrate type, wave exposure, current velocity, and seabed characteristics used in modeling.",
+        "keywords": [
+          "bathymetry",
+          "substrate",
+          "hydrodynamics",
+          "wave exposure",
+          "depth ranges"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176852",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t2.2": {
+        "id": "t2.2",
+        "name": "Water Quality Parameters",
+        "description": "Chemical and physical water properties such as temperature, salinity, turbidity, nutrient concentrations, and light attenuation coefficients.",
+        "keywords": [
+          "water quality",
+          "temperature",
+          "salinity",
+          "turbidity",
+          "light availability",
+          "nutrients"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176860",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t2",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t2": {
+        "id": "t2",
+        "name": "Environmental Predictor Variables",
+        "description": "Key environmental factors and data layers used as predictors in habitat suitability models, including physical, chemical, and biological variables.",
+        "keywords": [
+          "predictor variables",
+          "environmental factors",
+          "model inputs",
+          "spatial data",
+          "habitat parameters"
+        ],
+        "confidence": 0.93,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176868",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t2.1",
+          "t2.2"
+        ],
+        "order": 1,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3.1": {
+        "id": "t3.1",
+        "name": "Statistical Modeling Techniques",
+        "description": "Traditional statistical approaches including generalized linear models, generalized additive models, and logistic regression for habitat suitability assessment.",
+        "keywords": [
+          "GLM",
+          "GAM",
+          "logistic regression",
+          "statistical models",
+          "regression analysis"
+        ],
+        "confidence": 0.85,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176876",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t3.2": {
+        "id": "t3.2",
+        "name": "Machine Learning Algorithms",
+        "description": "Application of machine learning methods such as Random Forest, MaxEnt, neural networks, and ensemble models for seagrass habitat prediction.",
+        "keywords": [
+          "machine learning",
+          "Random Forest",
+          "MaxEnt",
+          "neural networks",
+          "ensemble methods",
+          "boosted regression trees"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176883",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t3.3": {
+        "id": "t3.3",
+        "name": "Model Validation and Performance",
+        "description": "Methods for evaluating model accuracy, including cross-validation techniques, accuracy metrics (AUC, TSS, Kappa), and independent validation datasets.",
+        "keywords": [
+          "model validation",
+          "accuracy assessment",
+          "AUC",
+          "cross-validation",
+          "performance metrics",
+          "TSS"
+        ],
+        "confidence": 0.9,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176891",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t3",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t3": {
+        "id": "t3",
+        "name": "Modelling Methodologies and Approaches",
+        "description": "Statistical, machine learning, and spatial modeling techniques applied to predict seagrass habitat suitability and distribution patterns.",
+        "keywords": [
+          "habitat suitability models",
+          "species distribution models",
+          "modeling techniques",
+          "predictive modeling",
+          "spatial analysis"
+        ],
+        "confidence": 0.96,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176898",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t3.1",
+          "t3.2",
+          "t3.3"
+        ],
+        "order": 2,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t4.1": {
+        "id": "t4.1",
+        "name": "Remote Sensing Technologies",
+        "description": "Satellite imagery, aerial photography, LiDAR, and multispectral/hyperspectral sensors used for mapping seagrass extent and environmental conditions.",
+        "keywords": [
+          "remote sensing",
+          "satellite imagery",
+          "aerial survey",
+          "multispectral",
+          "LiDAR",
+          "hyperspectral"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176907",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t4.2": {
+        "id": "t4.2",
+        "name": "Field Survey Techniques",
+        "description": "Ground-truthing methods including underwater video, quadrat sampling, and dive surveys for validating remotely sensed data and collecting occurrence data.",
+        "keywords": [
+          "field surveys",
+          "ground truthing",
+          "underwater video",
+          "quadrat sampling",
+          "presence-absence data"
+        ],
+        "confidence": 0.84,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176915",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t4",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "preliminary"
+        ]
+      },
+      "t4": {
+        "id": "t4",
+        "name": "Data Sources and Collection Methods",
+        "description": "Techniques and technologies for acquiring seagrass presence/absence data and environmental variables, including remote sensing and field surveys.",
+        "keywords": [
+          "data collection",
+          "remote sensing",
+          "field surveys",
+          "spatial data",
+          "monitoring"
+        ],
+        "confidence": 0.92,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176921",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t4.1",
+          "t4.2"
+        ],
+        "order": 3,
+        "tags": [
+          "methodology",
+          "preliminary"
+        ]
+      },
+      "t5.1": {
+        "id": "t5.1",
+        "name": "Restoration Site Selection",
+        "description": "Using habitat suitability models to identify optimal locations for seagrass restoration projects and predict restoration success probability.",
+        "keywords": [
+          "restoration",
+          "site selection",
+          "habitat restoration",
+          "restoration planning",
+          "transplantation"
+        ],
+        "confidence": 0.86,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176929",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5.2": {
+        "id": "t5.2",
+        "name": "Climate Change Impact Assessment",
+        "description": "Projecting future seagrass habitat distribution under climate change scenarios, including sea level rise, temperature increase, and altered oceanographic conditions.",
+        "keywords": [
+          "climate change",
+          "future projections",
+          "sea level rise",
+          "habitat shifts",
+          "climate scenarios"
+        ],
+        "confidence": 0.88,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176937",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 1,
+        "tags": [
+          "challenge",
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5.3": {
+        "id": "t5.3",
+        "name": "Marine Protected Area Design",
+        "description": "Integration of habitat suitability models into marine spatial planning processes for protected area designation and management zoning.",
+        "keywords": [
+          "marine protected areas",
+          "spatial planning",
+          "conservation planning",
+          "MPA design",
+          "zoning"
+        ],
+        "confidence": 0.83,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176945",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t5",
+        "level": 2,
+        "childrenIds": [],
+        "order": 2,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t5": {
+        "id": "t5",
+        "name": "Applications and Management Implications",
+        "description": "Practical applications of habitat suitability models for conservation planning, restoration site selection, and marine spatial planning.",
+        "keywords": [
+          "conservation",
+          "restoration",
+          "marine spatial planning",
+          "management applications",
+          "decision support"
+        ],
+        "confidence": 0.91,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176951",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t5.1",
+          "t5.2",
+          "t5.3"
+        ],
+        "order": 4,
+        "tags": [
+          "application",
+          "preliminary"
+        ]
+      },
+      "t6.1": {
+        "id": "t6.1",
+        "name": "Data Limitations and Uncertainty",
+        "description": "Issues related to data availability, spatial resolution, temporal coverage, and propagation of uncertainty through modeling processes.",
+        "keywords": [
+          "data gaps",
+          "uncertainty",
+          "spatial resolution",
+          "data quality",
+          "sampling bias"
+        ],
+        "confidence": 0.87,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176959",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": "t6",
+        "level": 2,
+        "childrenIds": [],
+        "order": 0,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      },
+      "t6": {
+        "id": "t6",
+        "name": "Challenges and Future Directions",
+        "description": "Current limitations, uncertainties, and emerging research needs in seagrass habitat suitability modeling, including technical and data-related challenges.",
+        "keywords": [
+          "limitations",
+          "uncertainties",
+          "research gaps",
+          "future research",
+          "model challenges"
+        ],
+        "confidence": 0.89,
+        "sourceCount": 0,
+        "excerptCount": 0,
+        "isUserCreated": false,
+        "createdAt": "2026-06-24T06:36:03.176965",
+        "metadata": {
+          "color": null,
+          "size": null,
+          "position": null
+        },
+        "parentId": null,
+        "level": 1,
+        "childrenIds": [
+          "t6.1"
+        ],
+        "order": 5,
+        "tags": [
+          "challenge",
+          "preliminary"
+        ]
+      }
+    }
+  },
+  "order": [
+    "n5",
+    "n7",
+    "n10",
+    "n12",
+    "n15",
+    "n18",
+    "n20"
+  ]
+}
